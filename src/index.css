@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @font-face {
   font-family: 'Roboto Regular';
   src: url('./fonts/Roboto-Regular.ttf') format('truetype');
@@ -38,17 +24,12 @@ code {
 .pagination-item {
   width: 12px;
   height: 12px;
-  background-color: #ccc;
+  background-color: #454545;
   border-radius: 50%;
   margin: 0 10px;
   cursor: pointer;
 }
 
 .pagination-item.active {
-  background-color: #000000;
-}
-
-.carousel-container {
-  position: relative;
-  overflow: hidden;
+  background-color: #ffffff;
 }
