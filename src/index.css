@@ -25,3 +25,30 @@ code {
   font-family: 'Roboto Medium';
   src: url('./fonts/Roboto-Medium.ttf') format('truetype');
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+.pagination-item {
+  width: 12px;
+  height: 12px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.pagination-item.active {
+  background-color: #000000;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 
 
@@ -10,4 +10,5 @@ if (window.navigator.userAgent.match(/Mobile/)) {
   Index = require('./containers/desktop-index').default;
 }
 
-ReactDOM.render(<Index />, document.getElementById('root'));
+const root = document.getElementById('root');
+ReactDOM.createRoot(root).render(<Index />);

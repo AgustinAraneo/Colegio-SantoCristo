@@ -1,40 +1,47 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import { BsArrowLeftCircle } from 'react-icons/bs' 
+import { BsArrowRightCircle } from 'react-icons/bs'
 
 const Carousel = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const images = [
+    'https://picsum.photos/id/100/1200/800',
+    'https://picsum.photos/id/101/1200/800',
+    'https://picsum.photos/id/102/1200/800',
+    'https://picsum.photos/id/103/1200/800',
+    'https://picsum.photos/id/104/1200/800'
+  ];
 
-  const handleNext = () => {
-    setActiveIndex(activeIndex + 1);
+  const nextSlide = () => {
+    setCurrentIndex((currentIndex + 1) % images.length);
   };
 
-  const handlePrev = () => {
-    setActiveIndex(activeIndex - 1);
+  const prevSlide = () => {
+    setCurrentIndex(
+      currentIndex === 0 ? images.length - 1 : currentIndex - 1
+    );
+  };
+
+  const goToSlide = index => {
+    setCurrentIndex(index);
   };
 
   return (
-    <div className="relative w-full h-[35rem]">
-      <div
-        className="absolute top-0 left-0 right-0 bottom-0 flex overflow-hidden w-[100%]"
-        style={{
-          transform: `translateX(-${activeIndex * 100}%)`
-        }}
-      >
-    <div className="w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://images.pexels.com/photos/7695247/pexels-photo-7695247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" }}></div>
-    <div className="w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://images.pexels.com/photos/7695254/pexels-photo-7695254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" }}></div>
-    <div className="w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://images.pexels.com/photos/8500290/pexels-photo-8500290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" }}></div>
+    <div className="carousel-container">
+      <button className='absolute left-10 top-[50%] transform -translate-y-1/2 text-black text-[2rem]' onClick={prevSlide}><BsArrowLeftCircle /></button>
+      <img className='w-full h-[35rem]' src={images[currentIndex]} alt="imagen de carrusel" />
+      <button className='absolute right-10 top-[50%] transform -translate-y-1/2 text-black text-[2rem]' onClick={nextSlide}><BsArrowRightCircle /></button>
+      <div className="absolute bottom-0 left-0 right-0 w-full text-center pagination">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`pagination-item ${
+              currentIndex === index ? 'active' : ''
+            }`}
+            onClick={() => goToSlide(index)}
+          />
+        ))}
       </div>
-      <button
-        className="absolute left-0 top-[50%] transform -translate-y-1/2"
-        onClick={handlePrev}
-      >
-        Prev
-      </button>
-      <button
-        className="absolute right-0 top-[50%] transform -translate-y-1/2"
-        onClick={handleNext}
-      >
-        Next
-      </button>
     </div>
   );
 };
