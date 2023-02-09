@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import {React, useState } from 'react'
+import {RiArrowDownSLine} from 'react-icons/ri'
 
 const Header = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -15,7 +16,7 @@ const Header = () => {
             onMouseEnter={() => setIsDropdownOpen(true)}
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <button className="mr-4 text-white c hover:text-gray-400">SOBRE NOSOTROS</button>
+            <button className="flex flex-auto mr-2 text-white c hover:text-gray-400">SOBRE NOSOTROS<span className='text-2xl'><RiArrowDownSLine/></span></button>
             {isDropdownOpen && (
               <ul className="absolute z-50 text-sm bg-white rounded shadow-lg">
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">HISTORIA</a></li>
@@ -32,7 +33,7 @@ const Header = () => {
             onMouseEnter={() => setIsDropdownOpenContacto(true)}
             onMouseLeave={() => setIsDropdownOpenContacto(false)}
           >
-            <button className="mr-4 text-white transition duration-500 hover:text-gray-400">CONTACTO</button>
+            <button className="flex flex-auto mr-2 text-white transition duration-500 hover:text-gray-400">CONTACTO<span className='text-2xl'><RiArrowDownSLine/></span></button>
             {isDropdownOpenContacto && (
               <ul className="absolute z-50 text-sm bg-white rounded shadow-lg">
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">ADMISION</a></li>
