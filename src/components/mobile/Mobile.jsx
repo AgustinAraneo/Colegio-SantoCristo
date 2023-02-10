@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mobile = () => {
   return (
-    <div>Entre en mobile</div>
+    <div>Entre en mobile hola</div>
   )
 }
 

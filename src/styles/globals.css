@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: 'Roboto Regular';
-  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto Medium';
-  src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Display Regular';
-  src: url('./fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+  src: url('../fonts/DMSerifDisplay-Regular.ttf') format('truetype');
 }
 
 

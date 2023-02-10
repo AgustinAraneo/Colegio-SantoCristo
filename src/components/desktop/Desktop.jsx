@@ -1,19 +1,19 @@
-import React from 'react'
-import Header from './Header'
-import Carousel from './Carousel'
-import Home from './Home'
+import React from "react";
+import Header from "./Header";
+import Carousel from "./Carousel";
+import Home from "./Home";
+// import '../../index.css'
 
 const Desktop = () => {
   return (
-    <div className="bg-[url('../public/images/fondo.jpg')] w-full h-[2000px] bg-no-repeat bg-cover bg-center bg-fixed ">
+    <div className="w-full h-full bg-fixed bg-center bg-no-repeat bg-cover bg-fondo ">
       <Header />
-      <div className=''>
       <Carousel />
-      </div>
+      <div className="mt-[30rem]">
       <Home />
-      Hola chicos
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Desktop
+export default Desktop;

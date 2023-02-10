@@ -1,13 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        'Roboto-Regular': ['Roboto Regular'],
-        'Roboto-Medium': ['Roboto Medium'],
-        'Display-Regular': ['Display Regular']
-      },
+      backgroundImage: {
+        'fondo': "url('/images/fondo.jpg')",
+      }
     },
   },
   plugins: [],

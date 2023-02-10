@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
+// import { RxDotFilled } from 'react-icons/rx';
 
 function Carousel() {
   const slides = [
