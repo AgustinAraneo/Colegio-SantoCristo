@@ -12,6 +12,12 @@
   src: url('./fonts/Roboto-Medium.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Display Regular';
+  src: url('./fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+}
+
+
 .pagination {
   display: flex;
   justify-content: center;

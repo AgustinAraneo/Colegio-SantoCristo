@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         'Roboto-Regular': ['Roboto Regular'],
         'Roboto-Medium': ['Roboto Medium'],
+        'Display-Regular': ['Display Regular']
       },
     },
   },
