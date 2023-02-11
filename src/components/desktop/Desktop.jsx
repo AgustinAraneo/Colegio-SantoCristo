@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Carousel from "./Carousel";
 import Home from "./Home";
+import Footer from "./Footer";
 // import '../../index.css'
 
 const Desktop = () => {
@@ -12,6 +13,8 @@ const Desktop = () => {
       <div className="mt-[30rem]">
       <Home />
       </div>
+      <Footer />
+      
     </div>
   );
 };

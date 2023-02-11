@@ -8,6 +8,16 @@
 }
 
 @font-face {
+  font-family: 'Roboto Light';
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Light Italic';
+  src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Roboto Medium';
   src: url('../fonts/Roboto-Medium.ttf') format('truetype');
 }
