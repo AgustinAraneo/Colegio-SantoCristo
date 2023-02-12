@@ -3,7 +3,7 @@ import Header from "./Header";
 import Carousel from "./Carousel";
 import Home from "./Home";
 import Footer from "./Footer";
-// import '../../index.css'
+
 
 const Desktop = () => {
   return (

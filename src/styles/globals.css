@@ -49,3 +49,8 @@
 .pagination-item.active {
   background-color: #ffffff;
 }
+
+.bg-green-footer {
+  background-color: #264133;
+  padding: 0.35rem 1rem;
+}

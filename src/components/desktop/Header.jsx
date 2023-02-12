@@ -22,8 +22,8 @@ const Header = () => {
             {isDropdownOpenNiveles && (
               <ul className="absolute z-50 text-sm bg-white rounded shadow-lg">
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Inicial">NIVEL INICIAL</a></li>
-                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">NIVEL PRIMARIO</a></li>
-                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">NIVEL SECUNDARIO</a></li> 
+                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Primario">NIVEL PRIMARIO</a></li>
+                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Secundario">NIVEL SECUNDARIO</a></li> 
               </ul>
             )}
           </div>

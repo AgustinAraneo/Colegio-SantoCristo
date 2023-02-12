@@ -10,6 +10,10 @@ module.exports = {
       },
       backgroundImage: {
         'fondo': "url('/images/fondo2.jpg')",
+        'banner-inicial': "url('/images/banner-inicial.jpg')",
+      },
+      boxShadow: {
+        "custom": '0 40px 30px -25px rgb(0 0 0 / 0.3)'
       }
     },
   },
