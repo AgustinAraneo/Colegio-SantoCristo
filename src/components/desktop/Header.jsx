@@ -51,7 +51,7 @@ const Header = () => {
               <ul className="absolute z-50 text-sm bg-white rounded shadow-lg">
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Admision">ADMISION</a></li>
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">¿DONDE NOS ENCONTRAMOS?</a></li>
-                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">MEDIOS DE PAGO</a></li>
+                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/MediosDePago">MEDIOS DE PAGO</a></li>
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">DEJA TU CV</a></li>
               </ul>
             )}

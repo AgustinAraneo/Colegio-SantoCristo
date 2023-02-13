@@ -27,6 +27,21 @@
   src: url('../fonts/DMSerifDisplay-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Josefin';
+  src: url('../fonts/JosefinSans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Abel';
+  src: url('../fonts/Abel-Regular.ttf') format('truetype');
+}
+
 
 .pagination {
   display: flex;

@@ -9,10 +9,10 @@ const Inicial = () => {
                 <Header />
             </div>
             <div>
-                <div className='w-full h-[30rem] -pt-40 flex bg-banner-inicial bg-no-repeat bg-cover bg-center'></div>
+                <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-inicial bg-no-repeat bg-cover bg-center'></div>
             </div>
             <div className='flex content-center pt-8 flex-col'>
-                <h1 className='ml-[16rem] text-5xl text-green-800 font-Roboto-Regular font-bold pb-5'>¡Propuesta Nivel Inicial!</h1>
+                <h1 className='ml-[16rem] text-5xl text-green-800 font-Josefin font-bold pb-5'>¡Propuesta Nivel Inicial!</h1>
                 <div className='flex content-center pt-8'>
                     <div className='flex flex-col font-Roboto-Regular'>
                         <p className='ml-[16rem] mb-[0.3rem]'>El nivel inicial o jardín es el comienzo de una etapa educativa fundamental en el desarrollo de los niños. Durante estos primeros<br /> años, los estudiantes adquieren habilidades y conocimientos básicos que les permiten desarrollarse en el futuro.</p>
@@ -26,7 +26,7 @@ const Inicial = () => {
                 </div>
             </div>
             <div>
-                <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-bold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Cosas a tener en cuenta:</p>
+                <p className='ml-[16rem] text-2xl text-black/80 font-Abel font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Cosas a tener en cuenta:</p>
                 <div className='ml-[16rem] text-black/80 font-Roboto-Regular'>
                     <p>Los turnos disponibles son:</p>
                     <p>Mañana de 07:35 a 12:00hs</p>

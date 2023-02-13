@@ -9,10 +9,10 @@ const Primario = () => {
                 <Header />
             </div>
             <div>
-                <div className=' w-full h-[30rem] flex'><img className='h-full w-full' src='https://p4.wallpaperbetter.com/wallpaper/362/276/920/nature-4k-pc-full-hd-wallpaper-preview.jpg' /></div>
+                <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-primario bg-no-repeat bg-cover bg-center'></div>
             </div>
             <div className='flex content-center pt-8 flex-col'>
-                <h1 className='ml-[16rem] text-5xl text-green-800 font-Roboto-Regular font-bold pb-5'>¡Propuesta Nivel Primario!</h1>
+                <h1 className='ml-[16rem] text-5xl text-fuchsia-600 font-Josefin font-bold pb-5'>¡Propuesta Nivel Primario!</h1>
                 <div className='flex content-center pt-8'>
                     <div className='flex flex-col font-Roboto-Regular'>
                         <p className='ml-[16rem] mb-[0.3rem]'>El nivel primario es una etapa clave en la educación de los niños y niñas, ya que es en estos años donde se forman las bases<br /> para su futuro desarrollo intelectual y personal. Durante este periodo, los estudiantes adquieren habilidades importantes en áreas<br /> como la lectura, escritura y matemáticas, así como también aprenden sobre el mundo que les rodea a través de diferentes materias, <br />como historia, geografía, ciencias y arte.</p>
