@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'; 
 
 const Home = () => {
   return (
@@ -11,26 +13,26 @@ const Home = () => {
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/images/nivel-inicial.jpg" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-      <a href='/Inicial'>
+      <Link href='/Inicial'>
       <div class=" absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-dmserif text-3xl font-bold text-white mt-16">Inicial</h1>
         <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">El nivel inicial o jardín es el comienzo de una etapa educativa fundamental en el desarrollo de los niños. Durante estos primeros<br /> años, los estudiantes adquieren habilidades y conocimientos básicos que les permiten desarrollarse en el futuro.</p>
         <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-green-800">Más info.</button>
       </div>
-      </a>
+      </Link>
     </div>
     <div class=" group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/50 rounded-t-xl">
       <div class="h-[30rem] w-[23rem]">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/images/nivel-primario.jpg" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-      <a href='/Primario'>
+      <Link href='/Primario'>
       <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-dmserif text-3xl font-bold text-white">Primario</h1>
         <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">El nivel primario es una etapa clave en la educación de los niños y niñas, ya que es en estos años donde se forman las bases<br /> para su futuro desarrollo intelectual y personal.</p>
         <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-green-800">Más info.</button>
       </div>
-      </a>
+      </Link>
     </div>
     <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/50 rounded-t-xl">
       <div class="h-[30rem] w-[23rem]">

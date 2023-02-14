@@ -3,6 +3,7 @@ import Header from "./Header";
 import Carousel from "./Carousel";
 import Home from "./Home";
 import Footer from "./Footer";
+import Slider from "./Slider";
 
 
 const Desktop = () => {
@@ -13,6 +14,7 @@ const Desktop = () => {
       <div className="mt-[30rem]">
       <Home />
       </div>
+      <Slider />
       <Footer />
       
     </div>

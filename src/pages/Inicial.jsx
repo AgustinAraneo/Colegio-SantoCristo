@@ -11,7 +11,7 @@ const Inicial = () => {
             <div>
                 <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-inicial bg-no-repeat bg-cover bg-center'></div>
             </div>
-            <div className='flex content-center pt-8 flex-col'>
+            <div className='flex flex-col content-center pt-8'>
                 <h1 className='ml-[16rem] text-5xl text-green-800 font-Josefin font-bold pb-5'>¡Propuesta Nivel Inicial!</h1>
                 <div className='flex content-center pt-8'>
                     <div className='flex flex-col font-Roboto-Regular'>
