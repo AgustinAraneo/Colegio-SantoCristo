@@ -5,9 +5,9 @@ import Link from 'next/link';
 const Home = () => {
   return (
     <div className='font-Roboto-Regular'>
-      <p className='mr-[65rem] font-Roboto-Regular font-bold text-3xl text-green-900 text-center pt-10'><span className='border-b-4 border-black/60'>NIVELES</span></p>
-    <div className="flex min-h-screen items-center justify-center pb-[20rem]">
-  <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <p className='mr-[65rem] font-Roboto-Regular font-bold text-3xl text-green-900 text-center -mb-[12rem] pt-10'><span className='border-b-4 border-black/60'>NIVELES</span></p>
+    <div className="flex min-h-screen items-center justify-center">
+  <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 ">
     <div className="relative items-center justify-center overflow-hidden transition-shadow cursor-pointer group hover:shadow-xl hover:shadow-black/50 rounded-t-xl">
       <div className="h-[30rem] w-[23rem]">
         <img className="object-cover w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/images/nivel-inicial.jpg" alt="" />

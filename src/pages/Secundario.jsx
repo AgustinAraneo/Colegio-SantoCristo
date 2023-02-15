@@ -4,7 +4,7 @@ import Footer from '@/components/desktop/Footer'
 
 const Secundario = () => {
     return (
-        <div>
+        <div className='bg-slate-100'>
             <div>
                 <Header />
             </div>

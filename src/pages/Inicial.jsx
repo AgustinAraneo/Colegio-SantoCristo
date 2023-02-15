@@ -5,7 +5,7 @@ import 'animate.css';
 
 const Inicial = () => {
     return (
-        <div>
+        <div className='bg-slate-100'>
             <div>
                 <Header />
             </div>
@@ -13,7 +13,7 @@ const Inicial = () => {
                 <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-inicial bg-no-repeat bg-cover bg-center'></div>
             </div>
             <div className='flex flex-col content-center pt-8'>
-                <h1 className='ml-[16rem] text-5xl text-[#F6E81A] font-Josefin font-bold pb-5'>¡Propuesta Nivel Inicial!</h1>
+                <h1 className='ml-[16rem] text-5xl text-orange-500 font-Josefin font-bold pb-5'>¡Propuesta Nivel Inicial!</h1>
                 <div className='flex content-center pt-8'>
                     <div className='flex flex-col font-Roboto-Regular w-[60rem]'>
                         <p className='ml-[16rem] mb-[0.3rem]'>El nivel inicial o jardín es el comienzo de una etapa educativa fundamental en el desarrollo de los niños. Durante estos primeros años, los estudiantes adquieren habilidades y conocimientos básicos que les permiten desarrollarse en el futuro.</p>
@@ -29,9 +29,9 @@ const Inicial = () => {
             <div>
                 <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Turnos:</p>
                 <div className='flex flex-auto justify-center gap-8 mb-[2rem]'>
-                    <img src='images/horarios-sala-3.png' className='w-[20%] h-[20%] animate__animated '></img>
-                    <img src='images/horarios-sala-4.png' className='w-[20%] h-[20%] animate__animated '></img>
-                    <img src='images/horarios-sala-5.png' className='w-[20%] h-[20%] animate__animated '></img>
+                    <img src='images/horarios-sala-3.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
+                    <img src='images/horarios-sala-4.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
+                    <img src='images/horarios-sala-5.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                 </div>
             </div>
             <Footer />

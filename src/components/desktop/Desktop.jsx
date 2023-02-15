@@ -14,9 +14,11 @@ const Desktop = () => {
       <div className="mt-[30rem]">
       <Home />
       </div>
+      <div className="">
+        <h1 className="mr-[60rem] font-Roboto-Regular font-bold text-3xl text-green-900 text-center">ULTIMAS NOTICIAS</h1>
       <Slider />
+      </div>
       <Footer />
-      
     </div>
   );
 };

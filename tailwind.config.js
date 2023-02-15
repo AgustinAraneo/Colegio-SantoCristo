@@ -16,6 +16,7 @@ module.exports = {
         'banner-inicial': "url('/images/banner-inicial.jpg')",
         'banner-primario': "url('/images/banner-primario.jpg')",
         'banner-secundario': "url('/images/banner-secundario.jpg')",
+        'prueba': "url('/images/prueba.jpg')",
       },
       boxShadow: {
         "custom": '0 40px 30px -25px rgb(0 0 0 / 0.3)',

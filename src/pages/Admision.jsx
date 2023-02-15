@@ -3,7 +3,7 @@ import Header from '../components/desktop/Header'
 
 const Admision = () => {
   return (
-    <div>
+    <div className='bg-slate-100'>
       <Header />
       opa
     </div>

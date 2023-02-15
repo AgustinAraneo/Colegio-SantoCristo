@@ -4,14 +4,14 @@ import Footer from '@/components/desktop/Footer'
 
 const Primario = () => {
     return (
-        <div>
+        <div className='bg-slate-100'>
             <div>
                 <Header />
             </div>
             <div>
                 <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-primario bg-no-repeat bg-cover bg-center'></div>
             </div>
-            <div className='flex content-center pt-8 flex-col'>
+            <div className='flex content-center pt-8 flex-col '>
                 <h1 className='ml-[16rem] text-5xl text-fuchsia-600 font-Josefin font-bold pb-5'>¡Propuesta Nivel Primario!</h1>
                 <div className='flex content-center pt-8'>
                     <div className='flex flex-col font-Roboto-Regular w-[60rem]'>

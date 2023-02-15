@@ -10,8 +10,8 @@ const Header = () => {
     const [isDropdownOpenNiveles, setIsDropdownOpenNiveles] = useState(false);
   
     return (
-      <header className="flex items-center justify-between p-2 border-b-2 border-red-900 bg-gradient-to-b from-green-800 to-green-900">
-        <div className="flex flex-auto font-bold text-white "><img className='w-[4.5rem] h-[5.5rem] ml-[2rem] pt-2' src='https://i.ibb.co/k2ckb7p/Logo-escuela.png' alt='Logo'/><span className='ml-[2rem] mt-[1.75rem] font-Roboto-Regular font-light text-2xl'>Comunidad Santo Cristo</span></div>
+      <header className="flex items-center justify-between p-2 border-b-2 border-red-900 bg-green-800 font-Josefin ">
+        <div className="flex flex-auto font-bold text-white "><img className='w-[4.5rem] h-[5.5rem] ml-[2rem] pt-2' src='https://i.ibb.co/k2ckb7p/Logo-escuela.png' alt='Logo'/><span className='ml-[2rem] mt-[1.75rem] font-Josefin font-semibold text-2xl'>Comunidad Santo Cristo</span></div>
         <nav className='flex flex-auto justify-end mr-[5rem] font-Roboto-Medium text-[0.95rem]'>
           <a className="mr-4 text-white transition duration-500 hover:text-gray-400" href="/">INICIO</a>
         <div
@@ -57,7 +57,7 @@ const Header = () => {
               </ul>
             )}
           </div>
-          <a className="mr-4 text-white transition duration-500 hover:text-gray-400" href="#">NOTICIAS</a>
+          <a className="mr-4 text-white transition duration-500 hover:text-gray-400" href="/Noticias">NOTICIAS</a>
         </nav>
       </header>
     );
