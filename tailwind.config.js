@@ -12,9 +12,10 @@ module.exports = {
         'Abel': ['Abel'],
       },
       backgroundImage: {
-        'fondo': "url('/images/fondo2.jpg')",
+        'fondo': "url('/images/fondo3.png')",
         'banner-inicial': "url('/images/banner-inicial.jpg')",
         'banner-primario': "url('/images/banner-primario.jpg')",
+        'banner-secundario': "url('/images/banner-secundario.jpg')",
       },
       boxShadow: {
         "custom": '0 40px 30px -25px rgb(0 0 0 / 0.3)',

@@ -12,6 +12,12 @@ function Carousel() {
     {
       url: 'images/carrusel-5.jpg',
     },
+    {
+      url: 'images/carrusel-6.jpg',
+    },
+    {
+      url: 'images/carrusel-7.jpg',
+    }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
