@@ -10,6 +10,7 @@ module.exports = {
         'Oswald': ['Oswald'],
         'Josefin': ['Josefin'],
         'Abel': ['Abel'],
+        'Montserrat': ['Montserrat']
       },
       backgroundImage: {
         'fondo': "url('/images/fondo3.png')",

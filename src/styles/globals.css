@@ -42,6 +42,12 @@
   src: url('../fonts/Abel-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+
 
 .pagination {
   display: flex;
@@ -95,4 +101,13 @@
 .prueba{
   margin: 0 18.5%;
   margin-left: 17%;
+}
+
+.container {
+  max-width: 1250px; /* establece el ancho máximo */
+  margin: 0 auto; /* centrar el contenedor horizontalmente */
+}
+
+.p-container {
+  width: 70%; /* establecer el ancho al 100% del contenedor */
 }
