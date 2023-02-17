@@ -14,10 +14,10 @@ const Niveles = () => {
                 <GmailButton />
             </div>
         </div>
-            <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='http://comunidadeducativasagradocorazon.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-22-at-11.28.01-AM-3-768x576.jpeg' />
+            <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='http://comunidadeducativasagradocorazon.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-22-at-11.28.01-AM-3-768x576.jpeg' alt=''/>
             </div>
             <div>
-            <img className='w-[25rem] h-[20rem] mb-[1rem] transition duration-500 hover:scale-105' src='http://comunidadeducativasagradocorazon.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-22-at-11.28.01-AM-3-768x576.jpeg' />
+            <img className='w-[25rem] h-[20rem] mb-[1rem] transition duration-500 hover:scale-105' src='http://comunidadeducativasagradocorazon.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-22-at-11.28.01-AM-3-768x576.jpeg' alt=''/>
         <div className='bg-green-700 h-[15rem] transition duration-500 hover:scale-105'>
             <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Colegio <br/> Santo Cristo<br/> Nivel Primario
             </p>
@@ -34,7 +34,7 @@ const Niveles = () => {
                 <GmailButtonSecundario />
             </div>
         </div>
-            <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='http://comunidadeducativasagradocorazon.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-22-at-11.28.01-AM-3-768x576.jpeg' />
+            <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='http://comunidadeducativasagradocorazon.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-22-at-11.28.01-AM-3-768x576.jpeg' alt=''/>
             </div>
     </div>
   )

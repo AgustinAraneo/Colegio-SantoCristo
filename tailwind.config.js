@@ -23,7 +23,7 @@ module.exports = {
         "custom": '0 40px 30px -25px rgb(0 0 0 / 0.3)',
         "custom2": '0 30px 25px -25px rgb(0 0 0 / 0.3)',
         "custom3": '0 50px 50px -20px rgb(0 0 0 / 0.4)'
-      }
+      },
     },
   },
   plugins: [],
