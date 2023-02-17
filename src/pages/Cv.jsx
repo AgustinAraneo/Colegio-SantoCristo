@@ -35,9 +35,9 @@ const Cv = () => {
       </div>
       <div style={{ width: '65%', margin: '0 auto' }}>
         <Lottie options={gifCv} isClickToPauseDisabled ariaRole="img" />
-      </div>
       <div className="pb-20 text-center">
         <GmailButton />
+      </div>
       </div>
       <Footer />
     </div>

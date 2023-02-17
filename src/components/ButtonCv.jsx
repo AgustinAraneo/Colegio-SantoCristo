@@ -9,7 +9,14 @@ const GmailButton = () => {
     window.open(gmailUrl, "_blank");
   };
 
-  return <button onClick={handleClick} className="bg-gradient-to-r from-orange-400 to-orange-600 rounded-l-2xl rounded-r-2xl shadow-lg w-[10rem] h-[2.7rem] text-lg font-semibold font-Montserrat text-white transition duration-500 hover:scale-105">Contáctanos</button>
+  return (
+    <button
+      onClick={handleClick}
+      className="bg-gradient-to-r from-orange-400 to-orange-600 rounded-l-2xl rounded-r-2xl shadow-lg w-[10rem] h-[2.7rem] text-lg font-semibold font-Montserrat text-white transition duration-500 hover:scale-105 hover:shadow-neon-orange"
+    >
+      Contáctanos
+    </button>
+  );
 };
 
 export default GmailButton;

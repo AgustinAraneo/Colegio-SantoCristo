@@ -14,7 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         'fondo': "url('/images/fondo.png')",
-        'banner-inicial': "url('/images/banner-inicial.jpg')",
+        'banner-inicial': "url('/images/banner-inicial.png')",
         'banner-primario': "url('/images/banner-primario.jpg')",
         'banner-secundario': "url('/images/banner-secundario.jpg')",
         'prueba': "url('/images/prueba.jpg')",
@@ -22,7 +22,8 @@ module.exports = {
       boxShadow: {
         "custom": '0 40px 30px -25px rgb(0 0 0 / 0.3)',
         "custom2": '0 30px 25px -25px rgb(0 0 0 / 0.3)',
-        "custom3": '0 50px 50px -20px rgb(0 0 0 / 0.4)'
+        "custom3": '0 50px 50px -20px rgb(0 0 0 / 0.4)',
+        'neon-orange': '0 0 0 0.1rem #FBD38D, 0 0.35rem 3rem 1.2rem rgba(255, 140, 0, 0.3)'
       },
     },
   },
