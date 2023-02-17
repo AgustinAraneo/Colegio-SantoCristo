@@ -13,7 +13,7 @@ module.exports = {
         'Montserrat': ['Montserrat']
       },
       backgroundImage: {
-        'fondo': "url('/images/fondo3.png')",
+        'fondo': "url('/images/fondo.png')",
         'banner-inicial': "url('/images/banner-inicial.jpg')",
         'banner-primario': "url('/images/banner-primario.jpg')",
         'banner-secundario': "url('/images/banner-secundario.jpg')",
