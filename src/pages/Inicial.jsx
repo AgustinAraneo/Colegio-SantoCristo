@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../components/desktop/Header'
 import Footer from '@/components/desktop/Footer'
 import 'animate.css';
+import GmailButton from '@/components/ButtonAdmision';
+import MapJardinVisual from '@/components/desktop/MapJardinVisual';
 
 const Inicial = () => {
     return (
@@ -33,6 +35,23 @@ const Inicial = () => {
                     <img src='images/horarios-sala-4.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                     <img src='images/horarios-sala-5.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                 </div>
+            </div>
+            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Admisión:</p>
+            <div className='flex justify-center'>
+                <div className=' bg-green-600 h-[15rem] mb-[1rem] transition duration-500 hover:scale-105' style={{ width: '33%' }}>
+                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Jardin <br />Virgen Niña<br /> Nivel Inicial
+                    </p>
+                    <div className='flex items-end justify-end h-[90px] mr-10'>
+                        <GmailButton />
+                    </div>
+                </div>
+            </div>
+            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Encontranos:</p>
+            <div className='pt-6 -mb-10 text-center'>
+                <h1 className='text-4xl font-bold text-green-700 font-Montserrat'>Nivel Inicial:</h1>
+            </div>
+            <div>
+                <MapJardinVisual />
             </div>
             <Footer />
         </div>

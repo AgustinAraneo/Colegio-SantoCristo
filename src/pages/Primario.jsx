@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/desktop/Header'
 import Footer from '@/components/desktop/Footer'
+import GmailButton from '@/components/ButtonAdmisionPrimario'
+import MapColegioVisual from '@/components/desktop/MapColegioVisual'
 
 const Primario = () => {
     return (
@@ -26,12 +28,27 @@ const Primario = () => {
                 </div>
             </div>
             <div>
-                <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-bold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Cosas a tener en cuenta:</p>
-                <div className='ml-[16rem] text-black/80 font-Roboto-Regular'>
-                    <p>Los turnos disponibles son:</p>
-                    <p>Mañana de 07:35 a 12:00hs</p>
-                    <p>Tarde de 12:50 a 18:30hs</p>
+                <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Turnos:</p>
+                <div className='flex flex-auto justify-center gap-8 mb-[2rem]'>
+                    <img src='images/tarjeta-horarios-primario.jpg' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                 </div>
+            </div>
+            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Admisión:</p>
+            <div className='flex justify-center'>
+                <div className=' bg-[#42ab49] h-[15rem] mb-[1rem] transition duration-500 hover:scale-105' style={{ width: '33%' }}>
+                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Colegio <br/> Santo Cristo<br/> Nivel Primario
+                    </p>
+                    <div className='flex items-end justify-end h-[90px] mr-10'>
+                        <GmailButton />
+                    </div>
+                </div>
+            </div>
+            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Encontranos:</p>
+            <div className='pt-6 -mb-10 text-center'>
+                <h1 className='text-4xl font-bold text-green-700 font-Montserrat'>Nivel Primario y Secundario:</h1>
+            </div>
+            <div>
+                <MapColegioVisual />
             </div>
             <Footer />
         </div>

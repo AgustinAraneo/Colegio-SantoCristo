@@ -36,7 +36,7 @@ const Header = () => {
             <button className="flex flex-auto mr-2 text-white c hover:text-gray-400">SOBRE NOSOTROS<span className='text-2xl'><RiArrowDownSLine/></span></button>
             {isDropdownOpen && (
               <ul className="absolute z-50 text-sm bg-white rounded shadow-lg">
-                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">HISTORIA</a></li>
+                <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Historia">HISTORIA</a></li>
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">MISION Y VISION</a></li>
                 <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="#">EQUIPO</a></li> 
               </ul>

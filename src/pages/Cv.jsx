@@ -30,7 +30,7 @@ const Cv = () => {
           <p className='mt-3'>
           Los profesores seleccionados para unirse a nuestro equipo tendrán la oportunidad de trabajar en un entorno estimulante y colaborativo, donde se les proporcionará apoyo y capacitación continua para mejorar su desempeño y contribuir al éxito de nuestros estudiantes.
           </p>
-          <p className="mt-3">Para enviar tu currículum vitae, por favor haz click en el boton <span className="font-bold">CONTÁCTANOS</span>, y escríbenos un mail. Agradecemos tu interés en formar parte de la comunidad educativa de Santo Cristo, y esperamos poder conocerte pronto.</p>
+          <p className="mt-3">Para enviar tu currículum vitae, por favor haz click en el botón <span className="font-bold">CONTÁCTANOS</span>, y escríbenos un mail. Agradecemos tu interés en formar parte de la comunidad educativa de Santo Cristo, y esperamos poder conocerte pronto.</p>
         </div>
       </div>
       <div style={{ width: '65%', margin: '0 auto' }}>
