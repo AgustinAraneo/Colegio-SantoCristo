@@ -22,8 +22,8 @@ const Primario = () => {
                         <p className='ml-[16rem] mb-[0.3rem]'>En este nivel, los profesores están altamente capacitados para enseñar de una manera lúdica y divertida, haciendo que el aprendizaje sea una experiencia enriquecedora y motivadora para los estudiantes. Además, utilizan diversas metodologías y materiales didácticos para adaptarse a las necesidades individuales de cada niño o niña.</p>
                         <p className='ml-[16rem]'>En resumen, el nivel primario es una etapa fundamental en la formación de los niños y niñas, ya que les proporciona las herramientas necesarias para continuar su educación y les enseña valores y habilidades que les serán útiles en su vida diaria. En nuestro colegio, nos <br />enorgullece ofrecer un ambiente seguro, acogedor y estimulante para que los estudiantes puedan crecer y desarrollarse de manera<br /> saludable.</p>
                     </div>
-                    <div>
-                        <img className='h-[90%] w-[40rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='images/foto-primaria.jpg' />
+                    <div className='pl-5'>
+                        <img className='h-[90%] w-[40rem]  rounded-2xl shadow-custom container' src='images/foto-primaria.jpg' />
                     </div>
                 </div>
             </div>

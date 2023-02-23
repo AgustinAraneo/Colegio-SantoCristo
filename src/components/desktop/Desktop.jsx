@@ -4,19 +4,34 @@ import Carousel from "./Carousel";
 import Home from "./Home";
 import Footer from "./Footer";
 import Slider from "./Slider";
-import Niveles from "./Niveles";
+import Lottie from 'react-lottie'
+import animation from "../../education.json"
+
+const educationCv = {
+	loop: true,
+	autoplay: true,
+	animationData: animation,
+	rendererSettings: {
+		preserveAspectRatio: ``
+	}
+}
 
 
 const Desktop = () => {
   return (
     <div className="w-full h-full bg-fixed bg-center bg-no-repeat bg-cover bg-fondo ">
+      <div>
       <Header />
       <Carousel />
-      <div className="mt-[30rem]">
+      </div>
+      <div className="">
         <Home />
       </div>
-      <div>
-        <Niveles />
+      <div className="mb-[10rem]">
+        <h1 className="container font-Montserrat font-bold text-3xl text-green-900 uppercase text-center">Más de 60 años brindando educacion de primera...</h1>
+      <div style={{ width: '40%', margin: '0 auto', marginTop: '-100px' }}>
+        <Lottie options={educationCv} isClickToPauseDisabled ariaRole="img" />
+        </div>
       </div>
       <div className="">
         <h1 className="mr-[60rem] font-Roboto-Regular font-bold text-3xl text-green-900 text-center">ULTIMAS NOTICIAS</h1>

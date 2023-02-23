@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const Home = () => {
   return (
-    <div className='font-Roboto-Regular'>
-      <p className='mr-[65rem] font-Roboto-Regular font-bold text-3xl text-green-900 text-center -mb-[12rem] pt-10'><span className='border-b-4 border-black/60'>NIVELES</span></p>
-    <div className="flex min-h-screen items-center justify-center">
+    <div className='font-Montserrat 2xl:mt-[30rem] md:mt-[40rem]'>
+      <p className='container font-Roboto-Regular font-bold text-3xl text-green-900 pt-4'><span className='border-b-4 border-black/60 pt-44'>NIVELES</span></p>
+    <div className="flex min-h-screen items-center justify-center -mt-[10rem]">
   <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 ">
     <div className="relative items-center justify-center overflow-hidden transition-shadow cursor-pointer group hover:shadow-xl hover:shadow-black/50 rounded-t-xl">
       <div className="h-[30rem] w-[23rem]">
@@ -28,7 +28,7 @@ const Home = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <Link href='/Primario'>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-        <h1 className="text-3xl font-bold text-white font-dmserif">Primario</h1>
+        <h1 className="text-3xl font-bold text-white font-dmserif mb-5">Primario</h1>
         <p className="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">El nivel primario es una etapa clave en la educación de los niños y niñas, ya que es en estos años donde se forman las bases<br /> para su futuro desarrollo intelectual y personal.</p>
         <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-green-800">Más info.</button>
       </div>
