@@ -80,9 +80,15 @@ const NavBar = () => {
             <button className="flex flex-auto px-3 py-2 text-base font-medium text-gray-300">Niveles<span className='text-2xl'><RiArrowDownSLine /></span></button>
             {isDropdownOpenNiveles && (
               <ul className="absolute z-50 text-sm bg-white rounded shadow-lg font-Montserrat">
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" href="/mobile/Inicial">Nivel Inicial</a></li>
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/Primario">Nivel Primario</a></li>
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" href="/mobile/Secundario">Nivel Secundario</a></li>
+                <Link href="/mobile/Inicial">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Nivel Inicial</p></li>
+                </Link>
+                <Link href="/mobile/Primario">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Nivel Primario</p></li>
+                </Link>
+                <Link href="/mobile/Secundario">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Nivel Secundario</p></li>
+                </Link>
               </ul>
             )}
           </div>
@@ -94,9 +100,15 @@ const NavBar = () => {
             <button className="flex flex-auto px-3 py-2 text-base font-medium text-gray-300">Sobre Nosotros<span className='text-2xl'><RiArrowDownSLine /></span></button>
             {isDropdownOpenSobreNosotros && (
               <ul className="absolute z-50 text-sm bg-white shadow-lg font-Montserrat">
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/Historia">Historia</a></li>
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/DondeEstamos">Mision y Vision</a></li>
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/NuestrosDocentes">Equipo</a></li>
+                <Link href="/mobile/Historia">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Historia</p></li>
+                </Link>
+                <Link href="/mobile/DondeEstamos">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Mision y Vision</p></li>
+                </Link>
+                <Link href="/mobile/NuestrosDocentes">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Equipo</p></li>
+                </Link>
               </ul>
             )}
           </div>
@@ -108,10 +120,10 @@ const NavBar = () => {
             <button className="flex flex-auto px-3 py-2 text-base font-medium text-gray-300">Contacto<span className='text-2xl'><RiArrowDownSLine /></span></button>
             {isDropdownOpenContacto && (
               <ul className="absolute z-50 text-sm bg-white shadow-lg font-Montserrat">
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/Admision">Admision</a></li>
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/DondeEstamos">Donde Estamos</a></li>
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/MediosDePago">Datos Bancarios</a></li>
-                <li><a className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/DejaTuCv">Deja tu CV</a></li>
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/Admision">Admision</p></li>
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/DondeEstamos">Donde Estamos</p></li>
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/MediosDePago">Datos Bancarios</p></li>
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/DejaTuCv">Deja tu CV</p></li>
               </ul>
             )}
           </div>
