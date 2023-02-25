@@ -7,30 +7,10 @@ const teachers = [
     {
       name: "John Doe",
       title: "Computer Science",
-      image: "/images/profesor2.jpg",
+      image: "/images/profesor1.jpg",
     },
     {
         name: "Agustin Araneo",
-        title: "Computer Science",
-        image: "/images/profesor3.jpg",
-      },
-      {
-        name: "Agustin Guillermina",
-        title: "Computer Science",
-        image: "/images/profesor4.jpg",
-      },
-      {
-        name: "Agustin Guillermina",
-        title: "Computer Science",
-        image: "/images/profesor1.jpg",
-      },
-      {
-        name: "Agustin Guillermina",
-        title: "Computer Science",
-        image: "/images/profesor5.jpg",
-      },
-      {
-        name: "Agustin Guillermina",
         title: "Computer Science",
         image: "/images/profesor2.jpg",
       },
@@ -44,11 +24,31 @@ const teachers = [
         title: "Computer Science",
         image: "/images/profesor4.jpg",
       },
+      {
+        name: "Agustin Guillermina",
+        title: "Computer Science",
+        image: "/images/profesor5.jpg",
+      },
+      {
+        name: "Agustin Guillermina",
+        title: "Computer Science",
+        image: "/images/profesor6.jpg",
+      },
+      {
+        name: "Agustin Guillermina",
+        title: "Computer Science",
+        image: "/images/profesor7.jpg",
+      },
+      {
+        name: "Agustin Guillermina",
+        title: "Computer Science",
+        image: "/images/profesor8.jpg",
+      },
     ]
 
 const NuestrosDocentes = () => {
   return (
-    <div className='bg-slate-200'>
+    <div className='bg-fixed bg-no-repeat bg-fondo-equipo'>
         <div>
             <Header />
         </div>

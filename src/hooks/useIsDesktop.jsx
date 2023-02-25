@@ -16,7 +16,7 @@ export const useIsDesktop = () => {
 
 							match.addListener(changeState)
 
-							setIsDesktop(screen.width >= 768)
+							setIsDesktop(screen.width >= 769)
 							return () => {
 								match.removeListener(changeState)
 							}

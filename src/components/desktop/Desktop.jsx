@@ -28,13 +28,13 @@ const Desktop = () => {
         <Home />
       </div>
       <div className="mb-[10rem]">
-        <h1 className="container font-Montserrat font-bold text-3xl text-green-900 uppercase text-center">Más de 60 años brindando educacion de primera...</h1>
+        <h1 className="container font-Montserrat font-bold text-4xl text-green-900 uppercase text-center">Más de 60 años brindando educación de primera...</h1>
       <div style={{ width: '40%', margin: '0 auto', marginTop: '-100px' }}>
         <Lottie options={educationCv} isClickToPauseDisabled ariaRole="img" />
         </div>
       </div>
       <div className="">
-        <h1 className="mr-[60rem] font-Roboto-Regular font-bold text-3xl text-green-900 text-center">ULTIMAS NOTICIAS</h1>
+        <h1 className="mr-[60rem] font-Montserrat font-bold text-3xl text-green-900 text-center">ULTIMAS NOTICIAS</h1>
         <Slider />
       </div>
       <Footer />

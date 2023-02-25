@@ -89,6 +89,21 @@
   pointer-events: none;
 }
 
+.itemMobile{
+  max-height: 40rem;
+  min-width: 20rem;
+  max-width: 30rem;
+  padding: 12px;
+  padding-bottom: 40px;
+}
+
+.itemMobile img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
 .inner-carousel{
   display: flex;
 }
@@ -101,6 +116,11 @@
 .prueba{
   margin: 0 18.5%;
   margin-left: 17%;
+}
+
+.pruebaMobile{
+  margin: 0 5%;
+  margin-left: 2%;
 }
 
 .container {

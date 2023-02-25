@@ -14,6 +14,10 @@ module.exports = {
       },
       backgroundImage: {
         'fondo': "url('/images/fondo.png')",
+        'fondo-puntitos': "url('/images/fondo-2.png')",
+        'fondo-piebald': "url('/images/fondo-3.jpg')",
+        'fondo-dibujitos': "url('/images/fondo-4.png')",
+        'fondo-equipo': "url('/images/fondo-profes.png')",
         'banner-inicial': "url('/images/banner-inicial.png')",
         'banner-primario': "url('/images/banner-primario.jpg')",
         'banner-secundario': "url('/images/banner-secundario.jpg')",

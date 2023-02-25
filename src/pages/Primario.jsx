@@ -30,7 +30,9 @@ const Primario = () => {
             <div>
                 <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Turnos:</p>
                 <div className='flex flex-auto justify-center gap-8 mb-[2rem]'>
-                    <img src='images/tarjeta-horarios-primario.jpg' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
+                <img src='images/tarjeta-primaria-izquierda.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
+                    <img src='images/tarjeta-horarios-primaria.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
+                    <img src='images/tarjeta-primaria-derecha.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                 </div>
             </div>
             <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Admisión:</p>

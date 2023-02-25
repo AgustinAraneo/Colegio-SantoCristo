@@ -6,7 +6,7 @@ import Footer from '@/components/desktop/Footer'
 
 const DondeEstamos = () => {
     return (
-        <div className='bg-center bg-no-repeat bg-cover bg-fondo '>
+        <div className='bg-fixed bg-center bg-no-repeat bg-cover bg-fondo-dibujitos'>
             <div><Header /></div>
             <div className='pt-6 -mb-10 text-center'>
                 <h1 className='text-4xl font-bold text-green-700 font-Montserrat'>Nivel Inicial:</h1>
