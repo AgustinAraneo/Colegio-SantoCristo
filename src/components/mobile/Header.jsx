@@ -103,7 +103,7 @@ const NavBar = () => {
                 <Link href="/mobile/Historia">
                 <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Historia</p></li>
                 </Link>
-                <Link href="/mobile/DondeEstamos">
+                <Link href="/mobile/">
                 <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Mision y Vision</p></li>
                 </Link>
                 <Link href="/mobile/NuestrosDocentes">
@@ -120,10 +120,18 @@ const NavBar = () => {
             <button className="flex flex-auto px-3 py-2 text-base font-medium text-gray-300">Contacto<span className='text-2xl'><RiArrowDownSLine /></span></button>
             {isDropdownOpenContacto && (
               <ul className="absolute z-50 text-sm bg-white shadow-lg font-Montserrat">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/Admision">Admision</p></li>
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/DondeEstamos">Donde Estamos</p></li>
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/MediosDePago">Datos Bancarios</p></li>
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" href="/mobile/DejaTuCv">Deja tu CV</p></li>
+                <Link href="/mobile/Admision">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Admision</p></li>
+                </Link>
+                <Link href="/mobile/DondeEstamos">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Donde Estamos</p></li>
+                </Link>
+                <Link href="/mobile/MediosDePago">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Datos Bancarios</p></li>
+                </Link>
+                <Link href="/mobile/DejaTuCv">
+                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Deja tu CV</p></li>
+                </Link>
               </ul>
             )}
           </div>
