@@ -5,7 +5,7 @@ import Footer from '@/components/desktop/Footer';
 
 const Admision = () => {
   return (
-    <div className='h-full bg-fondo-puntitos bg-fixed bg-center bg-no-repeat bg-cover'>
+    <div className='bg-slate-100'>
       <Header />
       <div className='container'>
         <h1 className='pt-4 text-5xl font-bold text-green-700 font-Montserrat'>Admisiones:</h1>

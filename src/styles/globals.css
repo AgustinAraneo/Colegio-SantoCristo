@@ -76,20 +76,20 @@
   padding: 0.35rem 1rem;
 }
 
-.item{
+.item {
   min-height: 40rem;
   min-width: 30rem;
   padding: 40px;
 }
 
-.item img{
+.item img {
   width: 100%;
   height: 100%;
   border-radius: 2rem;
   pointer-events: none;
 }
 
-.itemMobile{
+.itemMobile {
   max-height: 40rem;
   min-width: 20rem;
   max-width: 30rem;
@@ -97,39 +97,42 @@
   padding-bottom: 40px;
 }
 
-.itemMobile img{
+.itemMobile img {
   width: 100%;
   height: 100%;
   border-radius: 2rem;
   pointer-events: none;
 }
 
-.inner-carousel{
+.inner-carousel {
   display: flex;
 }
 
-.carousel{
+.carousel {
   cursor: grab;
   overflow: hidden;
 }
 
-.prueba{
+.prueba {
   margin: 0 18.5%;
-  margin-left: 17%;
+  margin-left: 20%;
 }
 
-.pruebaMobile{
+.pruebaMobile {
   margin: 0 5%;
   margin-left: 2%;
 }
 
 .container {
-  max-width: 1250px; /* establece el ancho máximo */
-  margin: 0 auto; /* centrar el contenedor horizontalmente */
+  max-width: 1250px;
+  /* establece el ancho máximo */
+  margin: 0 auto;
+  /* centrar el contenedor horizontalmente */
 }
 
 .p-container {
-  width: 70%; /* establecer el ancho al 100% del contenedor */
+  width: 70%;
+  /* establecer el ancho al 100% del contenedor */
 }
 
 .test1 {
