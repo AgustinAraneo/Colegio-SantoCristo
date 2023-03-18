@@ -24,7 +24,8 @@ const Historia = () => {
                 Durante esos años el Jardín de Infantes estaba a cargo de la Escuela primaria hasta su autonomía en el año 1983. El mismo utilizaba las aulas de la casa parroquial sobre la calle Tucumán. Fueron directores de este Nivel Sra. Elisa Ferraro, Sr. Osvaldo Lussoro y Sra. Ana Palomino. Quienes acompañados por vicedirectoras, secretarias, docentes y profesores hicieron posible el reconocimiento y jerarquía de esta institución.
               </p>
               <div className="w-full mx-auto p-6">
-                <img src="/images/6.jpg" alt="Historia del Colegio" className="w-full rounded shadow-xl" />
+                <img src="/images/historia.jpeg" alt="Historia del Colegio" className="w-full rounded shadow-xl" />
+                <p className="mt-2 text-gray-500">&ldquo;Foto de la construccion de la institución&rdquo;</p>
               </div>
               <p className="text-justify">
                 Durante la década del 80.  el colegio tiene una población de 560 alumnos. Desde el día 1 de marzo de 1983 hasta su jubilación el día 28 de febrero de 2018, se desempeña como Directora la Sra. María Carmen Alonso De Bozzani.
@@ -39,6 +40,13 @@ const Historia = () => {
               </p>
               <div className="w-full mx-auto p-6">
                 <video src="/images/1.mp4" className="w-full rounded " controls />
+              </div>
+              <div className="w-full mx-auto p-6">
+                <img src="/images/1.jpg" alt="Historia del Colegio" className="w-full h-[20rem] rounded shadow-xl" />
+              </div>
+              <div className="w-full mx-auto p-6">
+                {/* <img src="/images/1.jpg" alt="Historia del Colegio" className="w-[70%] rounded shadow-xl" /> */}
+                <img src="/images/cole.jpeg" alt="Historia del Colegio" className="w-full h-[20rem] rounded shadow-xl" />
               </div>
               <p className="text-justify">
                 En este periodo se crea el Hogar de Niños Padre Hurtado con el fin de dar abrigo a menores en situación de riesgo. Compromiso que aún se mantiene y es parte de nuestra misión educativa.

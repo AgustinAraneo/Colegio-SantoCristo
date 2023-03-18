@@ -81,13 +81,13 @@ const NavBar = () => {
             {isDropdownOpenNiveles && (
               <ul className="absolute z-50 text-sm bg-white rounded shadow-lg font-Montserrat">
                 <Link href="/mobile/Inicial">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Nivel Inicial</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Nivel Inicial</p></li>
                 </Link>
                 <Link href="/mobile/Primario">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Nivel Primario</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Nivel Primario</p></li>
                 </Link>
                 <Link href="/mobile/Secundario">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Nivel Secundario</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Nivel Secundario</p></li>
                 </Link>
               </ul>
             )}
@@ -101,13 +101,10 @@ const NavBar = () => {
             {isDropdownOpenSobreNosotros && (
               <ul className="absolute z-50 text-sm bg-white shadow-lg font-Montserrat">
                 <Link href="/mobile/Historia">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Historia</p></li>
-                </Link>
-                <Link href="/mobile/">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Mision y Vision</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Historia</p></li>
                 </Link>
                 <Link href="/mobile/NuestrosDocentes">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Equipo</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Equipo</p></li>
                 </Link>
               </ul>
             )}
@@ -121,16 +118,16 @@ const NavBar = () => {
             {isDropdownOpenContacto && (
               <ul className="absolute z-50 text-sm bg-white shadow-lg font-Montserrat">
                 <Link href="/mobile/Admision">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Admision</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Admision</p></li>
                 </Link>
                 <Link href="/mobile/DondeEstamos">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Donde Estamos</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Donde Estamos</p></li>
                 </Link>
                 <Link href="/mobile/MediosDePago">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Datos Bancarios</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Datos Bancarios</p></li>
                 </Link>
                 <Link href="/mobile/DejaTuCv">
-                <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Deja tu CV</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Deja tu CV</p></li>
                 </Link>
               </ul>
             )}
