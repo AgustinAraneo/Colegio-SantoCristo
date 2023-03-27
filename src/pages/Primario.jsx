@@ -13,7 +13,7 @@ const Primario = () => {
             <div>
                 <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-primario bg-no-repeat bg-cover bg-center'></div>
             </div>
-            <div className='flex content-center pt-8 flex-col '>
+            <div className='flex flex-col content-center pt-8 '>
                 <h1 className='ml-[16rem] text-5xl text-fuchsia-600 font-Josefin font-bold pb-5'>¡Propuesta Nivel Primario!</h1>
                 <div className='flex content-center pt-8'>
                     <div className='flex flex-col font-Roboto-Regular w-[60rem]'>
@@ -23,7 +23,7 @@ const Primario = () => {
                         <p className='ml-[16rem]'>En resumen, el nivel primario es una etapa fundamental en la formación de los niños y niñas, ya que les proporciona las herramientas necesarias para continuar su educación y les enseña valores y habilidades que les serán útiles en su vida diaria. En nuestro colegio, nos <br />enorgullece ofrecer un ambiente seguro, acogedor y estimulante para que los estudiantes puedan crecer y desarrollarse de manera<br /> saludable.</p>
                     </div>
                     <div className='pl-5'>
-                        <img className='h-[90%] w-[40rem]  rounded-2xl shadow-custom container' src='images/foto-primaria.jpg' />
+                    <img className='w-[90%] mx-auto h-[30rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='/images/primaria/3.jpeg' />
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const Secundario = () => {
             <div>
             <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-secundario bg-no-repeat bg-cover bg-center'></div>
             </div>
-            <div className='flex content-center pt-8 flex-col'>
+            <div className='flex flex-col content-center pt-8'>
                 <h1 className='ml-[16rem] text-5xl text-sky-400 font-Roboto-Regular font-bold pb-5'>¡Propuesta Nivel Secundario!</h1>
                 <div className='flex content-center pt-8'>
                     <div className='flex flex-col font-Roboto-Regular w-[60rem]'>
@@ -23,7 +23,7 @@ const Secundario = () => {
                         <p className='ml-[16rem]'>En resumen, el nivel secundario es una etapa importante en la formación de los jóvenes y es fundamental para su desarrollo personal y profesional. En este nivel, los estudiantes adquieren habilidades cognitivas, sociales y emocionales, mientras descubren sus verdaderas pasiones e intereses. Por eso, es importante elegir un colegio que brinde una formación integral y de calidad para asegurar un futuro exitoso<br /> para nuestros jóvenes.</p>
                     </div>
                     <div>
-                        <img className='h-[85%] w-[40rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='images/foto-secundario.jpg' />
+                    <img className='w-[90%] mx-auto h-[30rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='/images/primaria/1.jpeg' />
                     </div>
                 </div>
             </div>

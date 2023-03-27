@@ -4,19 +4,16 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 function Carousel() {
   const slides = [
     {
-      url: 'images/carrusel-1.jpg',
+      url: '/images/primaria/7.jpeg',
     },
     {
-      url: 'images/carrusel-4.jpg',
+      url: '/images/primaria/1.jpeg',
     },
     {
-      url: 'images/carrusel-5.jpg',
+      url: '/images/primaria/2.jpeg',
     },
     {
-      url: 'images/carrusel-6.jpg',
-    },
-    {
-      url: 'images/carrusel-7.jpg',
+      url: '/images/primaria/8.jpeg',
     }
   ];
 

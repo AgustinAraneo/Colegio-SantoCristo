@@ -15,8 +15,8 @@ const Inicial = () => {
                 <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-inicial bg-no-repeat bg-center'></div>
             </div>
             <div className='flex flex-col content-center pt-8'>
-                <h1 className='pb-5 text-5xl font-bold text-orange-500 font-Josefin text-center'>¡Propuesta Nivel Inicial!</h1>
-                <div className='flex content-center pt-4 flex-col'>
+                <h1 className='pb-5 text-5xl font-bold text-center text-orange-500 font-Josefin'>¡Propuesta Nivel Inicial!</h1>
+                <div className='flex flex-col content-center pt-4'>
                     <div className='flex flex-col font-Roboto-Regular w-[90%] text-sm text-justify mx-auto'>
                         <p className=' mb-[0.3rem]'>El nivel inicial o jardín es el comienzo de una etapa educativa fundamental en el desarrollo de los niños. Durante estos primeros años, los estudiantes adquieren habilidades y conocimientos básicos que les permiten desarrollarse en el futuro.</p>
                         <p className=' mb-[0.3rem]'>En el jardín, los niños aprenden a través del juego y la exploración, lo que les permite adquirir habilidades sociales, emocionales y cognitivas. Además, en este nivel se les brinda una educación integral, en la que se desarrollan habilidades artísticas,  motrices y lingüísticas, todo ello en un ambiente seguro y acogedor.</p>
@@ -24,7 +24,7 @@ const Inicial = () => {
                         <p className=''>En resumen, el nivel inicial es una etapa clave en el desarrollo de los niños, en la que se les brinda una educación integral, segura y divertida que les permite adquirir habilidades y conocimientos básicos que les serán de gran utilidad en el futuro. En este nivel, los estudiantes se desarrollan de manera integral, mientras disfrutan del aprendizaje.</p>
                     </div>
                     <div>
-                        <img className='h-full w-[90%] rounded-xl shadow-custom mx-auto pt-10' src='/images/nivel-inicial-costado.jpg' />
+                        <img className='h-full w-[90%] rounded-xl shadow-custom mx-auto pt-10' src='/images/primaria/9.jpeg' />
                     </div>
                 </div>
             </div>
