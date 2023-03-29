@@ -11,7 +11,7 @@ const Secundario = () => {
                 <Header />
             </div>
             <div>
-            <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-secundario bg-no-repeat bg-cover bg-center'></div>
+                <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-secundario bg-no-repeat bg-cover bg-center'></div>
             </div>
             <div className='flex flex-col content-center pt-8'>
                 <h1 className='ml-[16rem] text-5xl text-sky-400 font-Roboto-Regular font-bold pb-5'>¡Propuesta Nivel Secundario!</h1>
@@ -23,14 +23,14 @@ const Secundario = () => {
                         <p className='ml-[16rem]'>En resumen, el nivel secundario es una etapa importante en la formación de los jóvenes y es fundamental para su desarrollo personal y profesional. En este nivel, los estudiantes adquieren habilidades cognitivas, sociales y emocionales, mientras descubren sus verdaderas pasiones e intereses. Por eso, es importante elegir un colegio que brinde una formación integral y de calidad para asegurar un futuro exitoso<br /> para nuestros jóvenes.</p>
                     </div>
                     <div>
-                    <img className='w-[90%] mx-auto h-[30rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='/images/primaria/1.jpeg' />
+                        <img className='w-[80%] mx-auto h-[30rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='/images/secundaria/1.jpeg' />
                     </div>
                 </div>
             </div>
             <div>
                 <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Turnos:</p>
                 <div className='flex flex-auto justify-center gap-8 mb-[2rem]'>
-                <img src='images/tarjeta-secu-izquierda.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
+                    <img src='images/tarjeta-secu-izquierda.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                     <img src='images/horario-secundaria.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                     <img src='images/tarjeta-secu-derecha.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                 </div>
@@ -38,7 +38,7 @@ const Secundario = () => {
             <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Admisión:</p>
             <div className='flex justify-center'>
                 <div className=' bg-[#42ab49] h-[15rem] mb-[1rem] transition duration-500 hover:scale-105' style={{ width: '33%' }}>
-                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Colegio <br/> Santo Cristo<br/> Nivel Primario
+                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Colegio <br /> Santo Cristo<br /> Nivel Primario
                     </p>
                     <div className='flex items-end justify-end h-[90px] mr-10'>
                         <GmailButton />
@@ -47,7 +47,7 @@ const Secundario = () => {
             </div>
             <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Encontranos:</p>
             <div className='pt-6 -mb-10 text-center'>
-                <h1 className='text-4xl font-bold text-green-700 font-Montserrat'>Nivel Primario y Secundario:</h1>
+                <h1 className='text-4xl font-bold text-green-700 font-Montserrat'>Nivel Secundario:</h1>
             </div>
             <div>
                 <MapColegioVisual />

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-				'Roboto-Regular': ['Roboto Regular'],
+        'Roboto-Regular': ['Roboto Regular'],
         'Roboto-Light': ['Roboto Light'],
         'Roboto-Light-Italic': ['Roboto Light Italic'],
         'Oswald': ['Oswald'],
@@ -21,6 +21,7 @@ module.exports = {
         'banner-inicial': "url('/images/banner-inicial.png')",
         'banner-primario': "url('/images/banner-primario.jpg')",
         'banner-secundario': "url('/images/banner-secundario.jpg')",
+        'banner-secundario-mobile': "url('/images/secundaria/2.jpeg')",
         'prueba': "url('/images/prueba.jpg')",
       },
       boxShadow: {

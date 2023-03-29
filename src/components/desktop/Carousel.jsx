@@ -4,13 +4,19 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 function Carousel() {
   const slides = [
     {
-      url: '/images/primaria/7.jpeg',
+      url: '/images/secundaria/13.jpeg',
     },
     {
       url: '/images/primaria/1.jpeg',
     },
     {
+      url: '/images/secundaria/2.jpeg',
+    },
+    {
       url: '/images/primaria/2.jpeg',
+    },
+    {
+      url: '/images/secundaria/16.jpeg',
     },
     {
       url: '/images/primaria/8.jpeg',
@@ -60,9 +66,8 @@ function Carousel() {
         {slides.map((_, index) => (
           <span
             key={index}
-            className={`pagination-item ${
-              currentIndex === index ? 'active' : ''
-            }`}
+            className={`pagination-item ${currentIndex === index ? 'active' : ''
+              }`}
             onClick={() => goToSlide(index)}
           />
         ))}

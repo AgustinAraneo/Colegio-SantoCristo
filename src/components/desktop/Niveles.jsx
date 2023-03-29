@@ -34,7 +34,7 @@ const Niveles = () => {
                         <GmailButtonSecundario />
                     </div>
                 </div>
-                <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='/images/2.jpeg' alt='' />
+                <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='/images/secundaria/3.jpeg' alt='' />
             </div>
         </div>
     )
