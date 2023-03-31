@@ -12,7 +12,7 @@ const Inicial = () => {
                 <Header />
             </div>
             <div>
-                <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-inicial bg-no-repeat bg-center'></div>
+                <div className='shadow-custom2 w-full h-[30rem] -pt-40 flex bg-banner-inicial-mobile bg-center bg-cover'></div>
             </div>
             <div className='flex flex-col content-center pt-8'>
                 <h1 className='pb-5 text-5xl font-bold text-center text-orange-500 font-Josefin'>¡Propuesta Nivel Inicial!</h1>
@@ -24,7 +24,7 @@ const Inicial = () => {
                         <p className=''>En resumen, el nivel inicial es una etapa clave en el desarrollo de los niños, en la que se les brinda una educación integral, segura y divertida que les permite adquirir habilidades y conocimientos básicos que les serán de gran utilidad en el futuro. En este nivel, los estudiantes se desarrollan de manera integral, mientras disfrutan del aprendizaje.</p>
                     </div>
                     <div>
-                        <img className='h-full w-[90%] rounded-xl shadow-custom mx-auto pt-10' src='/images/primaria/9.jpeg' />
+                        <img className='h-full w-[90%] rounded-xl shadow-custom mx-auto pt-10' src='/images/inicial/2.jpg' />
                     </div>
                 </div>
             </div>

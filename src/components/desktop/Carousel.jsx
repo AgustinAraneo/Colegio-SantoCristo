@@ -4,10 +4,16 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 function Carousel() {
   const slides = [
     {
+      url: '/images/inicial/5.jpg',
+    },
+    {
       url: '/images/secundaria/13.jpeg',
     },
     {
       url: '/images/primaria/1.jpeg',
+    },
+    {
+      url: '/images/inicial/6.jpg',
     },
     {
       url: '/images/secundaria/2.jpeg',
@@ -49,7 +55,7 @@ function Carousel() {
   }, [currentIndex]);
 
   return (
-    <div className='h-[30rem] w-full m-auto absolute group shadow-custom'>
+    <div className='h-[40rem] w-full m-auto absolute group shadow-custom'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full duration-500 bg-center bg-cover'

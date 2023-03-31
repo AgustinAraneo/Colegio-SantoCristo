@@ -7,7 +7,7 @@ const AdmisionCuadro = () => {
     return (
         <div className='flex justify-center flex-auto gap-6 flex-col w-[90%] mx-auto'>
             <div>
-                <img className='w-[25rem] h-full transition duration-500 hover:scale-105' src='/images/4.jpeg' alt='' />
+                <img className='w-[25rem] h-full transition duration-500 hover:scale-105' src='/images/inicial/1.jpg' alt='' />
                 <div className='bg-green-600 h-[15rem] mt-[1rem] transition duration-500 hover:scale-105'>
                     <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Jardin <br />Virgen Niña<br /> Nivel Inicial
                     </p>

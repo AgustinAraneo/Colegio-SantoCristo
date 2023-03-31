@@ -14,7 +14,7 @@ const Niveles = () => {
                         <GmailButton />
                     </div>
                 </div>
-                <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='/images/4.jpeg' alt='' />
+                <img className='w-[25rem] h-[20rem] transition duration-500 hover:scale-105' src='/images/inicial/1.jpg' alt='' />
             </div>
             <div>
                 <img className='w-[25rem] h-[20rem] mb-[1rem] transition duration-500 hover:scale-105' src='/images/5.jpeg' alt='' />

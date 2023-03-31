@@ -19,6 +19,7 @@ module.exports = {
         'fondo-dibujitos': "url('/images/fondo-4.png')",
         'fondo-equipo': "url('/images/fondo-profes.png')",
         'banner-inicial': "url('/images/banner-inicial.png')",
+        'banner-inicial-mobile': "url('/images/inicial/3.jpg')",
         'banner-primario': "url('/images/banner-primario.jpg')",
         'banner-secundario': "url('/images/banner-secundario.jpg')",
         'banner-secundario-mobile': "url('/images/secundaria/2.jpeg')",

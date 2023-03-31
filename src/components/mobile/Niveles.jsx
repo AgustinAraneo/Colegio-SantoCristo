@@ -9,7 +9,7 @@ const Niveles = () => {
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 ">
           <div className="relative items-center justify-center overflow-hidden transition-shadow cursor-pointer group hover:shadow-xl hover:shadow-black/50 rounded-t-xl">
             <div className="h-[30rem] w-[23rem]">
-              <img className="object-cover w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/images/primaria/9.jpeg" alt="" />
+              <img className="object-cover w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/images/inicial/4.jpg" alt="" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <Link href='/mobile/Inicial'>
@@ -22,7 +22,7 @@ const Niveles = () => {
           </div>
           <div className="relative items-center justify-center overflow-hidden transition-shadow cursor-pointer group hover:shadow-xl hover:shadow-black/50 rounded-t-xl">
             <div className="h-[30rem] w-[23rem]">
-              <img className="object-cover w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/images/primaria/3.jpeg" alt="" />
+              <img className="object-cover w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/images/primaria/9.jpeg" alt="" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <Link href='/mobile/Primario'>
