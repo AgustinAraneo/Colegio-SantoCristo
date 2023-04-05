@@ -17,8 +17,16 @@ const MediosDePago = () => {
         <div className='mt-[1rem]'>
           <Table />
         </div>
+        <div className='mx-auto w-[90%] mt-5'>
+          <p className='font-bold text-center'>Tambien disponemos con los siguientes medios de pago:</p>
+          <ul className='list-disc list-inside mt-5'>
+            <li>Pago mis cuentas (Cargar nuevamente el codigo de Pago Electronico Banelco - 7 Digitos)</li>
+            <li>Pago Facil</li>
+            <li>Mercado Pago</li>
+          </ul>
+        </div>
         <p className='mt-[2rem] ml-[1rem] mb-10'>
-          Enviar los comprobantes de transferencias al siguiente mail: <span className='ml-1 font-semibold'>santocristo@gmail.com</span>
+          Por favor enviar el comprobante de pago y datos del alumno al siguiente mail: <span className='text-lg font-semibold'>santocristoadmi@gmail.com</span>
         </p>
       </div>
       <div className="w-full">
