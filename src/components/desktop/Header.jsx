@@ -56,7 +56,7 @@ const Header = () => {
             </ul>
           )}
         </div>
-        <a className="mr-4 text-white transition duration-500 hover:text-gray-400" href="/Noticias">NOTICIAS</a>
+        <a className="mr-4 text-white transition duration-500 hover:text-gray-400" href="/Noticias">NOVEDADES</a>
       </nav>
     </header>
   );

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import images from "../images";
+import images from "../imagesM";
 import Link from "next/link";
 import Image from "next/image";
 

@@ -1,4 +1,4 @@
-import foto1 from '../../public/images-carrousel/foto1.jpg';
+import foto1 from '../../public/images/Slider/bendicion-ramos.jpg';
 import foto2 from '../../public/images-carrousel/foto2.jpg';
 import foto3 from '../../public/images-carrousel/foto3.jpg';
 import foto4 from '../../public/images-carrousel/foto4.jpg';
@@ -10,7 +10,7 @@ const images = [
     id: 1,
     src: foto1,
     alt: "Foto 1",
-    url: "/Inicial"
+    url: "/novedades/DomingoRamos"
   },
   {
     id: 2,

@@ -3,9 +3,9 @@ import Header from "./Header";
 import Carousel from "./Carousel";
 import Home from "./Home";
 import Footer from "./Footer";
-import Slider from "./Slider";
 import Lottie from 'react-lottie'
 import animation from "../../education.json"
+import SliderUltNov from "./SliderUltNov";
 
 const educationCv = {
   loop: true,
@@ -34,8 +34,8 @@ const Desktop = () => {
         </div>
       </div>
       <div className="">
-        <h1 className="mr-[60rem] font-Montserrat font-bold text-3xl text-green-900 text-center">ULTIMAS NOTICIAS</h1>
-        <Slider />
+        <h1 className="mr-[60rem] font-Montserrat font-bold text-3xl text-green-900 text-center">ULTIMAS NOVEDADES</h1>
+        <SliderUltNov />
       </div>
       <Footer />
     </div>

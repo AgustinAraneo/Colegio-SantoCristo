@@ -1,9 +1,11 @@
 import React from "react";
 import Header from "@/components/mobile/Header";
 import Footer from "@/components/mobile/Footer";
-import GmailButton from "@/components/ButtonCv";
 import Lottie from 'react-lottie'
 import animation from "../../cv.json"
+import ButtonInicial from "@/components/buttonCv/ButtonInicial";
+import ButtonPrimaria from "@/components/buttonCv/ButttonPrimaria";
+import ButtonSecundaria from "@/components/buttonCv/ButtonSecundaria";
 
 const gifCv = {
   loop: true,
@@ -35,8 +37,10 @@ const Cv = () => {
       </div>
       <div style={{ width: '100%', margin: '0 auto' }}>
         <Lottie options={gifCv} isClickToPauseDisabled ariaRole="img" />
-        <div className="pb-20 text-center">
-          <GmailButton />
+        <div className="pb-10 text-center w-[80%] mx-auto flex flex-col pt-4">
+          <ButtonInicial />
+          <ButtonPrimaria />
+          <ButtonSecundaria />
         </div>
       </div>
       <Footer />

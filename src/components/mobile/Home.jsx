@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from './Carousel'
 import Niveles from './Niveles'
 import Animacion from './Animacion'
-import Slider from './Slider'
+import SliderUltNov from './SliderUltNov'
 
 const Home = () => {
     return (
@@ -18,8 +18,8 @@ const Home = () => {
                 <Animacion />
             </div>
             <div className='mb-10'>
-            <h1 className="text-center font-Montserrat font-bold text-xl text-green-900">ULTIMAS NOTICIAS:</h1>
-                <Slider />
+                <h1 className="text-center font-Montserrat font-bold text-xl text-green-900">ULTIMAS NOVEDADES:</h1>
+                <SliderUltNov />
             </div>
         </div>
     )
