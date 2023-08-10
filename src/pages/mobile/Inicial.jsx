@@ -36,10 +36,10 @@ const Inicial = () => {
                     <img src='/images/horarios-sala-5.png' className='w-[70%] h-[20%] transition duration-500 hover:scale-105 mx-auto'></img>
                 </div>
             </div>
-            <p className='mx-auto text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Admisión:</p>
+            <p className='mx-auto text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Inscripción:</p>
             <div className='flex justify-center'>
                 <div className=' bg-green-600 h-[15rem] mb-[1rem] transition duration-500 hover:scale-105' style={{ width: '70%' }}>
-                    <p className='pt-2 ml-4 text-2xl font-bold text-white font-Montserrat'>Admision Jardin <br />Virgen Niña<br /> Nivel Inicial
+                    <p className='pt-2 ml-4 text-2xl font-bold text-white font-Montserrat'>Inscripción Jardin <br />Virgen Niña<br /> Nivel Inicial
                     </p>
                     <div className='flex items-end justify-end h-[90px] mr-10'>
                         <GmailButton />

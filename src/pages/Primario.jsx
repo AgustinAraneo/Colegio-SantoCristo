@@ -23,22 +23,22 @@ const Primario = () => {
                         <p className='ml-[16rem]'>En resumen, el nivel primario es una etapa fundamental en la formación de los niños y niñas, ya que les proporciona las herramientas necesarias para continuar su educación y les enseña valores y habilidades que les serán útiles en su vida diaria. En nuestro colegio, nos <br />enorgullece ofrecer un ambiente seguro, acogedor y estimulante para que los estudiantes puedan crecer y desarrollarse de manera<br /> saludable.</p>
                     </div>
                     <div className='pl-5'>
-                    <img className='w-[90%] mx-auto h-[30rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='/images/primaria/3.jpeg' />
+                        <img className='w-[90%] mx-auto h-[30rem] ml-[6rem] mr-[1rem] rounded-2xl shadow-custom' src='/images/primaria/3.jpeg' />
                     </div>
                 </div>
             </div>
             <div>
                 <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Turnos:</p>
                 <div className='flex flex-auto justify-center gap-8 mb-[2rem]'>
-                <img src='images/tarjeta-primaria-izquierda.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
+                    <img src='images/tarjeta-primaria-izquierda.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                     <img src='images/tarjeta-horarios-primaria.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                     <img src='images/tarjeta-primaria-derecha.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                 </div>
             </div>
-            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Admisión:</p>
+            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Inscripción:</p>
             <div className='flex justify-center'>
                 <div className=' bg-[#42ab49] h-[15rem] mb-[1rem] transition duration-500 hover:scale-105' style={{ width: '33%' }}>
-                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Colegio <br/> Santo Cristo<br/> Nivel Primario
+                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Inscripción Colegio <br /> Santo Cristo<br /> Nivel Primario
                     </p>
                     <div className='flex items-end justify-end h-[90px] mr-10'>
                         <GmailButton />

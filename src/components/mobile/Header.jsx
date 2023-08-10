@@ -118,7 +118,7 @@ const NavBar = () => {
             {isDropdownOpenContacto && (
               <ul className="absolute z-50 text-sm bg-white shadow-lg font-Montserrat">
                 <Link href="/mobile/Admision">
-                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Admision</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Inscripción</p></li>
                 </Link>
                 <Link href="/mobile/DondeEstamos">
                   <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Donde Estamos</p></li>
@@ -133,7 +133,7 @@ const NavBar = () => {
             )}
           </div>
           <Link href="/mobile/Noticias">
-            <p className="text-gray-300 hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <p className="text-gray-300 bg-blue-700 hover:text-white block px-3 py-2 rounded-md font-bold text-center text-lg shadow-xl">
               Novedades
             </p>
           </Link>

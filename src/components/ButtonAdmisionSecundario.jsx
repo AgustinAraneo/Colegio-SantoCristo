@@ -2,7 +2,7 @@ import React from "react";
 
 const GmailButton = () => {
   const recipientEmail = "araneoagustin@gmail.com";
-  const subject = "Admision Nivel Secundario";
+  const subject = "Inscripción Nivel Secundario";
 
   const handleClick = () => {
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipientEmail}&su=${subject}`;

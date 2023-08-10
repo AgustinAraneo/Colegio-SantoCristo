@@ -35,10 +35,10 @@ const Secundario = () => {
                     <img src='images/tarjeta-secu-derecha.png' className='w-[20%] h-[20%] transition duration-500 hover:scale-105'></img>
                 </div>
             </div>
-            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Admisión:</p>
+            <p className='ml-[16rem] text-2xl text-black/80 font-Roboto-Regular font-semibold mt-[4rem] mb-[2rem] border-b-2 border-green-800' style={{ width: '70%' }}>Inscripción:</p>
             <div className='flex justify-center'>
                 <div className=' bg-[#42ab49] h-[15rem] mb-[1rem] transition duration-500 hover:scale-105' style={{ width: '33%' }}>
-                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Admision Colegio <br /> Santo Cristo<br /> Nivel Primario
+                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Inscripción Colegio <br /> Santo Cristo<br /> Nivel Primario
                     </p>
                     <div className='flex items-end justify-end h-[90px] mr-10'>
                         <GmailButton />

@@ -15,11 +15,11 @@ const Home = () => {
                 <Niveles />
             </div>
             <div className='mb-24'>
-                <Animacion />
-            </div>
-            <div className='mb-10'>
                 <h1 className="text-center font-Montserrat font-bold text-xl text-green-900">ULTIMAS NOVEDADES:</h1>
                 <SliderUltNov />
+            </div>
+            <div className='mb-10'>
+                <Animacion />
             </div>
         </div>
     )
