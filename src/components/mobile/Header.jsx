@@ -56,7 +56,7 @@ const NavBar = () => {
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0">
               <Link href="/">
-                <p className="text-white text-xl font-bold">Comunidad Santo Cristo</p>
+                <p className="text-white text-base font-bold text-center">Comunidad Educativa <br />Santo Cristo</p>
               </Link>
             </div>
           </div>
@@ -117,14 +117,11 @@ const NavBar = () => {
             <button className="flex flex-auto px-3 py-2 text-base font-medium text-gray-300">Contacto<span className='text-2xl'><RiArrowDownSLine /></span></button>
             {isDropdownOpenContacto && (
               <ul className="absolute z-50 text-sm bg-white shadow-lg font-Montserrat">
-                <Link href="/mobile/Admision">
-                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Inscripción</p></li>
-                </Link>
                 <Link href="/mobile/DondeEstamos">
                   <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Donde Estamos</p></li>
                 </Link>
                 <Link href="/mobile/MediosDePago">
-                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Datos Bancarios</p></li>
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Administración</p></li>
                 </Link>
                 <Link href="/mobile/DejaTuCv">
                   <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium" >Deja tu CV</p></li>
@@ -135,6 +132,11 @@ const NavBar = () => {
           <Link href="/mobile/Noticias">
             <p className="text-gray-300 bg-blue-700 hover:text-white block px-3 py-2 rounded-md font-bold text-center text-lg shadow-xl">
               Novedades
+            </p>
+          </Link>
+          <Link href="/mobile/Admision">
+            <p className="text-gray-300 bg-red-700 mt-2 hover:text-white block px-3 py-2 rounded-md font-bold text-center text-lg shadow-xl">
+              Inscripción 2024
             </p>
           </Link>
         </div>

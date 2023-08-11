@@ -11,8 +11,8 @@ const Header = () => {
 
   return (
     <header className="flex items-center justify-between p-2 bg-green-800 border-b-2 border-red-900 font-Montserrat ">
-      <div className="flex flex-auto font-bold text-white "><img className='w-[4.5rem] h-[5.5rem] ml-[2rem] pt-2' src='https://i.ibb.co/k2ckb7p/Logo-escuela.png' alt='Logo' /><span className='ml-[2rem] mt-[1.75rem] font-Josefin font-semibold text-lg xl:text-xl 2xl:text-2xl'>Comunidad Santo Cristo</span></div>
-      <nav className='flex flex-auto justify-end mr-[5rem] font-Roboto-Medium 2xl:text-[0.95rem] xl:text-[0.8rem] text-[0.7rem]'>
+      <div className="flex flex-auto font-bold text-white "><img className='2xl:w-[4.5rem] 2xl:h-[5.5rem] w-[4rem] h-[5rem] ml-[1rem] 2xl:ml-[2rem] pt-2' src='https://i.ibb.co/k2ckb7p/Logo-escuela.png' alt='Logo' /><span className='2xl:ml-[2rem] ml-2 mt-[1.25rem] font-Josefin font-semibold text-lg xl:text-xl 2xl:text-2xl text-center'>Comunidad Educativa <br />Santo Cristo</span></div>
+      <nav className='flex flex-auto justify-end 2xl:mr-[1rem] font-Roboto-Medium 2xl:text-[0.95rem] xl:text-[0.8rem] text-[0.7rem]'>
         <a className="mr-4 text-white transition duration-500 hover:text-gray-400" href="/">INICIO</a>
         <div
           className="relative"
@@ -46,18 +46,18 @@ const Header = () => {
           onMouseEnter={() => setIsDropdownOpenContacto(true)}
           onMouseLeave={() => setIsDropdownOpenContacto(false)}
         >
-          <button className="flex flex-auto mr-2 text-white transition duration-500 hover:text-gray-400">CONTACTO<span className='text-2xl'><RiArrowDownSLine /></span></button>
+          <button className="flex flex-auto text-white transition duration-500 hover:text-gray-400">CONTACTO<span className='text-2xl'><RiArrowDownSLine /></span></button>
           {isDropdownOpenContacto && (
             <ul className="absolute z-50 text-xs 2xl:text-sm bg-white rounded shadow-lg">
-              <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Admision">INSCRIPCIÓN</a></li>
               <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/DondeEstamos">¿DONDE NOS ENCONTRAMOS?</a></li>
-              <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/MediosDePago">DATOS BANCARIOS</a></li>
+              <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/MediosDePago">ADMINISTRACIÓN</a></li>
               <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Cv">DEJA TU CV</a></li>
             </ul>
           )}
         </div>
-        <a className="mr-4 text-white transition duration-300 hover:bg-blue-800 font-bold bg-blue-700 px-5 rounded-full text-base" href="/Noticias">NOVEDADES</a>
       </nav>
+      <a className="test3 font-Montserrat m-2 2xl:text-[15px] xl:text-md text-xs" href="/Noticias">NOVEDADES</a>
+      <a className="test2 font-Montserrat m-2 2xl:text-[15px] xl:text-md text-xs" href="/Admision">INSCRIPCIÓN 2024</a>
     </header>
   );
 };

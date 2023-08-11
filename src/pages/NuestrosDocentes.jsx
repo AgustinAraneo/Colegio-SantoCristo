@@ -31,7 +31,7 @@ const NuestrosDocentes = () => {
     <div className='bg-slate-100'>
       <Header />
       <div className='container font-Montserrat'>
-        <h1 className='text-5xl text-green-800 font-bold pb-5 font-Montserrat mt-2'>
+        <h1 className='text-5xl text-green-800 font-bold pb-5 font-Montserrat mt-10'>
           Conoce a nuestro equipo de docentes:
         </h1>
         <p className='w-[90%]'>

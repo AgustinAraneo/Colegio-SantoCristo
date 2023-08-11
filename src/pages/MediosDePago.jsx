@@ -28,6 +28,10 @@ const MediosDePago = () => {
         <p className='ml-[6rem] mt-[1rem]'>
           Por favor enviar el comprobante de pago y datos del alumno al siguiente mail: <span className='ml-1 font-semibold'>santocristoadmi@gmail.com</span>
         </p>
+        <div>
+          <h3 className='ml-[6rem] text-5xl text-green-800 font-bold pb-5 mt-10'>Facturación Electrónica:</h3>
+          <p className='ml-[6rem]'>Para realizar la solicitud de facturación electrónica, por favor, complete el siguiente formulario. <span className='text-blue-500 font-bold' ><a href='https://docs.google.com/forms/d/e/1FAIpQLSf_uBgZvGoKL9oKQm9mQVxXXFe8ntsixsIbecgx0_djpykJXQ/viewform' rel='noreferrer' target='_blank'>Haga click aquí.</a></span></p>
+        </div>
       </div>
       <div className="absolute bottom-0 w-full">
         <Footer />

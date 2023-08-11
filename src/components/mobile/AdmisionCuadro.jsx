@@ -11,7 +11,7 @@ const AdmisionCuadro = () => {
                 <div className='bg-green-600 h-[15rem] mt-[1rem] transition duration-500 hover:scale-105'>
                     <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Inscripción Jardin <br />Virgen Niña<br /> Nivel Inicial
                     </p>
-                    <div className='flex items-end justify-end h-[90px] mr-10 '>
+                    <div className='flex items-end justify-end h-[55px] mr-10 '>
                         <GmailButton />
                     </div>
                 </div>

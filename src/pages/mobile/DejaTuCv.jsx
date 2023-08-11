@@ -24,7 +24,7 @@ const Cv = () => {
         <h1 className='pt-4 text-4xl font-bold text-green-700 font-Montserrat'>Forma Parte de Nuestro Equipo:</h1>
         <div className='mx-auto w-[90%] font-Montserrat text-justify text-sm'>
           <p className='mt-3'>
-            En la Comunidad Santo Cristo, estamos comprometidos en brindar una educación de calidad a nuestros estudiantes. Para lograrlo, contamos con un equipo de profesionales altamente capacitados y apasionados por la enseñanza.
+            En la Comunidad Educativa Santo Cristo, estamos comprometidos en brindar una educación de calidad a nuestros estudiantes. Para lograrlo, contamos con un equipo de profesionales altamente capacitados y apasionados por la enseñanza.
           </p>
           <p className='mt-3'>
             Si eres un profesor dedicado y te interesa formar parte de nuestro equipo docente, te invitamos a enviarnos tu currículum vitae. Estamos en busca de profesionales con experiencia en su área de enseñanza, con habilidades de liderazgo y trabajo en equipo, y con una fuerte ética de trabajo. Además, buscamos profesores que compartan nuestros valores y nuestra misión de formar ciudadanos responsables y comprometidos con el mundo.

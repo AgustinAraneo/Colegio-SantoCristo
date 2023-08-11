@@ -27,7 +27,7 @@ const Desktop = () => {
       <div className="">
         <Home />
       </div>
-      <div className="mb-[10rem]">
+      <div className="mb-[10rem] -mt-10">
         <h1 className="mr-[60rem] font-Montserrat font-bold text-3xl text-green-900 text-center">ULTIMAS NOVEDADES</h1>
         <SliderUltNov />
       </div>
