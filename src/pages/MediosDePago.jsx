@@ -5,7 +5,7 @@ import Table from '@/components/desktop/Table'
 
 const MediosDePago = () => {
   return (
-    <div>
+    <div className='relative h-full min-h-screen'>
       <div>
         <Header />
       </div>
@@ -30,7 +30,7 @@ const MediosDePago = () => {
         </p>
         <div>
           <h3 className='ml-[6rem] text-5xl text-green-800 font-bold pb-5 mt-10'>Facturación Electrónica:</h3>
-          <p className='ml-[6rem]'>Para realizar la solicitud de facturación electrónica, por favor, complete el siguiente formulario. <span className='text-blue-500 font-bold' ><a href='https://docs.google.com/forms/d/e/1FAIpQLSf_uBgZvGoKL9oKQm9mQVxXXFe8ntsixsIbecgx0_djpykJXQ/viewform' rel='noreferrer' target='_blank'>Haga click aquí.</a></span></p>
+          <p className='ml-[6rem]'>Para realizar la solicitud de facturación electrónica, por favor, complete el siguiente formulario. <span className='font-bold text-blue-500' ><a href='https://docs.google.com/forms/d/e/1FAIpQLSf_uBgZvGoKL9oKQm9mQVxXXFe8ntsixsIbecgx0_djpykJXQ/viewform' rel='noreferrer' target='_blank'>Haga click aquí.</a></span></p>
         </div>
       </div>
       <div className="absolute bottom-0 w-full">
