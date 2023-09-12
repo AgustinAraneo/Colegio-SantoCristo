@@ -4,28 +4,28 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 function Carousel() {
   const slides = [
     {
-      url: '/images/inicial/5.jpg',
+      url: '/images/inicial/5.webp',
     },
     {
-      url: '/images/secundaria/13.jpeg',
+      url: '/images/secundaria/13.wepb',
     },
     {
-      url: '/images/primaria/1.jpeg',
+      url: '/images/primaria/1.webp',
     },
     {
-      url: '/images/inicial/6.jpg',
+      url: '/images/inicial/6.webp',
     },
     {
-      url: '/images/secundaria/2.jpeg',
+      url: '/images/secundaria/2.webp',
     },
     {
-      url: '/images/primaria/2.jpeg',
+      url: '/images/primaria/2.wepb',
     },
     {
-      url: '/images/secundaria/16.jpeg',
+      url: '/images/secundaria/16.webp',
     },
     {
-      url: '/images/primaria/8.jpeg',
+      url: '/images/primaria/8.webp',
     }
   ];
 
