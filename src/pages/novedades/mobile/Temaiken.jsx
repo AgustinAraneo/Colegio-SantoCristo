@@ -10,7 +10,7 @@ const Temaiken = () => {
         <div className='h-full bg-slate-100 bg-fixed bg-center bg-no-repeat bg-cover bg-fondo'>
             <Header />
             <h1 className="text-3xl font-bold text-green-700 font-Montserrat text-center mt-4">
-                Bendición de Ramos
+                Viaje a Temaiken 2023
             </h1>
             <p className="text-justify w-[85%] mx-auto mt-4 text-base">Este año, 2°grado ha tenido la oportunidad de realizar un paseo por TEMAIKEN.<br />
                 Pudimos compartir esta hermosa experiencia que nos permitió conocer mucho sobre los animales que viven allí: suricatas, tigres de bengala, yaguaretés, murciélagos, cebras, tortugas, flamencos y muchos más.
