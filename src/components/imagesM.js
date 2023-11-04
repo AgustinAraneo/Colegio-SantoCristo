@@ -1,11 +1,17 @@
 import foto1 from '../../public/images/Slider/bendicion-ramos.jpg';
 import foto2 from '../../public/images/Slider/tandil2023.png';
-import foto3 from '../../public/images-carrousel/foto3.jpg';
+import foto3 from '../../public/images/temaiken/portada.png';
 import foto4 from '../../public/images-carrousel/foto4.jpg';
 import foto5 from '../../public/images-carrousel/foto5.jpg';
 import foto6 from '../../public/images-carrousel/foto6.jpg';
 
 const imagesM = [
+    {
+        id: 3,
+        src: foto3,
+        alt: "Foto 3",
+        url: "/novedades/mobile/Temaiken"
+    },
     {
         id: 2,
         src: foto2,
@@ -17,12 +23,6 @@ const imagesM = [
         src: foto1,
         alt: "Foto 1",
         url: "/novedades/mobile/DomingoRamos"
-    },
-    {
-        id: 3,
-        src: foto3,
-        alt: "Foto 3",
-        url: "/Secundario"
     },
     {
         id: 4,

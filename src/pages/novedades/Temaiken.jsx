@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/desktop/Header";
 import Footer from "@/components/desktop/Footer";
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Temaiken = () => {
     return (
@@ -11,12 +11,12 @@ const Temaiken = () => {
             <h1 className="text-5xl font-bold text-green-700 font-Montserrat text-center mt-4">
                 Viaje a Temaiken 2023
             </h1>
-            <p className="text-justify w-[55%] mx-auto mt-4 text-base">Este año, 2°grado ha tenido la oportunidad de realizar un paseo por TEMAIKEN.<br/>
-Pudimos compartir esta hermosa experiencia que nos permitió conocer mucho sobre los animales que viven allí: suricatas, tigres de bengala, yaguaretés, murciélagos, cebras, tortugas, flamencos y muchos más.
-También pudimos recorrer el acuario. ¡Cuántas especies conocimos! ¡Vimos un tiburón!¡Qué emoción!<br/>
-Aprendimos mucho: escuchando a las guías, a nuestros maestros y leyendo los carteles en el espacio de cada animal.<br/>
-Almorzamos rico y disfrutamos con amigos y las seños de una nueva experiencia. Nos sacaron muchas fotos y al regreso pudimos plasmar en nuestros cuadernos lo que aprendimos y más nos gustó.</p>
-            <p className="text-center"><span className="font-bold "><br/>¡TEMAIKEN NOS ENCANTÓ!</span></p>
+            <p className="text-justify w-[55%] mx-auto mt-4 text-base">Este año, 2°grado ha tenido la oportunidad de realizar un paseo por TEMAIKEN.<br />
+                Pudimos compartir esta hermosa experiencia que nos permitió conocer mucho sobre los animales que viven allí: suricatas, tigres de bengala, yaguaretés, murciélagos, cebras, tortugas, flamencos y muchos más.
+                También pudimos recorrer el acuario. ¡Cuántas especies conocimos! ¡Vimos un tiburón!¡Qué emoción!<br />
+                Aprendimos mucho: escuchando a las guías, a nuestros maestros y leyendo los carteles en el espacio de cada animal.<br />
+                Almorzamos rico y disfrutamos con amigos y las seños de una nueva experiencia. Nos sacaron muchas fotos y al regreso pudimos plasmar en nuestros cuadernos lo que aprendimos y más nos gustó.</p>
+            <p className="text-center"><span className="font-bold "><br />¡TEMAIKEN NOS ENCANTÓ!</span></p>
             <div className="w-full flex justify-center my-8">
                 <Carousel
                     showArrows={true}
