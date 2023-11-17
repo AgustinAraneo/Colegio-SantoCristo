@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '@/components/mobile/Header'
-import Footer from '@/components/mobile/Footer'
-import Table from '@/components/mobile/Table'
+import Header from '../../components/mobile/Header'
+import Footer from '../../components/mobile/Footer'
+import Table from '../../components/mobile/Table'
 
 const MediosDePago = () => {
   return (

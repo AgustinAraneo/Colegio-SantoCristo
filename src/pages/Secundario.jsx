@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../components/desktop/Header'
-import Footer from '@/components/desktop/Footer'
-import GmailButton from '@/components/ButtonAdmisionPrimario'
-import MapColegioVisual from '@/components/desktop/MapColegioVisual'
+import Footer from '../components/desktop/Footer'
+import GmailButton from '../components/ButtonAdmisionPrimario'
+import MapColegioVisual from '../components/desktop/MapColegioVisual'
 
 const Secundario = () => {
     return (

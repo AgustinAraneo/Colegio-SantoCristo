@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "@/components/mobile/Header";
-import Footer from "@/components/mobile/Footer";
+import Header from "../../components/mobile/Header";
+import Footer from "../../components/mobile/Footer";
 import Lottie from 'react-lottie'
 import animation from "../../cv.json"
-import ButtonInicial from "@/components/buttonCv/ButtonInicial";
-import ButtonPrimaria from "@/components/buttonCv/ButttonPrimaria";
-import ButtonSecundaria from "@/components/buttonCv/ButtonSecundaria";
+import ButtonInicial from "../../components/buttonCv/ButtonInicial";
+import ButtonPrimaria from "../../components/buttonCv/ButttonPrimaria";
+import ButtonSecundaria from "../../components/buttonCv/ButtonSecundaria";
 
 const gifCv = {
   loop: true,

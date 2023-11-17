@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '@/components/mobile/Header'
-import Footer from '@/components/mobile/Footer'
+import Header from '../../components/mobile/Header'
+import Footer from '../../components/mobile/Footer'
 import 'animate.css';
-import GmailButton from '@/components/ButtonAdmisionPrimario';
-import MapColegioVisual from '@/components/mobile/MapColegioVisual';
+import GmailButton from '../../components/ButtonAdmisionPrimario';
+import MapColegioVisual from '../../components/mobile/MapColegioVisual';
 
 const Primaria = () => {
   return (

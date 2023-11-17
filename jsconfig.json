@@ -5,9 +5,12 @@
       "@/*": [
         "./src/*"
       ],
+      "@components/*": [
+        "./src/components/*"
+      ],
       "@public/*": [
         "public/*"
-      ],
+      ]
     }
   }
 }

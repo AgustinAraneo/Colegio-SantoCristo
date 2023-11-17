@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../components/desktop/Header'
-import Footer from '@/components/desktop/Footer'
+import Footer from '../components/desktop/Footer'
 import 'animate.css';
-import GmailButton from '@/components/ButtonAdmision';
-import MapJardinVisual from '@/components/desktop/MapJardinVisual';
+import GmailButton from '../components/ButtonAdmision';
+import MapJardinVisual from '../components/desktop/MapJardinVisual';
 
 const Inicial = () => {
     return (

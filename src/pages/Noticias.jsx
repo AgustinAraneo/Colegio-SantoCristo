@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '@/components/desktop/Header'
-import Footer from '@/components/desktop/Footer'
-import Slider from '@/components/desktop/Slider'
-import SliderInicial from '@/components/desktop/SliderInicial'
-import SliderSecundaria from '@/components/desktop/SliderSecundaria'
+import Header from '../components/desktop/Header'
+import Footer from '../components/desktop/Footer'
+import Slider from '../components/desktop/Slider'
+import SliderInicial from '../components/desktop/SliderInicial'
+import SliderSecundaria from '../components/desktop/SliderSecundaria'
 
 const Noticias = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '@/components/mobile/Header';
-import AdmisionCuadro from '@/components/mobile/AdmisionCuadro';
-import Footer from '@/components/mobile/Footer';
+import Header from '../../components/mobile/Header';
+import AdmisionCuadro from '../../components/mobile/AdmisionCuadro';
+import Footer from '../../components/mobile/Footer';
 
 const Admision = () => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '@/components/mobile/Header'
-import Footer from '@/components/mobile/Footer'
+import Header from '../../components/mobile/Header'
+import Footer from '../../components/mobile/Footer'
 import 'animate.css';
-import GmailButton from '@/components/ButtonAdmision';
-import MapJardinVisual from '@/components/mobile/MapJardinVisual';
+import GmailButton from '../../components/ButtonAdmision';
+import MapJardinVisual from '../../components/mobile/MapJardinVisual';
 
 const Inicial = () => {
     return (

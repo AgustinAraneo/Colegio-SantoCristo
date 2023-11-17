@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "@/components/desktop/Header";
-import Footer from "@/components/desktop/Footer";
+import Header from "../components/desktop/Header";
+import Footer from "../components/desktop/Footer";
 import Lottie from 'react-lottie'
 import animation from "../cv.json"
-import ButtonInicial from "@/components/buttonCv/ButtonInicial";
-import ButtonPrimaria from "@/components/buttonCv/ButttonPrimaria";
-import ButtonSecundaria from "@/components/buttonCv/ButtonSecundaria";
+import ButtonInicial from "../components/buttonCv/ButtonInicial";
+import ButtonPrimaria from "../components/buttonCv/ButttonPrimaria";
+import ButtonSecundaria from "../components/buttonCv/ButtonSecundaria";
 
 
 const gifCv = {

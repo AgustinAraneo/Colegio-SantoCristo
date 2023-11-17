@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/desktop/Header';
-import Niveles from '@/components/desktop/Niveles';
-import Footer from '@/components/desktop/Footer';
+import Niveles from '../components/desktop/Niveles';
+import Footer from '../components/desktop/Footer';
 
 const Admision = () => {
   return (

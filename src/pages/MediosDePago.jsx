@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '@/components/desktop/Header'
-import Footer from '@/components/desktop/Footer'
-import Table from '@/components/desktop/Table'
+import Header from '../components/desktop/Header'
+import Footer from '../components/desktop/Footer'
+import Table from '../components/desktop/Table'
 
 const MediosDePago = () => {
   return (

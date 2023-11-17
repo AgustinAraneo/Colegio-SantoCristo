@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '@/components/mobile/Header'
-import MapColegioVisual from '@/components/mobile/MapColegioVisual'
-import MapJardinVisual from '@/components/mobile/MapJardinVisual'
-import Footer from '@/components/mobile/Footer'
+import Header from '../../components/mobile/Header'
+import MapColegioVisual from '../../components/mobile/MapColegioVisual'
+import MapJardinVisual from '../../components/mobile/MapJardinVisual'
+import Footer from '../../components/mobile/Footer'
 
 const DondeEstamos = () => {
   return (

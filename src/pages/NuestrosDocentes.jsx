@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '@/components/desktop/Header';
-import Footer from '@/components/desktop/Footer';
+import Header from '../components/desktop/Header';
+import Footer from '../components/desktop/Footer';
 
 
 const NuestrosDocentes = () => {

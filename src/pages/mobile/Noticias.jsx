@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '@/components/mobile/Header'
-import Footer from '@/components/mobile/Footer'
-import Slider from '@/components/mobile/Slider'
-import SliderInicial from '@/components/mobile/SliderInicial'
-import SliderSecundaria from '@/components/mobile/SliderSecundaria'
+import Header from '../../components/mobile/Header'
+import Footer from '../../components/mobile/Footer'
+import Slider from '../../components/mobile/Slider'
+import SliderInicial from '../../components/mobile/SliderInicial'
+import SliderSecundaria from '../../components/mobile/SliderSecundaria'
 
 const Noticias = () => {
   return (
