@@ -7,7 +7,7 @@ import SliderSecundaria from '@/components/mobile/SliderSecundaria'
 
 const Noticias = () => {
   return (
-    <div className='bg-slate-100'>
+    <div className='bg-gradient-to-b from-gray-300 to-white'>
       <div><Header /></div>
       <div>
         <div className='mb-10'>
