@@ -89,6 +89,9 @@ const NavBar = () => {
                 <Link href="/mobile/Secundario">
                   <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Nivel Secundario</p></li>
                 </Link>
+                <Link href="/mobile/Normativa2024">
+                  <li><p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium" >Normativa 2024</p></li>
+                </Link>
               </ul>
             )}
           </div>

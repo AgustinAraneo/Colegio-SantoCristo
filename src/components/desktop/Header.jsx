@@ -25,6 +25,7 @@ const Header = () => {
               <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Inicial">NIVEL INICIAL</a></li>
               <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Primario">NIVEL PRIMARIO</a></li>
               <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Secundario">NIVEL SECUNDARIO</a></li>
+              <li><a className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white" href="/Normativa2024">NORMATIVA 2024</a></li>
             </ul>
           )}
         </div>
