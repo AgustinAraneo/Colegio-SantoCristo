@@ -2,7 +2,7 @@ import foto1 from '../../public/images/Slider/bendicion-ramos.jpg';
 import foto2 from '../../public/images/Slider/tandil2023.png';
 import foto3 from '../../public/images/temaiken/portada.png';
 import foto4 from '../../public/images/feriaCiencias/portada.png';
-import foto5 from '../../public/feriaCiencias5to/portada.png';
+import foto5 from '../../public/images/feriaCiencias5to/portada.png';
 import foto6 from '../../public/images-carrousel/foto6.jpg';
 
 const images = [
