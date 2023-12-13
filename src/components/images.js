@@ -2,10 +2,16 @@ import foto1 from '../../public/images/Slider/bendicion-ramos.jpg';
 import foto2 from '../../public/images/Slider/tandil2023.png';
 import foto3 from '../../public/images/temaiken/portada.png';
 import foto4 from '../../public/images/feriaCiencias/portada.png';
-import foto5 from '../../public/images-carrousel/foto5.jpg';
+import foto5 from '../../public/feriaCiencias5to/portada.png';
 import foto6 from '../../public/images-carrousel/foto6.jpg';
 
 const images = [
+  {
+    id: 5,
+    src: foto5,
+    alt: "Foto 5",
+    url: "/novedades/feriaCiencias5to"
+  },
   {
     id: 4,
     src: foto4,
@@ -29,12 +35,6 @@ const images = [
     src: foto1,
     alt: "Foto 1",
     url: "/novedades/DomingoRamos"
-  },
-  {
-    id: 5,
-    src: foto5,
-    alt: "Foto 5",
-    url: "/MediosDePago"
   },
   {
     id: 6,

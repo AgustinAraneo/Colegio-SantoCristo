@@ -12,12 +12,10 @@ const feriaCiencias = () => {
                 Feria de Ciencias Naturales 2do Grado
             </h1>
             <p className="text-justify w-[55%] mx-auto mt-4 text-base">Este año, segundo grado A, B, C y D realizaron una muestra de lo trabajado presentando en la Feria Anual de Ciencias Naturales &ldquo;Los seres vivos y su importancia en el medio ambiente&ldquo;.
-                <br />
-                Esta experiencia sumada a la visita de Temaiken, no solo nos han permitido conocer la importancia de cada ser vivo en el planeta, la relación con el desarrollo y el crecimiento de cada uno, sino que también nos han hecho valorar la necesidad y el compromiso con el reciclado.
-                <br />
-                Cada uno sembró con esa pequeña semilla,  la fe de que junto a ella, crecería un árbol, purificábamos el aire, recibíamos oxígeno, protegíamos la tierra del sol, regulábamos la temperatura, protegíamos animales y esperábamos una nueva  fuente de alimento y materia prima.... en fin, cada uno de los chicos, se comprometió con el medio ambiente, colaboró con el cuidado de la tierra y reflexionó sobre qué... &ldquo;cada granito de arena propio en conjunto y trabajando en equipo muestra grandes logros&ldquo;.
-                <br />
-                Asi fue, que para esta hermosa feria, cada uno con ayuda de su familia, creó el Guardián de la la Naturalwza, mostrándole al mundo que reciclar es un gran compromiso para vivir mejor.
+                La Feria de Ciencias 2023 coordinada por las  docentes de 5to grado resaltó el trabajo aúlico sobre EL CUERPO HUMANO
+                Hermosa experiencia acompañada con el entusiasmo de alumnos - alumnas junto a sus familias con la guía de cada docente.
+
+                Felicitaciones a cada explicación por parte de los chicos y chicas en la muestra.
             </p>
             <div className="w-full flex justify-center my-8">
                 <Carousel
@@ -58,6 +56,21 @@ const feriaCiencias = () => {
                         <video autoPlay muted controlsList="nodownload nodrag nodisplay" className="h-[700px] w-full bg-black">
                             <source src="/images/feriaCiencias/video4.mp4" type="video/mp4" />
                         </video>
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias/1.jpeg" alt="Imagen 2" className="h-[700px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias/2.jpeg" alt="Imagen 2" className="h-[700px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias/3.jpeg" alt="Imagen 2" className="h-[700px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias/4.jpeg" alt="Imagen 2" className="h-[700px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias/5.jpeg" alt="Imagen 2" className="h-[700px] w-[80%]" />
                     </div>
                     {/* Agregar más elementos según sea necesario */}
                 </Carousel>

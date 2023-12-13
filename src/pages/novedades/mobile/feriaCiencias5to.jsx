@@ -32,48 +32,62 @@ const feriaCiencias = () => {
                 >
                     <div>
                         <video autoPlay muted controlsList="nodownload nodrag nodisplay" className="h-[500px] w-full bg-black">
-                            <source src="/images/feriaCiencias/video5.mp4" type="video/mp4" />
+                            <source src="/images/feriaCiencias5to/video1.mp4" type="video/mp4" />
                         </video>
                     </div>
                     <div>
-                        <video autoPlay muted controlsList="nodownload nodrag nodisplay" className="h-[500px] w-full bg-black">
-                            <source src="/images/feriaCiencias/video6.mp4" type="video/mp4" />
-                        </video>
+                        <img src="/images/feriaCiencias5to/1.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <video autoPlay muted controlsList="nodownload nodrag nodisplay" className="h-[500px] w-full bg-black">
-                            <source src="/images/feriaCiencias/video1.mp4" type="video/mp4" />
-                        </video>
+                        <img src="/images/feriaCiencias5to/2.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <video autoPlay muted controlsList="nodownload nodrag nodisplay" className="h-[500px] w-full bg-black">
-                            <source src="/images/feriaCiencias/video2.mp4" type="video/mp4" />
-                        </video>
+                        <img src="/images/feriaCiencias5to/3.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <video autoPlay muted controlsList="nodownload nodrag nodisplay" className="h-[500px] w-full bg-black">
-                            <source src="/images/feriaCiencias/video3.mp4" type="video/mp4" />
-                        </video>
+                        <img src="/images/feriaCiencias5to/4.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <video autoPlay muted controlsList="nodownload nodrag nodisplay" className="h-[500px] w-full bg-black">
-                            <source src="/images/feriaCiencias/video4.mp4" type="video/mp4" />
-                        </video>
+                        <img src="/images/feriaCiencias5to/5.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <img src="/images/feriaCiencias/1.jpeg" alt="Imagen 2" className="h-[500px]" />
+                        <img src="/images/feriaCiencias5to/6.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <img src="/images/feriaCiencias/2.jpeg" alt="Imagen 2" className="h-[500px]" />
+                        <img src="/images/feriaCiencias5to/7.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <img src="/images/feriaCiencias/3.jpeg" alt="Imagen 2" className="h-[500px]" />
+                        <img src="/images/feriaCiencias5to/8.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <img src="/images/feriaCiencias/4.jpeg" alt="Imagen 2" className="h-[500px]" />
+                        <img src="/images/feriaCiencias5to/9.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                     <div>
-                        <img src="/images/feriaCiencias/5.jpeg" alt="Imagen 2" className="h-[500px]" />
+                        <img src="/images/feriaCiencias5to/10.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/11.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/12.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/13.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/14.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/16.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/17.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/19.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
+                    </div>
+                    <div>
+                        <img src="/images/feriaCiencias5to/20.jpeg" alt="Imagen 2" className="h-[500px] w-[80%]" />
                     </div>
                 </Carousel>
             </div>
