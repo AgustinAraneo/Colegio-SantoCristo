@@ -3,9 +3,15 @@ import foto2 from '../../public/images/Slider/tandil2023.png';
 import foto3 from '../../public/images/temaiken/portada.png';
 import foto4 from '../../public/images/feriaCiencias/portada.png';
 import foto5 from '../../public/images/feriaCiencias5to/portada.png';
-import foto6 from '../../public/images-carrousel/foto6.jpg';
+import foto6 from '../../public/images/Slider/Comienzo-clases.jpeg';
 
 const imagesM = [
+    {
+        id: 6,
+        src: foto6,
+        alt: "Foto 6",
+        url: "/novedades/mobile/inicioClases"
+    },
     {
         id: 5,
         src: foto5,
@@ -35,12 +41,6 @@ const imagesM = [
         src: foto1,
         alt: "Foto 1",
         url: "/novedades/mobile/DomingoRamos"
-    },
-    {
-        id: 6,
-        src: foto6,
-        alt: "Foto 6",
-        url: "/"
     }]
 
 export default imagesM;
