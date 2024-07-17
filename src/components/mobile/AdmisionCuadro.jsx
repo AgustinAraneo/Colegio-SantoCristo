@@ -1,83 +1,102 @@
-import React, {useState} from 'react'
-import AdmisionModal from './AdmisionModal';
+import React, { useState } from "react";
+import AdmisionModal from "./AdmisionModal";
 
 const AdmisionCuadro = () => {
-    const [isJardin, setIsJardin] = useState(false);
-    const [isPrimaria, setIsPrimaria] = useState(false);
-    const [isSecundaria, setIsSecundaria] = useState(false);
+  const [isJardin, setIsJardin] = useState(false);
+  const [isPrimaria, setIsPrimaria] = useState(false);
+  const [isSecundaria, setIsSecundaria] = useState(false);
 
-    const handleModalOpenJardin = () => {
-        setIsJardin(true);
-      };
-    
-      const handleModalOpenPrimaria = () => {
-        setIsPrimaria(true);
-      };
-    
-      const handleModalOpenSecundaria = () => {
-        setIsSecundaria(true);
-      };
-    
-      const handleModalCloseJardin = () => {
-        setIsJardin(false);
-      };
-    
-      const handleModalClosePrimaria = () => {
-        setIsPrimaria(false);
-      };
-    
-      const handleModalCloseSecundaria = () => {
-        setIsSecundaria(false);
-      };
+  const handleModalOpenJardin = () => {
+    setIsJardin(true);
+  };
 
-    return (
-        <div className='flex justify-center flex-auto gap-6 flex-col w-[90%] mx-auto'>
-            <div>
-                <img className='w-[25rem] h-full transition duration-500 hover:scale-105' src='/images/inicial/1.jpg' alt='' />
-                <div className='bg-green-600 h-[15rem] mt-[1rem] transition duration-500 hover:scale-105'>
-                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Inscripción Jardin <br />Virgen Niña<br /> Nivel Inicial
-                    </p>
-                    <div className='flex items-end justify-end h-[55px] mr-10 '>
-                    <button
+  const handleModalOpenPrimaria = () => {
+    setIsPrimaria(true);
+  };
+
+  const handleModalOpenSecundaria = () => {
+    setIsSecundaria(true);
+  };
+
+  const handleModalCloseJardin = () => {
+    setIsJardin(false);
+  };
+
+  const handleModalClosePrimaria = () => {
+    setIsPrimaria(false);
+  };
+
+  const handleModalCloseSecundaria = () => {
+    setIsSecundaria(false);
+  };
+
+  return (
+    <div className="flex justify-center flex-auto gap-6 flex-col w-[90%] mx-auto">
+      <div>
+        <img
+          className="w-[25rem] h-full transition duration-500 hover:scale-105"
+          src="/images/inicial/1.jpg"
+          alt=""
+        />
+        <div className="bg-green-600 h-[15rem] mt-[1rem] transition duration-500 hover:scale-105">
+          <p className="pt-2 ml-4 text-4xl font-bold text-white font-Montserrat">
+            Inscripción Jardin <br />
+            Virgen Niña
+            <br /> Nivel Inicial
+          </p>
+          <div className="flex items-end justify-end h-[55px] mr-10 ">
+            <button
               className="bg-blue-500 hover:bg-blue-700 w-[8rem] h-[2.75rem] rounded-l-full rounded-r-full font-Montserrat text-white font-semibold transition duration-500 hover:scale-105"
               onClick={handleModalOpenJardin}
             >
               ¡Contactanos!
             </button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img className='w-[25rem] h-full mb-[1rem] transition duration-500 hover:scale-105' src='/images/5.jpeg' alt='' />
-                <div className='bg-green-700 h-[15rem] transition duration-500 hover:scale-105'>
-                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Inscripción Colegio <br /> Santo Cristo<br /> Nivel Primario
-                    </p>
-                    <div className='flex items-end justify-end h-[50px] mr-10'>
-                    <button
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          className="w-[25rem] h-full mb-[1rem] transition duration-500 hover:scale-105"
+          src="/images/5.jpeg"
+          alt=""
+        />
+        <div className="bg-green-700 h-[15rem] transition duration-500 hover:scale-105">
+          <p className="pt-2 ml-4 text-4xl font-bold text-white font-Montserrat">
+            Inscripción Colegio <br /> Santo Cristo
+            <br /> Nivel Primario
+          </p>
+          <div className="flex items-end justify-end h-[50px] mr-10">
+            <button
               className="bg-blue-500 hover:bg-blue-700 w-[8rem] h-[2.75rem] rounded-l-full rounded-r-full font-Montserrat text-white font-semibold transition duration-500 hover:scale-105"
               onClick={handleModalOpenPrimaria}
             >
               ¡Contactanos!
             </button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img className='w-[25rem] h-full transition duration-500 hover:scale-105' src='/images/secundaria/3.jpeg' alt='' />
-                <div className='bg-green-800 h-[15rem] mt-[1rem] transition duration-500 hover:scale-105'>
-                    <p className='pt-2 ml-4 text-4xl font-bold text-white font-Montserrat'>Inscripción Colegio <br /> Santo Cristo<br /> Nivel Secundario
-                    </p>
-                    <div className='flex items-end justify-end h-[50px] mr-10'>
-                    <button
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          className="w-[25rem] h-full transition duration-500 hover:scale-105"
+          src="/images/secundaria/3.jpeg"
+          alt=""
+        />
+        <div className="bg-green-800 h-[15rem] mt-[1rem] transition duration-500 hover:scale-105">
+          <p className="pt-2 ml-4 text-4xl font-bold text-white font-Montserrat">
+            Inscripción Colegio <br /> Santo Cristo
+            <br /> Nivel Secundario
+          </p>
+          <div className="flex items-end justify-end h-[50px] mr-10">
+            <button
               className="bg-blue-500 hover:bg-blue-700 w-[8rem] h-[2.75rem] rounded-l-full rounded-r-full font-Montserrat text-white font-semibold transition duration-500 hover:scale-105"
               onClick={handleModalOpenSecundaria}
             >
               ¡Contactanos!
             </button>
-                    </div>
-                </div>
-            </div>
-            <AdmisionModal
+          </div>
+        </div>
+      </div>
+      <AdmisionModal
         isOpen={isJardin}
         onClose={handleModalCloseJardin}
         buttonName={[
@@ -99,10 +118,10 @@ const AdmisionCuadro = () => {
           "PASO DE VIRGEN NIÑA A 1ER GRADO",
           "REINSCRIPCION NIVEL PRIMARIO",
         ]}
-         buttonLinks={[
-          "https://forms.gle/mmjk8kv8ut2meuyq6",
-          "https://forms.gle/Qx1ry2wJWc4i4Lcw7",
-          "https://forms.gle/qGogjGr8cYiXE4Wa7",
+        buttonLinks={[
+          "https://docs.google.com/forms/d/e/1FAIpQLSfHgjcB3R7FaI39G882njAbgVSSgs36R_HNskH7RPnSFiNTbA/viewform",
+          "https://docs.google.com/forms/d/e/1FAIpQLSezIbLemTtSpe1BjCq1VUcn221S36CswidvHK6f5fBaJOi7bw/viewform",
+          "https://docs.google.com/forms/d/e/1FAIpQLSejaHP8nKeU8rCZ8fF0_aLpkduskSIEZFf5aWVzqa49FJ_yng/viewform",
         ]}
       />
       <AdmisionModal
@@ -113,14 +132,14 @@ const AdmisionCuadro = () => {
           "PASO DE 6° NIVEL PRIMARIO A 1° AÑO NIVEL SECUNDARIO",
           "REMATRICULACION NIVEL SECUNDARIO",
         ]}
-         buttonLinks={[
+        buttonLinks={[
           "https://docs.google.com/forms/d/e/1FAIpQLSe6Ox8KaWKnnDMJCimn610hNJ-P-21KkYuT7RZKM4BGTKjqgA/viewform",
           "https://docs.google.com/forms/d/e/1FAIpQLSfcAyZ3lCAhRtKtwI5_bmW1rkNdzwIwtCVBL68-BhUuGCfUOQ/viewform",
           "https://docs.google.com/forms/d/e/1FAIpQLScRqNxr1HbmkMI8q_LGxsKyqGXTxRkefCcNYKxaWn9po7fLQg/viewform",
         ]}
       />
-        </div>
-    )
-}
+    </div>
+  );
+};
 
-export default AdmisionCuadro
+export default AdmisionCuadro;

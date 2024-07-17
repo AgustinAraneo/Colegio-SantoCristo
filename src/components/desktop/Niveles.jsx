@@ -101,8 +101,8 @@ const Niveles = () => {
         onClose={handleModalCloseJardin}
         buttonName={[
           "NUEVOS POSTULANTES JARDIN",
-          "REINSCRIPCIÓN SEGUNDA SECCION 2024",
-          "REINSCRIPCION TERCERA SECCION 2024",
+          "REINSCRIPCIÓN SEGUNDA SECCION 2025",
+          "REINSCRIPCION TERCERA SECCION 2025",
         ]}
         buttonLinks={[
           "https://forms.gle/bjkrcETjFpZNDzNc7",
@@ -118,10 +118,10 @@ const Niveles = () => {
           "PASO DE VIRGEN NIÑA A 1ER GRADO",
           "REINSCRIPCION NIVEL PRIMARIO",
         ]}
-         buttonLinks={[
-          "https://forms.gle/mmjk8kv8ut2meuyq6",
-          "https://forms.gle/Qx1ry2wJWc4i4Lcw7",
-          "https://forms.gle/qGogjGr8cYiXE4Wa7",
+        buttonLinks={[
+          "https://docs.google.com/forms/d/e/1FAIpQLSfHgjcB3R7FaI39G882njAbgVSSgs36R_HNskH7RPnSFiNTbA/viewform",
+          "https://docs.google.com/forms/d/e/1FAIpQLSezIbLemTtSpe1BjCq1VUcn221S36CswidvHK6f5fBaJOi7bw/viewform",
+          "https://docs.google.com/forms/d/e/1FAIpQLSejaHP8nKeU8rCZ8fF0_aLpkduskSIEZFf5aWVzqa49FJ_yng/viewform",
         ]}
       />
       <AdmisionModal
@@ -132,7 +132,7 @@ const Niveles = () => {
           "PASO DE 6° NIVEL PRIMARIO A 1° AÑO NIVEL SECUNDARIO",
           "REMATRICULACION NIVEL SECUNDARIO",
         ]}
-         buttonLinks={[
+        buttonLinks={[
           "https://docs.google.com/forms/d/e/1FAIpQLSe6Ox8KaWKnnDMJCimn610hNJ-P-21KkYuT7RZKM4BGTKjqgA/viewform",
           "https://docs.google.com/forms/d/e/1FAIpQLSfcAyZ3lCAhRtKtwI5_bmW1rkNdzwIwtCVBL68-BhUuGCfUOQ/viewform",
           "https://docs.google.com/forms/d/e/1FAIpQLScRqNxr1HbmkMI8q_LGxsKyqGXTxRkefCcNYKxaWn9po7fLQg/viewform",

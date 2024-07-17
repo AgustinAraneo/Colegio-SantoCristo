@@ -5,8 +5,22 @@ import foto4 from "../../public/images/feriaCiencias/portada.png";
 import foto5 from "../../public/images/feriaCiencias5to/portada.png";
 import foto6 from "../../public/images/Slider/Comienzo-clases.jpeg";
 import foto7 from "../../public/images/sagradoJesus/jesus.png";
+import foto8 from "../../public/images/9julio/portada.png";
+import foto9 from "../../public/images/onu/portada.jpeg";
 
 const imagesUltNovM = [
+  {
+    id: 9,
+    src: foto9,
+    alt: "Foto 9",
+    url: "/novedades/mobile/nacionesUnidas",
+  },
+  {
+    id: 8,
+    src: foto8,
+    alt: "Foto 8",
+    url: "/novedades/mobile/9julio",
+  },
   {
     id: 7,
     src: foto7,
