@@ -105,9 +105,9 @@ const Niveles = () => {
           "REINSCRIPCION TERCERA SECCION 2025",
         ]}
         buttonLinks={[
-          "https://forms.gle/bjkrcETjFpZNDzNc7",
-          "https://forms.gle/TviJsNSEVWHQVK888",
-          "https://forms.gle/mGgSgDn4BuTZ5Tea7",
+          "https://forms.gle/iP1Y8PHHw4QNRUBB9",
+          "https://forms.gle/PybaCCcX1CpatUyk8",
+          "https://forms.gle/YHHjRrFSTiGCVUNp8",
         ]}
       />
       <AdmisionModal
@@ -133,9 +133,9 @@ const Niveles = () => {
           "REMATRICULACION NIVEL SECUNDARIO",
         ]}
         buttonLinks={[
-          "https://docs.google.com/forms/d/e/1FAIpQLSe6Ox8KaWKnnDMJCimn610hNJ-P-21KkYuT7RZKM4BGTKjqgA/viewform",
-          "https://docs.google.com/forms/d/e/1FAIpQLSfcAyZ3lCAhRtKtwI5_bmW1rkNdzwIwtCVBL68-BhUuGCfUOQ/viewform",
-          "https://docs.google.com/forms/d/e/1FAIpQLScRqNxr1HbmkMI8q_LGxsKyqGXTxRkefCcNYKxaWn9po7fLQg/viewform",
+          "https://docs.google.com/forms/d/e/1FAIpQLSc1bc8ZWWVcru-FWrEgCh9-OWodwedeq5DCi-3pI8LmSpmGiQ/viewform ",
+          "https://docs.google.com/forms/d/e/1FAIpQLSf5fygVy9xqBFBdoMA8SkfUXrPH_bP3Ykfdjsf_hbk2kLBQYQ/viewform ",
+          "https://docs.google.com/forms/d/e/1FAIpQLSeMjDBNBxFjQMb5azJJHZkzS7hq0bG8eyBrPRWYMWnRFDPhhA/viewform",
         ]}
       />
     </div>
