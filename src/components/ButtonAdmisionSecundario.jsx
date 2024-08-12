@@ -1,7 +1,7 @@
 import React from "react";
 
 const GmailButton = () => {
-  const recipientEmail = "araneoagustin@gmail.com";
+  const recipientEmail = "secundariasantocristo20@gmail.com";
   const subject = "Inscripción Nivel Secundario";
 
   const handleClick = () => {
@@ -9,7 +9,14 @@ const GmailButton = () => {
     window.open(gmailUrl, "_blank");
   };
 
-  return <button className="bg-blue-500 hover:bg-blue-700 w-[8rem] h-[2.75rem] rounded-l-full rounded-r-full font-Montserrat text-white font-semibold transition duration-500 hover:scale-105" onClick={handleClick} >¡Contactanos!</button>;
+  return (
+    <button
+      className="bg-blue-500 hover:bg-blue-700 w-[8rem] h-[2.75rem] rounded-l-full rounded-r-full font-Montserrat text-white font-semibold transition duration-500 hover:scale-105"
+      onClick={handleClick}
+    >
+      ¡Contactanos!
+    </button>
+  );
 };
 
 export default GmailButton;
