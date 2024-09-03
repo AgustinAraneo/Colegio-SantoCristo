@@ -7,8 +7,22 @@ import foto6 from "../../public/images/Slider/Comienzo-clases.jpeg";
 import foto7 from "../../public/images/sagradoJesus/jesus.png";
 import foto8 from "../../public/images/9julio/portada.png";
 import foto9 from "../../public/images/onu/portada.jpeg";
+import foto10 from "../../public/images/fiestas-patronales/2.jpeg";
+import foto11 from "../../public/images/sala-de-5/portada.png";
 
 const imagesUltNovM = [
+  {
+    id: 11,
+    src: foto11,
+    alt: "Foto 11",
+    url: "/novedades/mobile/semanaESI",
+  },
+  {
+    id: 10,
+    src: foto10,
+    alt: "Foto 10",
+    url: "/novedades/mobile/fiestasPatronales",
+  },
   {
     id: 9,
     src: foto9,
