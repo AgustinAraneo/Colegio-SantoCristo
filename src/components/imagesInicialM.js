@@ -1,22 +1,28 @@
 import foto1 from "../../public/images/sala-de-5/portada.png";
-import foto2 from "../../public/images-carrousel/foto2.jpg";
-import foto3 from "../../public/images-carrousel/foto3.jpg";
+import foto2 from "../../public/images/jardin/virgen-maria-jardin/portada.png";
+import foto3 from "../../public/images/jardin/bendicion-remeras/portada.png";
 import foto4 from "../../public/images-carrousel/foto4.jpg";
 import foto5 from "../../public/images-carrousel/foto5.jpg";
 import foto6 from "../../public/images-carrousel/foto6.jpg";
 
 const imagesInicialM = [
   {
-    id: 1,
-    src: foto1,
-    alt: "Foto 1",
-    url: "/novedades/semanaESI",
+    id: 3,
+    src: foto3,
+    alt: "Foto 3",
+    url: "/novedades/bendicionesRemeras",
   },
   {
     id: 2,
     src: foto2,
     alt: "Foto 2",
-    url: "/",
+    url: "/novedades/virgenMaria",
+  },
+  {
+    id: 1,
+    src: foto1,
+    alt: "Foto 1",
+    url: "/novedades/semanaESI",
   },
   {
     id: 3,

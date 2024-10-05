@@ -9,8 +9,36 @@ import foto8 from "../../public/images/9julio/portada.png";
 import foto9 from "../../public/images/onu/portada.jpeg";
 import foto10 from "../../public/images/fiestas-patronales/2.jpeg";
 import foto11 from "../../public/images/sala-de-5/portada.png";
+import foto12 from "../../public/images/charla-tdh/1.jpeg";
+import foto13 from "../../public/images/jardin/virgen-maria-jardin/portada.png";
+import foto14 from "../../public/images/jardin/bendicion-remeras/portada.png";
+import foto15 from "../../public/images/dia-profesor/portada.png";
 
 const imagesUltNov = [
+  {
+    id: 15,
+    src: foto15,
+    alt: "Foto 15",
+    url: "/novedades/diaDelProfesor",
+  },
+  {
+    id: 14,
+    src: foto14,
+    alt: "Foto 14",
+    url: "/novedades/bendicionesRemeras",
+  },
+  {
+    id: 13,
+    src: foto13,
+    alt: "Foto 13",
+    url: "/novedades/virgenMaria",
+  },
+  {
+    id: 12,
+    src: foto12,
+    alt: "Foto 12",
+    url: "/novedades/charlaNeurologica",
+  },
   {
     id: 11,
     src: foto11,
