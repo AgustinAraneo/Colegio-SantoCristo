@@ -24,7 +24,7 @@ const MediosDePago = () => {
         </div>
         <div className="ml-[6rem] mt-[3rem]">
           <p>Tambien disponemos con los siguientes medios de pago:</p>
-          <ul className="list-disc list-inside ml-10 mt-[1rem]">
+          <ul className="list-disc list-inside ml-10 mt-4">
             <li>
               Pago mis cuentas (Cargar nuevamente el codigo de Pago Electronico
               Banelco - 7 Digitos)
