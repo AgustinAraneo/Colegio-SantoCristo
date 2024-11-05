@@ -13,8 +13,15 @@ import foto12 from "../../public/images/charla-tdh/1.jpeg";
 import foto13 from "../../public/images/jardin/virgen-maria-jardin/portada.png";
 import foto14 from "../../public/images/jardin/bendicion-remeras/portada.png";
 import foto15 from "../../public/images/dia-profesor/portada.png";
+import foto16 from "../../public/images/bco-ciudad/1.jpeg";
 
 const imagesUltNovM = [
+  {
+    id: 16,
+    src: foto16,
+    alt: "Foto 16",
+    url: "/novedades/BancoCiudad",
+  },
   {
     id: 15,
     src: foto15,

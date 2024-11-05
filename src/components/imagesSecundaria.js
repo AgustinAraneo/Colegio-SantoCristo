@@ -1,11 +1,17 @@
 import foto1 from "../../public/images/fiestas-patronales/2.jpeg";
 import foto2 from "../../public/images/charla-tdh/1.jpeg";
 import foto3 from "../../public/images/dia-profesor/portada.png";
-import foto4 from "../../public/images-carrousel/foto4.jpg";
+import foto4 from "../../public/images/bco-ciudad/1.jpeg";
 import foto5 from "../../public/images-carrousel/foto5.jpg";
 import foto6 from "../../public/images-carrousel/foto6.jpg";
 
 const imagesSecundaria = [
+  {
+    id: 4,
+    src: foto4,
+    alt: "Foto 4",
+    url: "/novedades/BancoCiudad",
+  },
   {
     id: 3,
     src: foto3,
@@ -23,12 +29,6 @@ const imagesSecundaria = [
     src: foto1,
     alt: "Foto 1",
     url: "/novedades/fiestasPatronales",
-  },
-  {
-    id: 4,
-    src: foto4,
-    alt: "Foto 4",
-    url: "/",
   },
   {
     id: 5,
