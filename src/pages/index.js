@@ -1,30 +1,24 @@
-import Desktop from '../components/desktop/Desktop'
-import Mobile from '../components/mobile/Mobile'
-import { useIsDesktop } from '../hooks/useIsDesktop'
-import { FaSpinner } from 'react-icons/fa'
-
+import Desktop from "../components/desktop/Desktop";
+import Mobile from "../components/mobile/Mobile";
 
 const Index = () => {
-	const { isDesktop } = useIsDesktop()
+  return (
+    <div>
+      <div className="block md:hidden">
+        <Mobile />
+      </div>
+      <div className="hidden md:block">
+        <Desktop />
+      </div>
+    </div>
+  );
+};
 
-	if (isDesktop) {
-		return <Desktop />
-	} else if (isDesktop === false) {
-		return <Mobile />
-	}
-	return <p><FaSpinner size={50} color="grey" className='animate-spin'/></p>
-}
-
-export default Index
-
-
-
-
+export default Index;
 
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 // import '../index.css';
-
 
 // let Index;
 // if (window.navigator.userAgent.match(/Mobile/)) {

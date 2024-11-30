@@ -3,51 +3,49 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Roboto Regular';
-  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto Light';
-  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-family: "Roboto Light";
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto Light Italic';
-  src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-family: "Roboto Light Italic";
+  src: url("../fonts/Roboto-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto Medium';
-  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+  font-family: "Roboto Medium";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Display Regular';
-  src: url('../fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+  font-family: "Display Regular";
+  src: url("../fonts/DMSerifDisplay-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Josefin';
-  src: url('../fonts/JosefinSans.ttf') format('truetype');
+  font-family: "Josefin";
+  src: url("../fonts/JosefinSans.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Oswald';
-  src: url('../fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Abel';
-  src: url('../fonts/Abel-Regular.ttf') format('truetype');
+  font-family: "Abel";
+  src: url("../fonts/Abel-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
-
-
 
 .pagination {
   display: flex;
@@ -168,7 +166,7 @@
 }
 
 .test1::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;
@@ -208,7 +206,6 @@
   transition: box-shadow 0.2s ease-in;
 }
 
-
 .test2 {
   position: relative;
   padding: 10px 20px;
@@ -241,7 +238,7 @@
 }
 
 .test2::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;
@@ -290,7 +287,7 @@
 }
 
 .test3::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;

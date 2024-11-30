@@ -13,7 +13,7 @@ const NavBar = () => {
     <nav className="bg-green-800 font-Montserrat">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
-          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <div className="absolute inset-y-0 left-0 flex items-center ">
             <button
               type="button"
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -54,7 +54,7 @@ const NavBar = () => {
               </svg>
             </button>
           </div>
-          <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex-1 flex items-center justify-center ">
             <div className="flex-shrink-0">
               <Link href="/">
                 <p className="text-white text-base font-bold text-center">
@@ -110,10 +110,17 @@ const NavBar = () => {
                     </p>
                   </li>
                 </Link>
-                <Link href="/mobile/Normativa2024">
+                <Link href="/Ingles">
                   <li>
                     <p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium">
-                      Normativa 2025
+                      Ingles
+                    </p>
+                  </li>
+                </Link>
+                <Link href="/Pastoral">
+                  <li>
+                    <p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium">
+                      Pastoral
                     </p>
                   </li>
                 </Link>
@@ -140,7 +147,7 @@ const NavBar = () => {
                     </p>
                   </li>
                 </Link>
-                <Link href="/mobile/NuestrosDocentes">
+                <Link href="/NuestrosDocentes">
                   <li>
                     <p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium">
                       Equipo
