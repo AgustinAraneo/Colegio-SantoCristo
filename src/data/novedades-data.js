@@ -24,7 +24,7 @@ export const novedadesData = [
     descripcion:
       "El Festejo del Día del Profesor en Nivel Secundario fue un evento especial donde los alumnos rindieron homenaje a sus profesores con",
     categoria: "Secundario",
-    link: "DiaProfesor",
+    link: "diaDelProfesor",
   },
   {
     imagen: "images/jardin/bendicion-remeras/portada.png",
@@ -32,7 +32,7 @@ export const novedadesData = [
     titulo: "Bendiciones de Remeras",
     descripcion: "Bendicion de las remeras de los egresaditos 💞",
     categoria: "Inicial",
-    link: "BendicionRemeras",
+    link: "bendicionesRemeras",
   },
   {
     imagen: "images/jardin/virgen-maria-jardin/portada.png",
@@ -41,7 +41,7 @@ export const novedadesData = [
     descripcion:
       "Así celebramos el cumple de la VIRGEN MARIA en el jardín.🎂🎉🎊",
     categoria: "Inicial",
-    link: "VirgeMaria",
+    link: "virgenMaria",
   },
   {
     imagen: "images/charla-tdh/1.jpeg",
@@ -50,7 +50,7 @@ export const novedadesData = [
     descripcion:
       "El 1 de marzo marca el inicio de un nuevo ciclo escolar en nuestro colegio. Esta fecha es muy importante para todos nosotros, ya que representa el comienzo de nuevas oportunidades de aprendizaje,",
     categoria: "Secundario",
-    link: "CharlaNeurologica",
+    link: "charlaNeurologica",
   },
   {
     imagen: "images/sala-de-5/portada.png",
@@ -59,7 +59,7 @@ export const novedadesData = [
     descripcion:
       "Este año, 2°grado ha tenido la oportunidad de realizar un paseo por TEMAIKEN.💛SALA AMARILLA T.T.💛 En la semana de la ESI, abordamos el tema de la EMPATÍA y el RESPETO, surgiendo grandes ideas y pensamientos.",
     categoria: "Inicial",
-    link: "SalaDe5",
+    link: "semanaESI",
   },
   {
     imagen: "images/fiestas-patronales/2.jpeg",
@@ -67,7 +67,7 @@ export const novedadesData = [
     titulo: "Fiestas Patronales",
     descripcion: "Fiestra patronales!",
     categoria: "Secundario",
-    link: "FiestasPatronales",
+    link: "fiestasPatronales",
   },
   {
     imagen: "images/onu/portada.jpeg",
@@ -75,7 +75,7 @@ export const novedadesData = [
     titulo: "ONU",
     descripcion: "Los chicos estuvieron en el evento de las Naciones Unidas!",
     categoria: "Secundario",
-    link: "ONU",
+    link: "nacionesUnidas",
   },
   {
     imagen: "images/9julio/portada.png",
@@ -83,7 +83,7 @@ export const novedadesData = [
     titulo: "Acto 9 de Julio",
     descripcion: "Festejos del acto del 9 de Julio",
     categoria: "Primario",
-    link: "9Julio",
+    link: "9julio",
   },
   {
     imagen: "images/sagradoJesus/jesus.png",
@@ -100,7 +100,7 @@ export const novedadesData = [
     descripcion:
       "El 1 de marzo marca el inicio de un nuevo ciclo escolar en nuestro colegio. Esta fecha es muy importante para todos nosotros, ya que representa el comienzo de nuevas oportunidades de aprendizaje, crecimiento personal y desarrollo académico. Estamos emocionados de dar la bienvenida a todos nuestros estudiantes y comenzar juntos este emocionante viaje educativo.",
     categoria: "Primario",
-    link: "ComienzoClases",
+    link: "inicioClases",
   },
   {
     imagen: "images/feriaCiencias5to/portada.png",
@@ -109,7 +109,7 @@ export const novedadesData = [
     descripcion:
       "La Feria de Ciencias 2023 coordinada por las  docentes de 5to grado resaltó el trabajo aúlico sobre EL CUERPO HUMANO",
     categoria: "Primario",
-    link: "FeriaCiencias5to",
+    link: "feriaCiencias5to",
   },
   {
     imagen: "images/feriaCiencias/portada.png",
@@ -118,7 +118,7 @@ export const novedadesData = [
     descripcion:
       "Este año, segundo grado A, B, C y D realizaron una muestra de lo trabajado presentando en la Feria Anual de Ciencias Naturales ",
     categoria: "Primario",
-    link: "FeriaCiencias",
+    link: "feriaCiencias",
   },
   {
     imagen: "images/temaiken/portada.png",
@@ -136,7 +136,7 @@ export const novedadesData = [
     descripcion:
       "Durante este viaje, los estudiantes tuvieron la oportunidad de explorar la hermosa ciudad de Tandil y aprender sobre su historia y cultura.",
     categoria: "Primario",
-    link: "Tandil",
+    link: "Tandil2023",
   },
   {
     imagen: "images/Slider/bendicion-ramos.jpg",

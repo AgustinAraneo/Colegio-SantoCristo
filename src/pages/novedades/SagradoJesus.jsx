@@ -1,27 +1,23 @@
 import React from "react";
-import Header from "../../components/desktop/Header";
-import Footer from "../../components/desktop/Footer";
+import NovedadesLayout from "../../components/NovedadesLayout";
 
-const sagradoJesus = () => {
+const SagradoJesus = () => {
+  const media = [
+    { type: "video", src: "/images/sagradoJesus/sagrado-corazon-de-jesus.mp4" },
+  ];
+
+  const title = "Mes del Sagrado Corazón de Jesús";
+  const subtitle = "Un mes de reflexión y bendiciones";
+  const text = "¡Que Dios los bendiga a todos!";
+
   return (
-    <div className="h-full bg-slate-100 bg-fixed bg-center bg-no-repeat bg-cover bg-fondo">
-      <Header />
-      <h1 className="text-5xl font-bold text-green-700 font-Montserrat text-center mt-4">
-        Mes del Sagrado Corazon de Jesus
-      </h1>
-      <p className="text-center">
-        <span className="font-bold">¡Que Dios los bendiga a todos!</span>
-      </p>
-      <div>
-        <video
-          src="/images/sagradoJesus/sagrado-corazon-de-jesus.mp4"
-          className="mx-auto w-auto h-[600px] rounded m-10"
-          controls
-        />
-      </div>
-      <Footer />
-    </div>
+    <NovedadesLayout
+      media={media}
+      title={title}
+      subtitle={subtitle}
+      text={text}
+    />
   );
 };
 
-export default sagradoJesus;
+export default SagradoJesus;

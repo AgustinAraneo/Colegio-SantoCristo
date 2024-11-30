@@ -194,7 +194,7 @@ const NavBar = () => {
               </ul>
             )}
           </div>
-          <Link href="/mobile/Noticias">
+          <Link href="/Novedades">
             <p className="text-gray-300 bg-blue-700 hover:text-white block px-3 py-2 rounded-md font-bold text-center text-lg shadow-xl">
               Novedades
             </p>

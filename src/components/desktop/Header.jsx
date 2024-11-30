@@ -163,7 +163,7 @@ const Header = () => {
       </nav>
       <a
         className="test3 font-Montserrat m-2 xl:text-base lg:text-xs text-[8px]"
-        href="/Noticias"
+        href="/Novedades"
       >
         NOVEDADES
       </a>
