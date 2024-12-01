@@ -3,7 +3,7 @@ import NovedadesLayout from "../../components/NovedadesLayout";
 
 const ArticulationProject = () => {
   const media = [
-    { type: "image", src: "/images/ingles/articulation-project.jpeg" },
+    { type: "image", src: "/images/Ingles/articulation-project.jpeg" },
   ];
 
   const title = "Articulation Project";
