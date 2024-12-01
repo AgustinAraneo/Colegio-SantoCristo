@@ -144,6 +144,55 @@ const HomeNovedades = () => {
             </ul>
           </div>
         </aside>
+
+        <button
+          className="lg:hidden fixed bottom-4 right-4 bg-[#024430] text-white p-3 rounded-full shadow-lg"
+          onClick={() => setShowModal(true)}
+        >
+          <RiFilter3Line size={24} />
+        </button>
+
+        {/* Modal para pantallas pequeñas */}
+        {showModal && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center">
+            <div className="bg-white p-6 rounded-lg shadow-lg w-11/12 max-w-sm">
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-lg font-bold text-gray-800">
+                  Filtrar por nivel:
+                </h3>
+                <button
+                  className="text-gray-500 hover:text-gray-700"
+                  onClick={() => setShowModal(false)}
+                >
+                  ✕
+                </button>
+              </div>
+              <ul className="grid grid-cols-2 gap-3">
+                {[
+                  "Todos",
+                  "Inicial",
+                  "Primario",
+                  "Secundario",
+                  "Pastoral",
+                  "Ingles",
+                ].map((categoria) => (
+                  <li key={categoria} className="mt-2">
+                    <button
+                      onClick={() => handleFiltro(categoria)}
+                      className={`w-full py-2 px-3 text-center rounded ${
+                        categoriaSeleccionada === categoria
+                          ? "bg-[#024430] text-white font-bold"
+                          : "bg-gray-200 hover:bg-gray-300 transition duration-200"
+                      }`}
+                    >
+                      {categoria}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="mt-10 w-full bg-[#84A17D] h-[40vh] flex flex-col  justify-center">

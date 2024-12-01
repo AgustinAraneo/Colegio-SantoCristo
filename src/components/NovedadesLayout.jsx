@@ -11,15 +11,15 @@ const NovedadesLayout = ({ media, title, subtitle, text }) => {
     <div>
       <HeaderContainer />
 
-      <div className="bg-[#024430] my-10">
-        <h2 className="text-[36px] leading-[35px] md:text-[50px] font-bold md:leading-[49px] text-white text-center py-28">
+      <div className="bg-[#024430] my-6 md:my-10">
+        <h2 className="text-[36px] leading-[40px] md:text-[50px] font-bold md:leading-[49px] text-white text-center py-16 md:py-28">
           {title}
         </h2>
       </div>
 
       <div className="max-w-[1296px] mx-auto my-10 p-4">
         {/* Carousel */}
-        <div className="w-full h-[700px] mb-6 ">
+        <div className="w-full h-full md:h-[700px] mb-6 ">
           <Swiper
             modules={[Navigation, Pagination]}
             navigation
@@ -49,10 +49,12 @@ const NovedadesLayout = ({ media, title, subtitle, text }) => {
 
         {/* Text Section */}
         <div className="text-left flex flex-col gap-4">
-          <h3 className="font-medium text-[60px] leading-[64px] text-[#172426]">
+          <h3 className="font-medium text-[26px] md:text-[60px] leading-[30px] md:leading-[64px] text-[#172426]">
             {subtitle}
           </h3>
-          <p className="text-[18px] leading-[30px] text-[#3F4E50]">{text}</p>
+          <p className="text-[15px] md:text-[18px] leading-[20px] md:leading-[30px] text-[#3F4E50]">
+            {text}
+          </p>
         </div>
       </div>
       <div className="mt-10 w-full bg-[#84A17D] h-[40vh] flex flex-col  justify-center">
