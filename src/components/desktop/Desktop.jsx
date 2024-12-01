@@ -7,6 +7,7 @@ import Lottie from "react-lottie";
 import animation from "../../education.json";
 import SliderUltNov from "./SliderUltNov";
 import ResumenNovedades from "../ResumenNovedades";
+import BecasButton from "../BecasButton";
 
 const educationCv = {
   loop: true,
@@ -40,6 +41,9 @@ const Desktop = () => {
         <div style={{ width: "40%", margin: "0 auto", marginTop: "-100px" }}>
           <Lottie options={educationCv} isClickToPauseDisabled ariaRole="img" />
         </div>
+      </div>
+      <div className="fixed right-2 bottom-2">
+        <BecasButton />
       </div>
       <Footer />
     </div>
