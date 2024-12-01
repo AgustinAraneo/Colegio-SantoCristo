@@ -1,6 +1,6 @@
 export const novedadesData = [
   {
-    imagen: "images/ingles/articulation-project.jpeg",
+    imagen: "images/Ingles/articulation-project.jpeg",
     fecha: "2024",
     titulo: "Articulation Project",
     descripcion:

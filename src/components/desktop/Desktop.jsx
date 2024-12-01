@@ -5,7 +5,6 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Lottie from "react-lottie";
 import animation from "../../education.json";
-import SliderUltNov from "./SliderUltNov";
 import ResumenNovedades from "../ResumenNovedades";
 import BecasButton from "../BecasButton";
 

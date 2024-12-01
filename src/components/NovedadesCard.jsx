@@ -47,7 +47,7 @@ const NovedadesCard = ({
         {/* Botones */}
         <div className="pt-8 flex justify-between">
           <Link
-            href={`/Novedades/${link}`}
+            href={`/novedades/${link}`}
             className="bg-[#84A17D] text-white px-6 py-3 rounded hover:bg-[#637a5e] transition-all"
           >
             Leer más

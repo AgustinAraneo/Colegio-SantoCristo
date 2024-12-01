@@ -16,7 +16,7 @@ const NovedadesCardMini = ({ imagen, titulo, categoria, link }) => {
         />
       </div>
       {/* Contenido */}
-      <div className="p-4 flex flex-col flex-grow justify-between">
+      <div className="p-4 flex flex-col flex-grow justify-between h-full md:h-[100px]">
         {/* Título y Categoría */}
         <div>
           <h3 className="text-[16px] lg:text-[18px] 2xl:text-[20px] font-bold mb-2 leading-snug">
@@ -29,7 +29,7 @@ const NovedadesCardMini = ({ imagen, titulo, categoria, link }) => {
         {/* Botón */}
         <div className="mt-4">
           <Link
-            href={`/Novedades/${link}`}
+            href={`/novedades/${link}`}
             className="text-[#84A17D] text-[14px] lg:text-[16px] 2xl:text-[18px] font-medium hover:underline"
           >
             Leer más
