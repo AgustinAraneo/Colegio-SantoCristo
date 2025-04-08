@@ -29,6 +29,8 @@ module.exports = {
         "banner-rect-1": "url('/images/Ingles/rect-1.png')",
         "banner-rect-2": "url('/images/Ingles/rect-2.png')",
         "banner-rect-3": "url('/images/Ingles/rect-1.png')",
+        "banner-past-1": "url('/images/Pastoral/stock-2.jpeg')",
+        "banner-past-2": "url('/images/Pastoral/stock-1.jpeg')",
         prueba: "url('/images/prueba.jpg')",
       },
       boxShadow: {
