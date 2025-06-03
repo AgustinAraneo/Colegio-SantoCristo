@@ -111,7 +111,7 @@ const HomeNovedades = () => {
           )}
         </div>
 
-        <aside className="hidden lg:block w-[400px]">
+        <aside className="hidden lg:block w-[400px] h-fit sticky top-4">
           <div className="bg-[#F4F5F6] p-4 rounded-[8px] shadow-redcoach-lg flex flex-col gap-2">
             <div className="flex items-center gap-2">
               <RiFilter3Line />

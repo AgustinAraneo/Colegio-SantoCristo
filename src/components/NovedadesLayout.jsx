@@ -39,7 +39,7 @@ const NovedadesLayout = ({ media, title, subtitle, text }) => {
                   <video
                     src={item.src}
                     controls
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 )}
               </SwiperSlide>

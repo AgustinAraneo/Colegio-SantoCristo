@@ -1,5 +1,22 @@
 export const novedadesData = [
   {
+    imagen: "images/25-de-mayo/portada.png",
+    fecha: "2025",
+    titulo: "Así Se Vivió el 25 de Mayo en el Colegio Santo Cristo",
+    descripcion:
+      "5 to grado A y B ju to a sus familias organizaron un NOTICIERO COLONIAL",
+    categoria: "Primario",
+    link: "25DeMayo",
+  },
+  {
+    imagen: "images/promo-en-accion/promo.png",
+    fecha: "2025",
+    titulo: "La Promo En Acción",
+    descripcion: "Los 6tos años organizaron una Feria del Plato",
+    categoria: "Secundario",
+    link: "promoEnAccion",
+  },
+  {
     imagen: "images/Ingles/articulation-project.jpeg",
     fecha: "2024",
     titulo: "Articulation Project",
