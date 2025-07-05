@@ -1,5 +1,77 @@
 export const novedadesData = [
   {
+    imagen: "images/visita-museo/1.jpg",
+    fecha: "2025",
+    titulo: 'Visita Educativa al Museo "Prohibido no tocar"',
+    descripcion:
+      "Los estudiantes de 3° grado vivieron una experiencia interactiva y divertida explorando ciencia y tecnología en el museo.",
+    categoria: "Primario",
+    link: "2025/visitaMuseo",
+  },
+  {
+    imagen: "images/pascua-2025/1.jpg",
+    fecha: "2025",
+    titulo: "Celebraciones de Pascua",
+    descripcion:
+      "Compartimos momentos especiales durante las celebraciones de Pascua en el colegio.",
+    categoria: "Secundario",
+    link: "2025/pascua",
+  },
+  {
+    imagen: "images/pentecostes-2025/1.jpg",
+    fecha: "2025",
+    titulo: "Obra de Pentecostés y Jubileo",
+    descripcion:
+      "Los alumnos de primaria representaron la obra de Pentecostés y celebraron el Jubileo con alegría y creatividad.",
+    categoria: "Primario",
+    link: "2025/pentecostes",
+  },
+  {
+    imagen: "images/examenes-ingles-2025/1.jpg",
+    fecha: "2025",
+    titulo: "Entrega de Certificados de Inglés",
+    descripcion:
+      "Alumnos recibieron certificados internacionales de inglés en los niveles A2 y B1.",
+    categoria: "Ingles",
+    link: "2025/examenIngles",
+  },
+  {
+    imagen: "images/certamen-matematicas/1.jpg",
+    fecha: "2025",
+    titulo: "Certamen de Matemáticas",
+    descripcion:
+      "Los alumnos desafiaron obstáculos matemáticos en el certamen, guiados por docentes y capitanes.",
+    categoria: "Secundario",
+    link: "2025/matematicas",
+  },
+  {
+    imagen: "images/feria-universidades-2025/1.jpg",
+    fecha: "2025",
+    titulo: "Visita a la Feria de Universidades",
+    descripcion:
+      "Los alumnos de 6to año de secundaria visitaron la Feria de Universidades en el Colegio Eccleston de Lanús.",
+    categoria: "Secundario",
+    link: "2025/feriaUniversidades",
+  },
+  {
+    imagen: "images/promesa-bandera-2025/1.jpg",
+    fecha: "2025",
+    titulo: "Renovación de la Promesa a la Bandera",
+    descripcion:
+      "Los alumnos de 6to año de secundaria renovaron su compromiso con los valores patrios.",
+    categoria: "Secundario",
+    link: "2025/promesaBandera",
+  },
+  {
+    imagen: "images/dia-de-la-bandera-2025/1.jpg",
+    fecha: "2025",
+    titulo: "Celebración del Día de la Bandera",
+    descripcion:
+      "Los estudiantes de secundaria conmemoraron una fecha patria especial.",
+    categoria: "Secundario",
+    link: "2025/diaBandera",
+  },
+  {
     imagen: "images/25-de-mayo/portada.png",
     fecha: "2025",
     titulo: "Así Se Vivió el 25 de Mayo en el Colegio Santo Cristo",
