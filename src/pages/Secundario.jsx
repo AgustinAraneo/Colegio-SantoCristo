@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/desktop/Header";
 import Footer from "../components/desktop/Footer";
 import MapColegioVisual from "../components/desktop/MapColegioVisual";
-import GmailButtonSecundario from "@/components/ButtonCv";
+import GmailButtonSecundario from "../components/ButtonCv";
 
 const Secundario = () => {
   return (

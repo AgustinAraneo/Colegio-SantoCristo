@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/mobile/Header";
 import Footer from "../../components/mobile/Footer";
 import "animate.css";
-import GmailButtonSecundario from "@/components/ButtonCv";
+import GmailButtonSecundario from "../../components/ButtonCv";
 import MapColegioVisual from "../../components/mobile/MapColegioVisual";
 
 const Secundario = () => {
