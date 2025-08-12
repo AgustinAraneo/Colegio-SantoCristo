@@ -1,6 +1,6 @@
 import React from "react";
 
-const GmailButton = () => {
+const GmailButtonSecundario = () => {
   const recipientEmail = "inscripcionespri2021@gmail.com";
   const subject = "CV - (Tu Nombre)";
 
@@ -10,13 +10,10 @@ const GmailButton = () => {
   };
 
   return (
-    <button
-      onClick={handleClick}
-      className="test1 font-Montserrat"
-    >
+    <button onClick={handleClick} className="test1 font-Montserrat">
       Contáctanos
     </button>
   );
 };
 
-export default GmailButton;
+export default GmailButtonSecundario;

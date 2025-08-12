@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../components/desktop/Header";
 import Footer from "../components/desktop/Footer";
-import GmailButton from "../components/ButtonAdmisionPrimario";
 import MapColegioVisual from "../components/desktop/MapColegioVisual";
+import GmailButtonSecundario from "@/components/ButtonCv";
 
 const Secundario = () => {
   return (
@@ -102,10 +102,7 @@ const Secundario = () => {
             <br /> Nivel Secundario
           </p>
           <div className="flex items-end justify-end h-[90px] mr-10">
-            <GmailButton
-              recipientEmail="secsantoinscrip2024@gmail.com"
-              subject="Inscripción Nivel Secundario"
-            />
+            <GmailButtonSecundario />
           </div>
         </div>
       </div>

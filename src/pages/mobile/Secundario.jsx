@@ -2,9 +2,8 @@ import React from "react";
 import Header from "../../components/mobile/Header";
 import Footer from "../../components/mobile/Footer";
 import "animate.css";
-import GmailButton from "../../components/ButtonAdmisionSecundario";
+import GmailButtonSecundario from "@/components/ButtonCv";
 import MapColegioVisual from "../../components/mobile/MapColegioVisual";
-import { GmailButtonSecundario } from "@/components/ButtonAdmisionPrimario";
 
 const Secundario = () => {
   return (
