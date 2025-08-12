@@ -99,10 +99,13 @@ const Secundario = () => {
         >
           <p className="pt-2 ml-4 text-4xl font-bold text-white font-Montserrat">
             Inscripción Colegio <br /> Santo Cristo
-            <br /> Nivel Primario
+            <br /> Nivel Secundario
           </p>
           <div className="flex items-end justify-end h-[90px] mr-10">
-            <GmailButton />
+            <GmailButton
+              recipientEmail="secsantoinscrip2024@gmail.com"
+              subject="Inscripción Nivel Secundario"
+            />
           </div>
         </div>
       </div>

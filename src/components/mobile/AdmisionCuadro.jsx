@@ -101,13 +101,13 @@ const AdmisionCuadro = () => {
         onClose={handleModalCloseJardin}
         buttonName={[
           "NUEVOS POSTULANTES JARDIN",
-          "REINSCRIPCIÓN SEGUNDA SECCION 2025",
-          "REINSCRIPCION TERCERA SECCION 2025",
+          "REINSCRIPCIÓN SEGUNDA SECCION 2026",
+          "REINSCRIPCION TERCERA SECCION 2026",
         ]}
         buttonLinks={[
-          "https://forms.gle/iP1Y8PHHw4QNRUBB9",
-          "https://forms.gle/PybaCCcX1CpatUyk8",
-          "https://forms.gle/YHHjRrFSTiGCVUNp8",
+          "https://forms.gle/RoeLtfwJZ16apjFo6",
+          "https://forms.gle/PVXWjYCB29GqNdWo8",
+          "https://forms.gle/vjUe4BJDbE6DjYbY7",
         ]}
       />
       <AdmisionModal
@@ -119,9 +119,9 @@ const AdmisionCuadro = () => {
           "REINSCRIPCION NIVEL PRIMARIO",
         ]}
         buttonLinks={[
-          "https://docs.google.com/forms/d/e/1FAIpQLSfHgjcB3R7FaI39G882njAbgVSSgs36R_HNskH7RPnSFiNTbA/viewform",
-          "https://docs.google.com/forms/d/e/1FAIpQLSezIbLemTtSpe1BjCq1VUcn221S36CswidvHK6f5fBaJOi7bw/viewform",
-          "https://docs.google.com/forms/d/e/1FAIpQLSejaHP8nKeU8rCZ8fF0_aLpkduskSIEZFf5aWVzqa49FJ_yng/viewform",
+          "https://docs.google.com/forms/d/13dkkRnNPJ83lrZMiWDEx4P6TERUfw6lh4Hiki46XRCA/edit",
+          "https://docs.google.com/forms/d/1a2OmgTfBex_-vuyT_HPRKtbtRhyqiR0QzRD7atKYymg/edit",
+          "https://docs.google.com/forms/d/1QBCWSX3-w9x-B7N5ALoEhiB8Gmz2xpp63mcrkZjHvIQ/edit",
         ]}
       />
       <AdmisionModal
@@ -133,9 +133,9 @@ const AdmisionCuadro = () => {
           "REMATRICULACION NIVEL SECUNDARIO",
         ]}
         buttonLinks={[
-          "https://docs.google.com/forms/d/e/1FAIpQLSc1bc8ZWWVcru-FWrEgCh9-OWodwedeq5DCi-3pI8LmSpmGiQ/viewform ",
-          "https://docs.google.com/forms/d/e/1FAIpQLSf5fygVy9xqBFBdoMA8SkfUXrPH_bP3Ykfdjsf_hbk2kLBQYQ/viewform ",
-          "https://docs.google.com/forms/d/e/1FAIpQLSeMjDBNBxFjQMb5azJJHZkzS7hq0bG8eyBrPRWYMWnRFDPhhA/viewform",
+          "https://docs.google.com/forms/d/e/1FAIpQLScQfE2LpA_FFieFULSugu9ZkTF0hRO1cZvbazOqAqnwWFFHOw/viewform?usp=header",
+          "https://docs.google.com/forms/d/e/1FAIpQLSfAYH6k4BjQ-UmVwnzurzIJqCpe-njcet_VjhXrdVTbemFcMQ/viewform?usp=dialog",
+          "https://docs.google.com/forms/d/e/1FAIpQLSeV7XEDF37PGFA0vlu_68oM1iubKbQ1PAZJ5tUhAnC10SjiWw/viewform?usp=dialog",
         ]}
       />
     </div>

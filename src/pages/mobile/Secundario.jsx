@@ -4,6 +4,7 @@ import Footer from "../../components/mobile/Footer";
 import "animate.css";
 import GmailButton from "../../components/ButtonAdmisionSecundario";
 import MapColegioVisual from "../../components/mobile/MapColegioVisual";
+import { GmailButtonSecundario } from "@/components/ButtonAdmisionPrimario";
 
 const Secundario = () => {
   return (
@@ -103,7 +104,7 @@ const Secundario = () => {
             <br /> Nivel Secundario
           </p>
           <div className="flex items-end justify-end h-[90px] mr-10">
-            <GmailButton />
+            <GmailButtonSecundario />
           </div>
         </div>
       </div>
