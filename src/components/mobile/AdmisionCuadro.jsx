@@ -119,9 +119,9 @@ const AdmisionCuadro = () => {
           "REINSCRIPCION NIVEL PRIMARIO",
         ]}
         buttonLinks={[
-          "https://docs.google.com/forms/d/13dkkRnNPJ83lrZMiWDEx4P6TERUfw6lh4Hiki46XRCA/edit",
-          "https://docs.google.com/forms/d/1a2OmgTfBex_-vuyT_HPRKtbtRhyqiR0QzRD7atKYymg/edit",
-          "https://docs.google.com/forms/d/1QBCWSX3-w9x-B7N5ALoEhiB8Gmz2xpp63mcrkZjHvIQ/edit",
+          "https://docs.google.com/forms/d/e/1FAIpQLSc3epEFKSzOEgI4qqgQ4wkPMkb5BtuRht8UQ1NV-xdGsHuMYQ/viewform?usp=header",
+          "https://docs.google.com/forms/d/e/1FAIpQLSfEQOvqcTOr8fgTalqOs0Xti3wzKkRhpzyzgWBEtIHtnWsyzQ/viewform?usp=header",
+          "https://docs.google.com/forms/d/e/1FAIpQLScc-MiRFPH-kQjSeVkLcHh2ihyQFlJggEmA19FWKhZqbjUzuw/viewform?usp=header",
         ]}
       />
       <AdmisionModal
