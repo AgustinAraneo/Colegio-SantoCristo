@@ -1,5 +1,99 @@
 export const novedadesData = [
   {
+    titulo: "FIESTAS PATRONALES DIOCESANAS - 15 DE AGOSTO 2025",
+    descripcion:
+      "Los abanderados y escoltas del Nivel Secundario representaron a nuestra comunidad educativa en la procesión y misa del 15 de agosto en la Catedral de Avellaneda-Lanús.",
+    categoria: "Pastoral",
+    fecha: "2025",
+    imagen: "/images/Pastoral/1.jpeg",
+    link: "fiestaspatronalesdioc",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/Pastoral/1.jpeg",
+        },
+      ],
+      text: "Nuestra comunidad educativa fue representada en la Catedral de Avellaneda-Lanús por los abanderados y escoltas del Nivel Secundario. Los estudiantes, acompañados por el equipo de conducción y el equipo de pastoral, participaron de la procesión y misa realizadas el pasado 15 de agosto.",
+    },
+  },
+  {
+    titulo: "CHARLAS DE ESI",
+    descripcion:
+      "Los más jóvenes de nuestro Nivel Secundario participaron con curiosidad y entusiasmo de charlas a cargo de NOSOTRAS",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/esi/1.jpeg",
+    link: "charlasdeesi",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/esi/1.jpeg",
+        },
+      ],
+      text: "Los estudiantes más jóvenes de nuestro Nivel Secundario participaron con gran curiosidad y entusiasmo de una serie de charlas organizadas y conducidas por NOSOTRAS. Durante las actividades, los jóvenes tuvieron la oportunidad de reflexionar, aprender y compartir ideas sobre temas de interés, promoviendo un espacio de diálogo y crecimiento personal dentro de nuestra comunidad educativa. La participación activa de cada estudiante demostró el compromiso y la motivación de nuestra comunidad por seguir generando experiencias educativas significativas y enriquecedoras.",
+    },
+  },
+  {
+    titulo: "CELEBRACIÓN DEL DIA DE LA INDEPENDENCIA",
+    descripcion:
+      "Acto conmemorativo del 9 de julio con gran entusiasmo de estudiantes y profesores.",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/9julio/2025-1.jpeg",
+    link: "celebracindeldiadela",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/9julio/2025-1.jpeg",
+        },
+      ],
+      text: "Con entusiasmo y gran compromiso de estudiantes y profesores, se realizó el acto conmemorativo del 9 de julio, un momento de alegría compartida en nuestra comunidad educativa.",
+    },
+  },
+  {
+    titulo: "SALIDAS EDUCATIVAS DE 5° AÑO",
+    descripcion:
+      "Después de mucho esperar los alumnos de 5 to A y B realizaron la Visita al Museo de Ciencias Naturales \n…..la experiencia fue maravillosa.",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images/salidas5to/1.jpeg",
+    link: "salidaseducativasde5",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/salidas5to/1.jpeg",
+        },
+      ],
+      text: "Después de mucho esperar los alumnos de 5 to A y B realizaron la Visita al Museo de Ciencias Naturales \n…..la experiencia fue maravillosa.\nAprender ,  experimentar y compartir …. Fue una jornada hermosa.\nGracias Seños y chicos por vivir con alegría cada actividad pensada para ustedes.",
+    },
+  },
+  {
+    titulo: "CAMINO DE ARTICULACIÓN DEL NIVEL INICIAL CON EL NIVEL PRIMARIO",
+    descripcion:
+      '"Los directivos de primaria visitaron las salas del jardín y fueron recibidos con alegría y entusiasmo por los niños de tercera sección. Este camino de articulación seguirá creciendo. 🥰',
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images/articulacion/1.jpeg",
+    link: "caminodearticulacind",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/articulacion/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/articulacion/2.jpeg",
+        },
+      ],
+      text: "Compartimos algunas fotos de la visita que realizaron los directivos de primaria a las salas del jardín. Los niños de la tercera sección, de ambos turnos, las recibieron, a Fabiana y Agustina, con mucha alegría y entusiasmo. Este camino de articulación tendrá mucho más....🥰",
+    },
+  },
+  {
     imagen: "images/visita-museo/1.jpg",
     fecha: "2025",
     titulo: 'Visita Educativa al Museo "Prohibido no tocar"',
@@ -7,6 +101,15 @@ export const novedadesData = [
       "Los estudiantes de 3° grado vivieron una experiencia interactiva y divertida explorando ciencia y tecnología en el museo.",
     categoria: "Primario",
     link: "2025/visitaMuseo",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/visita-museo/1.jpg",
+        },
+      ],
+      text: 'Los estudiantes de 3° grado participaron en una enriquecedora visita al Museo "Prohibido no tocar", donde tuvieron la oportunidad de explorar y aprender de manera interactiva y lúdica diversos conceptos científicos y tecnológicos. Durante la visita, los alumnos desarrollaron habilidades fundamentales como la observación, el análisis y la resolución de problemas, mientras disfrutaban de una experiencia educativa innovadora y divertida en compañía de sus compañeros y docentes.',
+    },
   },
   {
     imagen: "images/pascua-2025/1.jpg",
@@ -16,6 +119,15 @@ export const novedadesData = [
       "Compartimos momentos especiales durante las celebraciones de Pascua en el colegio.",
     categoria: "Secundario",
     link: "2025/pascua",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/pascua-2025/1.jpg",
+        },
+      ],
+      text: "Durante la Pascua, alumnos y docentes participaron en distintas actividades conmemorativas, reflexionando sobre el significado de esta fecha y celebrando juntos en un ambiente de alegría y unión.",
+    },
   },
   {
     imagen: "images/pentecostes-2025/1.jpg",
@@ -34,6 +146,15 @@ export const novedadesData = [
       "Alumnos recibieron certificados internacionales de inglés en los niveles A2 y B1.",
     categoria: "Ingles",
     link: "2025/examenIngles",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/examenes-ingles-2025/1.jpg",
+        },
+      ],
+      text: "Felicitamos a los estudiantes que han alcanzado un nuevo logro académico al recibir sus certificados internacionales de inglés en los niveles A2 y B1. Este reconocimiento refleja su dedicación y esfuerzo en el aprendizaje del idioma, y los motiva a seguir avanzando en su formación. La entrega de certificados fue un momento especial para alumnos, familias y docentes.",
+    },
   },
   {
     imagen: "images/certamen-matematicas/1.jpg",
