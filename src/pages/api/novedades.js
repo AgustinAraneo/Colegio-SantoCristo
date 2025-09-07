@@ -4,6 +4,17 @@ import { novedadesData } from "../../data/novedades-data";
 // En producción, esto debería conectarse a una base de datos real
 let novedades = [...novedadesData];
 
+// Función para verificar autenticación
+const verifyAuth = (req) => {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith("Bearer ")) {
+    return false;
+  }
+  const token = authHeader.substring(7);
+  // En producción, validar el token JWT aquí
+  return token && token.length > 10; // Validación simple
+};
+
 export default function handler(req, res) {
   // Configurar CORS
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -11,11 +22,16 @@ export default function handler(req, res) {
     "Access-Control-Allow-Methods",
     "GET, POST, PUT, DELETE, OPTIONS"
   );
-  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
   if (req.method === "OPTIONS") {
     res.status(200).end();
     return;
+  }
+
+  // Verificar autenticación para operaciones de escritura
+  if (req.method !== "GET" && !verifyAuth(req)) {
+    return res.status(401).json({ error: "No autorizado" });
   }
 
   if (req.method === "GET") {

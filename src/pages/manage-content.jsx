@@ -6,12 +6,17 @@ import {
   generateNovedadesDataFile,
   copyToClipboard,
 } from "../utils/exportNovedades";
+import { ADMIN_CONFIG } from "../config/admin";
 
 const ManageContent = () => {
   const [novedades, setNovedades] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
   const [editingNovedad, setEditingNovedad] = useState(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [accessCode, setAccessCode] = useState("");
+  const [showLogin, setShowLogin] = useState(true);
+  const [authToken, setAuthToken] = useState(null);
   const [formData, setFormData] = useState({
     titulo: "",
     descripcion: "",
@@ -35,8 +40,10 @@ const ManageContent = () => {
 
   // Cargar novedades al montar el componente
   useEffect(() => {
-    fetchNovedades();
-  }, []);
+    if (isAuthenticated) {
+      fetchNovedades();
+    }
+  }, [isAuthenticated]);
 
   const fetchNovedades = async () => {
     try {
@@ -48,6 +55,23 @@ const ManageContent = () => {
     } finally {
       setLoading(false);
     }
+  };
+
+  // Función helper para hacer requests autenticados
+  const authenticatedFetch = async (url, options = {}) => {
+    const headers = {
+      "Content-Type": "application/json",
+      ...options.headers,
+    };
+
+    if (authToken) {
+      headers["Authorization"] = `Bearer ${authToken}`;
+    }
+
+    return fetch(url, {
+      ...options,
+      headers,
+    });
   };
 
   const handleInputChange = (e) => {
@@ -125,11 +149,8 @@ const ManageContent = () => {
     try {
       if (editingNovedad !== null) {
         // Editar novedad existente
-        const response = await fetch("/api/novedades", {
+        const response = await authenticatedFetch("/api/novedades", {
           method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
           body: JSON.stringify({
             index: editingNovedad,
             novedad: nuevaNovedad,
@@ -143,11 +164,8 @@ const ManageContent = () => {
         }
       } else {
         // Crear nueva novedad
-        const response = await fetch("/api/novedades", {
+        const response = await authenticatedFetch("/api/novedades", {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
           body: JSON.stringify(nuevaNovedad),
         });
 
@@ -197,11 +215,8 @@ const ManageContent = () => {
   const handleDelete = async (index) => {
     if (confirm("¿Estás seguro de que quieres eliminar esta novedad?")) {
       try {
-        const response = await fetch("/api/novedades", {
+        const response = await authenticatedFetch("/api/novedades", {
           method: "DELETE",
-          headers: {
-            "Content-Type": "application/json",
-          },
           body: JSON.stringify({ index }),
         });
 
@@ -225,6 +240,92 @@ const ManageContent = () => {
     const code = generateNovedadesDataFile(novedades);
     copyToClipboard(code);
   };
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/api/auth", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ code: accessCode }),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setAuthToken(data.token);
+        setIsAuthenticated(true);
+        setShowLogin(false);
+        setAccessCode("");
+      } else {
+        alert(data.message || "Código de acceso incorrecto");
+        setAccessCode("");
+      }
+    } catch (error) {
+      console.error("Error de autenticación:", error);
+      alert("Error de conexión. Intenta nuevamente.");
+      setAccessCode("");
+    }
+  };
+
+  const handleLogout = () => {
+    setIsAuthenticated(false);
+    setShowLogin(true);
+    setAccessCode("");
+    setAuthToken(null);
+  };
+
+  // Pantalla de login
+  if (showLogin) {
+    return (
+      <div className="bg-[#FAFAFA] min-h-screen">
+        <HeaderContainer />
+        <div className="max-w-md mx-auto px-4 py-20">
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <div className="text-center mb-8">
+              <h1 className="text-3xl font-bold text-[#024430] mb-2">
+                {ADMIN_CONFIG.LOGIN_TITLE}
+              </h1>
+              <p className="text-gray-600">{ADMIN_CONFIG.LOGIN_MESSAGE}</p>
+            </div>
+
+            <form onSubmit={handleLogin} className="space-y-6">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Código de Acceso
+                </label>
+                <input
+                  type="password"
+                  value={accessCode}
+                  onChange={(e) => setAccessCode(e.target.value)}
+                  required
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#84A17D]"
+                  placeholder="Ingresa el código de acceso"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-[#84A17D] text-white py-2 rounded-lg hover:bg-[#6B8A64] transition font-semibold"
+              >
+                Acceder
+              </button>
+            </form>
+
+            <div className="mt-6 p-3 bg-blue-50 rounded border-l-4 border-blue-400">
+              <p className="text-blue-800 text-sm">
+                <strong>💡 Nota:</strong> {ADMIN_CONFIG.LOGIN_NOTE}
+              </p>
+            </div>
+          </div>
+        </div>
+        <FooterContainer />
+      </div>
+    );
+  }
 
   return (
     <div className="bg-[#FAFAFA] min-h-screen">
@@ -260,6 +361,12 @@ const ManageContent = () => {
                 className="bg-[#84A17D] text-white px-4 py-2 rounded-lg hover:bg-[#6B8A64] transition"
               >
                 Nueva Novedad
+              </button>
+              <button
+                onClick={handleLogout}
+                className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition"
+              >
+                Cerrar Sesión
               </button>
             </div>
           </div>
