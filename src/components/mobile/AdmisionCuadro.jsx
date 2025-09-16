@@ -133,7 +133,7 @@ const AdmisionCuadro = () => {
           "REMATRICULACION NIVEL SECUNDARIO",
         ]}
         buttonLinks={[
-          "https://docs.google.com/forms/d/e/1FAIpQLSc8bj52hCsXqWYWowmiiS4hRRTd3pZf9JRMjIPlWPLnCGMJqQ/viewform?usp=header",
+          "https://docs.google.com/forms/d/e/1FAIpQLSf_TjV4z-RxgdrBvd_EFcYv3G63CheO-mOIpiqBEjUDOq9lUw/viewform",
           "https://docs.google.com/forms/d/e/1FAIpQLSfAYH6k4BjQ-UmVwnzurzIJqCpe-njcet_VjhXrdVTbemFcMQ/viewform?usp=dialog",
           "https://docs.google.com/forms/d/e/1FAIpQLSeV7XEDF37PGFA0vlu_68oM1iubKbQ1PAZJ5tUhAnC10SjiWw/viewform?usp=dialog",
         ]}
