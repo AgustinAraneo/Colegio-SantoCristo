@@ -1,5 +1,134 @@
 export const novedadesData = [
   {
+    titulo: " Living together",
+    descripcion:
+      "Sixth year students from primary school worked with values to make the world a better place.",
+    categoria: "Ingles",
+    fecha: "2025",
+    imagen: "/images\\livingTogether\\1.jpeg",
+    link: "livingtogether",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\livingTogether\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\livingTogether\\2.jpeg",
+        },
+      ],
+      text: "Sixth year students from primary school worked with values to make the world a better place.",
+    },
+  },
+  {
+    titulo: "Festejos en un mes cargado de celebraciones",
+    descripcion:
+      "Con juegos, música y mucha alegría, todos juntos pasamos una emotiva tarde diferente.",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images\\diaProfesor2025\\1.jpeg",
+    link: "festejosenunmescarga",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\diaProfesor2025\\1.jpeg",
+        },
+      ],
+      text: "Con juegos, música y mucha alegría, todos juntos pasamos una emotiva tarde diferente.",
+    },
+  },
+  {
+    titulo:
+      "Salida educativa a Recoleta, en CABA, con dos de nuestros Terceros años",
+    descripcion:
+      "Recorriendo plazas, escuchando relatos de época, interesante salida educativa interdisciplinaria",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images\\salidaRecoleta\\1.jpeg",
+    link: "salidaeducativaareco",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\salidaRecoleta\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\salidaRecoleta\\2.jpeg",
+        },
+      ],
+      text: "Recorriendo plazas, escuchando relatos de época, interesante salida educativa interdisciplinaria",
+    },
+  },
+  {
+    titulo: "Segundo grado B y D visitaron Ecoterra",
+    descripcion:
+      "Hermosos días soleados fueron el marco ideal para disfrutar de una visita a la granja con amigos.",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images\\ecoterra\\1.jpeg",
+    link: "segundogradobydvisit",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\ecoterra\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\ecoterra\\2.jpeg",
+        },
+      ],
+      text: "Hermosos días soleados fueron el marco ideal para disfrutar de una visita a la granja con amigos.",
+    },
+  },
+  {
+    titulo: "Y llegó la primavera",
+    descripcion:
+      "Todo el jardín se vistió de fiesta para recibir a la primavera. ",
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images\\primavera2025\\1.jpeg",
+    link: "ylleglaprimavera",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\primavera2025\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\primavera2025\\2.jpeg",
+        },
+      ],
+      text: "Todo el jardín se vistió de fiesta para recibir a la primavera. Con distintas temáticas según el turno, los niños y las niñas junto con sus señoritas celebraron el inicio de esta estación del año tan especial. El denominador común fue el entusiasmo!!! 💐🌸🐝",
+    },
+  },
+  {
+    titulo: "Salidas educativas de los más peques",
+    descripcion:
+      "Con mucha emoción y enorme alegría, nuestras salas de 3 de ambos turnos visitaron el Cuartel de Bomberos Voluntarios de Lanús Este.",
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images\\paseoBomberos\\1.jpeg",
+    link: "salidaseducativasdel",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\paseoBomberos\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/public\\images\\paseoBomberos\\2.jpeg",
+        },
+      ],
+      text: "Con mucha emoción y enorme alegría, nuestras salas de 3 de ambos turnos visitaron el Cuartel de Bomberos Voluntarios de Lanús Este.",
+    },
+  },
+  {
     titulo: "FIESTAS PATRONALES DIOCESANAS - 15 DE AGOSTO 2025",
     descripcion:
       "Los abanderados y escoltas del Nivel Secundario representaron a nuestra comunidad educativa en la procesión y misa del 15 de agosto en la Catedral de Avellaneda-Lanús.",
