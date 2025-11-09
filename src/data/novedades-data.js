@@ -1,5 +1,287 @@
 export const novedadesData = [
   {
+    titulo: "CLASES ABIERTAS DE EDUCACIÓN FÍSICA",
+    descripcion:
+      "DIVERTIDA Y SALUDABLE EXPERIENCIA A CARGO DEL DEPARTAMENTO DE EDUCACIÓN FÍSICA CON LOS 1° AÑOS",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\clases-educ-fisica\\1.jpeg",
+    link: "clasesabiertasdeeduc",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\clases-educ-fisica\\1.jpeg",
+        },
+      ],
+      text: "DIVERTIDA Y SALUDABLE EXPERIENCIA A CARGO DEL DEPARTAMENTO DE EDUCACIÓN FÍSICA CON LOS 1° AÑOS",
+    },
+  },
+  {
+    titulo: "INTERBANDOS, LLEGÓ EL CERTAMEN DE TEATRO",
+    descripcion:
+      "LOS ESTUDIANTES NOS REGALARON BRILLANTES INTERPRETACIONES TEATRALES. ",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\interbandos\\1.jpeg",
+    link: "interbandosllegelcer",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\interbandos\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\interbandos\\2.jpeg",
+        },
+      ],
+      text: "FELICITACIONES PARA AMBOS BANDOS!!!!",
+    },
+  },
+  {
+    titulo: "CHARLAS DE FORMACIÓN SOBRE  CIBERDELITO Y ESI",
+    descripcion:
+      "PROFESIONALES SE ACERCARON AL COLEGIO PARA INFORMAR A LOS ESTUDIANTES SOBRE TEMAS ACTUALES QUE NOS OCUPAN.",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\ciberdelito\\1.jpeg",
+    link: "charlasdeformacinsob",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\ciberdelito\\1.jpeg",
+        },
+      ],
+      text: "PROFESIONALES SE ACERCARON AL COLEGIO PARA INFORMAR A LOS ESTUDIANTES SOBRE TEMAS ACTUALES QUE NOS OCUPAN.",
+    },
+  },
+  {
+    titulo: "ORIENTACIÓN VOCACIONAL PARA ESTUDIANTES DE 6° AÑO",
+    descripcion: "RECIBIMOS A PROFESORES DE ISFD N° 11 Y N° 18",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\vocacional\\1.jpeg",
+    link: "orientacinvocacional",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\vocacional\\1.jpeg",
+        },
+      ],
+      text: "QUIENES A TRAVÉS DE SUS CHARLAS COLABORARON CON NUESTROS ESTUDIANTES PRÓXIMOS A EGRESAR, CONTÁNDOLES SOBRE LAS CARRERAS QUE BRINDAN EN SUS INSTITUCIONES",
+    },
+  },
+  {
+    titulo: "SALIDAS EDUCATIVAS DE 2° A Y 2° C",
+    descripcion: "Hermosas jornadas!! En la Granja Ecoterra \n",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\sal-educativas\\1.jpeg",
+    link: "salidaseducativasde2",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\sal-educativas\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\sal-educativas\\2.jpeg",
+        },
+      ],
+      text: "Estar en contacto con la naturaleza, los juegos y participando en los talleres de cocina!!!\nLos alumnos de 2 A y 2 C  del Nivel  Primario estaban felices!!!",
+    },
+  },
+  {
+    titulo: "LOS MÁS GRANDES DEL JARDÍN Y SUS HELADERÍAS",
+    descripcion:
+      "Divertida, sabrosa y refrescante, así fue la experiencia de esta Unidad Didáctica!!",
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\heladeria\\1.jpeg",
+    link: "losmsgrandesdeljardn",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\heladeria\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\heladeria\\2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\heladeria\\3.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\heladeria\\4.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\heladeria\\5.jpeg",
+        },
+      ],
+      text: "Realizada por niños y niñas de Salas de 5 y sus señoritas.",
+    },
+  },
+  {
+    titulo: "FESTEJAMOS EL DIA DE LA FAMILIA",
+    descripcion:
+      "Celebramos dando gracias a Dios por el regalo de nuestras familias!!",
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\familia\\1.jpeg",
+    link: "festejamoseldiadelaf",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\familia\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\familia\\2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\familia\\3.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\familia\\4.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\familia\\5.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\familia\\6.jpeg",
+        },
+      ],
+      text: "Y luego compartimos un pic nic en la plaza de nuestro barrio. Amen :)",
+    },
+  },
+  {
+    titulo: "CAMPAMENTO DIOCESANO EN TANDIL",
+    descripcion:
+      "Alumnos de 1° año de secundaria, acompañados de dirigentes de 4° y 5° año vivieron por primera vez la experiencia del Campamento Diocesano Ntra Sra de la Asunción, en Tandil. ",
+    categoria: "Pastoral",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\campamento\\1.jpeg",
+    link: "campamentodiocesanoe",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\campamento\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\campamento\\2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\campamento\\3.jpeg",
+        },
+      ],
+      text: "Una experiencia única y muy divertida! Realizaron caminatas, juegos, y un encuentro profundo con Jesús. \nGracias a las familias y docentes que acompañaron esta iniciativa!",
+    },
+  },
+  {
+    titulo: "SACRAMENTO DE LA CONFIRMACIÓN",
+    descripcion:
+      "Nuestros alumnos de primaria recibieron el sacramento de la Confirmación.",
+    categoria: "Pastoral",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\sacramento\\1.jpeg",
+    link: "sacramentodelaconfir",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\sacramento\\1.jpeg",
+        },
+      ],
+      text: " ¡Ven Espíritu Santo! Gracias a las seños catequistas que los prepararon y acompañaron. Un pasito más en su camino de fe.",
+    },
+  },
+  {
+    titulo: "JORNADAS DE CONVIVENCIA",
+    descripcion:
+      "Ciclo básico vivió una Jornada de Convivencia Pastoral muy bendecida!",
+    categoria: "Pastoral",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\convivencia\\1.jpeg",
+    link: "jornadasdeconvivenci",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\convivencia\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\convivencia\\2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\convivencia\\3.jpeg",
+        },
+      ],
+      text: " Fue un día de compartir, celebrar y dar gracias juntos por ser comunidad!",
+    },
+  },
+  {
+    titulo: " Romeo and Juliet: the play",
+    descripcion:
+      "As part of the Literature Project  three acts of the tragedy were  adapted, directed, performed and produced entirely by students",
+    categoria: "Ingles",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\romeo-and-juliet\\1.jpeg",
+    link: "romeoandjulietthepla",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\romeo-and-juliet\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\romeo-and-juliet\\2.jpeg",
+        },
+      ],
+      text: "After reading Romeo and Juliet, fourth year students were inspired to create games to play with their families. We had a wonderful time together!",
+    },
+  },
+  {
+    titulo: "Literature Project",
+    descripcion:
+      "Families enjoying a moment with our students. Games, music and English for everyone.",
+    categoria: "Ingles",
+    fecha: "2025",
+    imagen: "/images\\nov2025\\literature-project\\1.jpeg",
+    link: "literatureproject",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images\\nov2025\\literature-project\\1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images\\nov2025\\literature-project\\2.jpeg",
+        },
+      ],
+      text: "As part of the literature Project, first year students played games they created based on the reader 'The secret of the stones '. We had a great time!",
+    },
+  },
+  {
     titulo: " Living together",
     descripcion:
       "Sixth year students from primary school worked with values to make the world a better place.",
