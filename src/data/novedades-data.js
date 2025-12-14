@@ -1,5 +1,274 @@
 export const novedadesData = [
   {
+    titulo: 'PROYECTO "REVALORIZANDO NUESTRAS TRADICIONES"',
+    descripcion:
+      '"Con este proyecto, a lo largo de todo el año, se trabajó para revalorizar nuestras tradiciones argentinas, explorando costumbres, músicas, danzas y relatos que nos conectan con nuestra identidad cultural. Como cierre de este proyecto, a través del juego y mediante, diferentes experiencias lúdicas, los niños, niñas y sus familias descubrieron, vivenciaron y celebraron aquello que nos une como comunidad."',
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images/2025-12/inicial/nuestras-tradiciones/1.jpeg",
+    link: "proyectorevalorizand",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/inicial/nuestras-tradiciones/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/inicial/nuestras-tradiciones/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/inicial/nuestras-tradiciones/3.jpeg",
+        },
+      ],
+      text: '"Con este proyecto, a lo largo de todo el año, se trabajó para revalorizar nuestras tradiciones argentinas, explorando costumbres, músicas, danzas y relatos que nos conectan con nuestra identidad cultural. Como cierre de este proyecto, a través del juego y mediante, diferentes experiencias lúdicas, los niños, niñas y sus familias descubrieron, vivenciaron y celebraron aquello que nos une como comunidad."',
+    },
+  },
+  {
+    titulo: "EL MUNDO DEL GUARDIÁN DE LAS PALABRAS",
+    descripcion:
+      "El Guardián de las Palabras,libro maravilloso, si los hay. Hemos compartido con los alumnos de 2° año esta historia y nos hemos emocionado, nos hemos entretenido, hemos aprendido tantas cosas.... Cada personaje nos permitió conocer distintas historias,Richard nos demostró que todo puede cambiar,que el miedo no es para siempre,que nunca digamos JAMÁS,  que si tenemos una duda,consultemos en los libros y tantas otras cosas maravillosas. Queremos agradecerles a las familias por haber sido parte de esta historia,participando en la muestra,trabajando como a codo con sus hijos y habiendo ayudado a sus niños a brillar con los muñecos preparados. El Guardián no se olvidará fácilmente.  Esperamos que lo lleven en su corazón.",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images/2025-12/primario/el-mundo-del-guardian/1.jpeg",
+    link: "elmundodelguardndel",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/primario/el-mundo-del-guardian/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/primario/el-mundo-del-guardian/2.jpeg",
+        },
+      ],
+      text: "El Guardián de las Palabras,libro maravilloso, si los hay. Hemos compartido con los alumnos de 2° año esta historia y nos hemos emocionado, nos hemos entretenido, hemos aprendido tantas cosas.... Cada personaje nos permitió conocer distintas historias,Richard nos demostró que todo puede cambiar,que el miedo no es para siempre,que nunca digamos JAMÁS,  que si tenemos una duda,consultemos en los libros y tantas otras cosas maravillosas. Queremos agradecerles a las familias por haber sido parte de esta historia,participando en la muestra,trabajando como a codo con sus hijos y habiendo ayudado a sus niños a brillar con los muñecos preparados. El Guardián no se olvidará fácilmente.  Esperamos que lo lleven en su corazón.",
+    },
+  },
+  {
+    titulo: "FERIA MATEMÁTICA",
+    descripcion:
+      "En esta FERIA MATEMÁTICA🧮, los alumnos y alumnas de 3° presentaron juegos creados por ellos mismos para poner en práctica lo aprendido durante el año. Participaron junto a sus familias jugando, resolviendo desafíos y compartiendo momentos de aprendizaje divertido. Fue una experiencia llena de creatividad, entusiasmo y trabajo en equipo. ¡Gracias a todas las familias por sumarse y disfrutar juntos en comunidad!",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images/2025-12/primario/feria-matematica/1.jpeg",
+    link: "feriamatemtica",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/primario/feria-matematica/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/primario/feria-matematica/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/primario/feria-matematica/3.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/primario/feria-matematica/4.jpeg",
+        },
+      ],
+      text: "En esta FERIA MATEMÁTICA🧮, los alumnos y alumnas de 3° presentaron juegos creados por ellos mismos para poner en práctica lo aprendido durante el año. Participaron junto a sus familias jugando, resolviendo desafíos y compartiendo momentos de aprendizaje divertido. Fue una experiencia llena de creatividad, entusiasmo y trabajo en equipo. ¡Gracias a todas las familias por sumarse y disfrutar juntos en comunidad!",
+    },
+  },
+  {
+    titulo: "VIAJE DE ESTUDIO 6° A Y 6° B",
+    descripcion:
+      "Viaje de estudio con 6to del Nivel Primario. Una experiencia llena de unión, compromiso y trabajo en equipo realizado en Tivoli Park. Alumnos y docentes participaron de tres días maravillosos.",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images/2025-12/primario/viaje-estudio/1.jpeg",
+    link: "viajedeestudio6ay6b",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/primario/viaje-estudio/1.jpeg",
+        },
+      ],
+      text: "Viaje de estudio con 6to del Nivel Primario. Una experiencia llena de unión, compromiso y trabajo en equipo realizado en Tivoli Park. Alumnos y docentes participaron de tres días maravillosos.",
+    },
+  },
+  {
+    titulo: "CIERRE DEL AÑO 2025: COMPETENCIAS DEPORTIVAS Y CERTAMEN DE CORO",
+    descripcion:
+      "Los alumnos de los bandos rojo y azul, junto a sus capitanes, participaron en las competencias deportivas y en el certamen de coros que dieron cierre a este hermoso año 2025.",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/2025-12/secundario/cierre-del-año/1.jpeg",
+    link: "cierredelao2025compe",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/cierre-del-año/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/cierre-del-año/2.jpeg",
+        },
+      ],
+      text: "Los alumnos de los bandos rojo y azul, junto a sus capitanes, participaron en las competencias deportivas y en el certamen de coros que dieron cierre a este hermoso año 2025.",
+    },
+  },
+  {
+    titulo: "MUESTRA CONTABLE Y FERIA DE CIENCIAS",
+    descripcion:
+      "Los alumnos y docentes de nuestra institución  llevaron adelante una muestra contable y una Feria de Ciencias abierta a toda la comunidad educativa, donde presentaron proyectos, demostraciones y trabajos realizados durante el año. Fue una jornada de aprendizaje, intercambio y participación que destacó su dedicación y creatividad.",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/2025-12/secundario/muestra-contable/1.jpeg",
+    link: "muestracontableyferi",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/muestra-contable/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/muestra-contable/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/muestra-contable/3.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/muestra-contable/4.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/muestra-contable/5.jpeg",
+        },
+      ],
+      text: "Los alumnos y docentes de nuestra institución  llevaron adelante una muestra contable y una Feria de Ciencias abierta a toda la comunidad educativa, donde presentaron proyectos, demostraciones y trabajos realizados durante el año. Fue una jornada de aprendizaje, intercambio y participación que destacó su dedicación y creatividad.",
+    },
+  },
+  {
+    titulo: "MUESTRA DE ORQUESTA 2025",
+    descripcion:
+      "La orquesta escolar brindó una hermosa presentación para la comunidad, dirigida por Lautaro y Silvina. Agradecemos a ellos y a todos los alumnos por su dedicación y el talento compartido en esta destacada muestra musical.",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/2025-12/secundario/muestra-orquesta/1.jpeg",
+    link: "muestradeorquesta202",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/secundario/muestra-orquesta/1.jpeg",
+        },
+      ],
+      text: "La orquesta escolar brindó una hermosa presentación para la comunidad, dirigida por Lautaro y Silvina. Agradecemos a ellos y a todos los alumnos por su dedicación y el talento compartido en esta destacada muestra musical.",
+    },
+  },
+  {
+    titulo: "LITERATURE PROJECT: ANNE FRANK' S DIARY",
+    descripcion:
+      "Our fifth- year students have read Anne Frank's diary, which inspired a research and the creation of oral presentations, debates and games. The three fifth- year sections prepared interesting activities! We had a moment of reflection together. Our students from 4th and  6th  form have created an escape room to play with third year students. They had a wonderful time!",
+    categoria: "Ingles",
+    fecha: "2025",
+    imagen: "/images/2025-12/ingles/anne-frank/1.jpeg",
+    link: "literatureprojectann",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/ingles/anne-frank/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/ingles/anne-frank/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/ingles/anne-frank/3.jpeg",
+        },
+      ],
+      text: "Our fifth- year students have read Anne Frank's diary, which inspired a research and the creation of oral presentations, debates and games. The three fifth- year sections prepared interesting activities! We had a moment of reflection together. Our students from 4th and  6th  form have created an escape room to play with third year students. They had a wonderful time!",
+    },
+  },
+  {
+    titulo: "NOVEMBER GAMES IN PRIMARY SCHOOL",
+    descripcion: "Playing games and speaking English together!",
+    categoria: "Ingles",
+    fecha: "2025",
+    imagen: "/images/2025-12/ingles/november-games/1.jpeg",
+    link: "novembergamesinprima",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/ingles/november-games/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/ingles/november-games/2.jpeg",
+        },
+      ],
+      text: "Playing games and speaking English together!",
+    },
+  },
+  {
+    titulo: "LITERATURE PROJECT: THE SECRET OF THE STONES",
+    descripcion:
+      "Second year students designed and played games related to the sorry they read in class.",
+    categoria: "Ingles",
+    fecha: "2025",
+    imagen: "/images/2025-12/ingles/secret-stones/1.jpeg",
+    link: "literatureprojectthe",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/ingles/secret-stones/1.jpeg",
+        },
+      ],
+      text: "Second year students designed and played games related to the sorry they read in class.",
+    },
+  },
+  {
+    titulo: "CONVIVENCIAS PASTORALES",
+    descripcion:
+      "Ciclo superior vivió su convivencia pastoral. Fueron jornadas de compartir, conocerse como comunidad y disfrutar de la naturaleza, regalo de Dios. La jornada de 6° Año fue especialmente emotiva, los chicos, además de compartir, comenzaron a despedirse y dejar su huella por nuestra comunidad educativa. Dios fue muy generoso en bendiciones y gracias recibidas.",
+    categoria: "Pastoral",
+    fecha: "2025",
+    imagen: "/images/2025-12/parroquial/convivencias/1.jpeg",
+    link: "convivenciaspastoral",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2025-12/parroquial/convivencias/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/parroquial/convivencias/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/parroquial/convivencias/3.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/parroquial/convivencias/4.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2025-12/parroquial/convivencias/5.jpeg",
+        },
+      ],
+      text: "Ciclo superior vivió su convivencia pastoral. Fueron jornadas de compartir, conocerse como comunidad y disfrutar de la naturaleza, regalo de Dios. La jornada de 6° Año fue especialmente emotiva, los chicos, además de compartir, comenzaron a despedirse y dejar su huella por nuestra comunidad educativa. Dios fue muy generoso en bendiciones y gracias recibidas.",
+    },
+  },
+  {
     titulo: "CLASES ABIERTAS DE EDUCACIÓN FÍSICA",
     descripcion:
       "DIVERTIDA Y SALUDABLE EXPERIENCIA A CARGO DEL DEPARTAMENTO DE EDUCACIÓN FÍSICA CON LOS 1° AÑOS",

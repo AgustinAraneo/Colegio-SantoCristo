@@ -6,7 +6,17 @@ import { Navigation, Pagination } from "swiper/modules";
 import HeaderContainer from "./HeaderContainer";
 import FooterContainer from "./FooterContainer";
 
+// Función para truncar texto a un número máximo de palabras
+const truncateText = (text, maxWords = 10) => {
+  if (!text) return "";
+  const words = text.split(" ");
+  if (words.length <= maxWords) return text;
+  return words.slice(0, maxWords).join(" ") + "...";
+};
+
 const NovedadesLayout = ({ media, title, subtitle, text }) => {
+  // Resumir el subtitle (descripción) para mostrarlo más corto
+  const truncatedSubtitle = truncateText(subtitle, 10);
   return (
     <div>
       <HeaderContainer />
@@ -50,7 +60,7 @@ const NovedadesLayout = ({ media, title, subtitle, text }) => {
         {/* Text Section */}
         <div className="text-left flex flex-col gap-4">
           <h3 className="font-medium text-[26px] md:text-[60px] leading-[30px] md:leading-[64px] text-[#172426]">
-            {subtitle}
+            {truncatedSubtitle}
           </h3>
           <p className="text-[15px] md:text-[18px] leading-[20px] md:leading-[30px] text-[#3F4E50]">
             {text}
