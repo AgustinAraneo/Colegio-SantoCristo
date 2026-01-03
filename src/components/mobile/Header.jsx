@@ -96,6 +96,13 @@ const NavBar = () => {
                     </p>
                   </li>
                 </Link>
+                <Link href="/mobile/Multiciclo">
+                  <li>
+                    <p className="hover:bg-green-700 hover:text-white block px-3 py-2  text-base font-medium">
+                      Sala Multiciclo
+                    </p>
+                  </li>
+                </Link>
                 <Link href="/mobile/Primario">
                   <li>
                     <p className="hover:bg-green-700 hover:text-white block px-3 py-2 text-base font-medium">

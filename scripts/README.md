@@ -16,7 +16,8 @@ public/images/<nombre-carpeta>/
   ├── primario/
   ├── secundario/
   ├── ingles/
-  └── parroquial/
+  ├── parroquial/
+  └── multiciclo/
 ```
 
 Cada subcarpeta debe contener:
@@ -64,4 +65,5 @@ npm run import-novedades 2025-12 -- --add
 - Las imágenes se ordenan numéricamente (1, 2, 3...)
 - Los links se generan automáticamente desde el título
 - La categoría "parroquial" se mapea a "Pastoral" en el archivo final
+- La categoría "multiciclo" se mapea a "Multiciclo" en el archivo final
 - Las novedades se agregan al **inicio** del array (más recientes primero)

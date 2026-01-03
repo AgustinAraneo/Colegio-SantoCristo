@@ -1,5 +1,108 @@
 export const novedadesData = [
   {
+    titulo: "NOVEDADES IMPORTANTES!!!!!!",
+    descripcion:
+      "El Jardín Virgen Niña, buscando dar respuesta a las necesidades de muchas familias abrirá en 2026 una Sala Multiciclo (2 y 3 años) en Turno Mañana!!!! Si abre sus puertas a niños y niñas de 2 años. Para inscripciones dirigirse telefónicamente al 42403925 o por mail a: inscripcionjardin1969@gmail.com. Excelente noticia que muchos estaban esperando. Esperamos sus consultas.",
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images/2026-01/inicial/novedades/1.jpeg",
+    link: "novedadesimportantes",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-01/inicial/novedades/1.jpeg",
+        },
+        {
+          type: "video",
+          src: "/images/2026-01/inicial/novedades/1.mp4",
+        },
+      ],
+      text: "El Jardín Virgen Niña, buscando dar respuesta a las necesidades de muchas familias abrirá en 2026 una Sala Multiciclo (2 y 3 años) en Turno Mañana!!!! Si abre sus puertas a niños y niñas de 2 años. Para inscripciones dirigirse telefónicamente al 42403925 o por mail a: inscripcionjardin1969@gmail.com. Excelente noticia que muchos estaban esperando. Esperamos sus consultas.",
+    },
+  },
+  {
+    titulo: "Así despiden el año Segundo y  Tercer Grado",
+    descripcion:
+      "Un hermoso cierre de año con el acto de segundo año. ¡Mucho color,mucho ritmo,muchas sonrisas y mucho amor! Cada grado dio lo mejor para lucirse y disfrutar del baile que les tocó.  Juntos dejamos el mensaje de esperanza y amor que el mundo necesita para cambiar. Confiamos que todo puede ser mejor si trabajamos para ello. ¡ Gracias segundo! Los queremos y llevaremos siempre en nuestros corazones. Las Seños de segundo.  ♥️♥️♥️♥️",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images/2026-01/primario/despedida/1.jpeg",
+    link: "asdespidenelaosegund",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-01/primario/despedida/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-01/primario/despedida/2.jpeg",
+        },
+      ],
+      text: "Un hermoso cierre de año con el acto de segundo año. ¡Mucho color,mucho ritmo,muchas sonrisas y mucho amor! Cada grado dio lo mejor para lucirse y disfrutar del baile que les tocó.  Juntos dejamos el mensaje de esperanza y amor que el mundo necesita para cambiar. Confiamos que todo puede ser mejor si trabajamos para ello. ¡ Gracias segundo! Los queremos y llevaremos siempre en nuestros corazones. Las Seños de segundo.  ♥️♥️♥️♥️",
+    },
+  },
+  {
+    titulo: "Acto de colación 2025",
+    descripcion:
+      "Un cierre lleno de emoción que marca el final de una etapa y deja huellas para toda la vida. Nuestros alumnos de 6º año celebraron sueños cumplidos, abrazos sinceros y recuerdos compartidos, al recorrer el camino que los trajo hasta aquí y abrirse a todo lo que vendrá, en momentos que quedarán guardados para siempre en el corazón.”",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/2026-01/secundario/acto-colacion/1.jpeg",
+    link: "actodecolacin2025",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-01/secundario/acto-colacion/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-01/secundario/acto-colacion/2.jpeg",
+        },
+      ],
+      text: "Un cierre lleno de emoción que marca el final de una etapa y deja huellas para toda la vida. Nuestros alumnos de 6º año celebraron sueños cumplidos, abrazos sinceros y recuerdos compartidos, al recorrer el camino que los trajo hasta aquí y abrirse a todo lo que vendrá, en momentos que quedarán guardados para siempre en el corazón.”",
+    },
+  },
+  {
+    titulo: "Christmas Carols",
+    descripcion:
+      "Our Primary School students sang carols for the families. It was fantastic !  Merry Christmas to you all!",
+    categoria: "Ingles",
+    fecha: "2025",
+    imagen: "/images/2026-01/ingles/chrismast/1.jpeg",
+    link: "christmascarols",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-01/ingles/chrismast/1.jpeg",
+        },
+      ],
+      text: "Our Primary School students sang carols for the families. It was fantastic !  Merry Christmas to you all!",
+    },
+  },
+  {
+    titulo: "Misa de acción de gracias del personal de la CESC",
+    descripcion:
+      "El 23 de diciembre, el personal de la CESC se reunió en el templo parroquial para celebrar la Eucaristía. Dimos gracias por todos los logros de este año que va finalizando. Además elevamos confiadas oraciones por quienes están pasando momentos difíciles. En esa oportunidad también se distinguió al personal que cumplió 25 años de trabajo en la institución y se homenajeó a quienes este año se jubilaron. Se vivieron momentos de emoción y gratitud. Deseamos que todas las familias pasen una Santa Navidad y comiencen el 2026 con mucha paz, salud y amor.",
+    categoria: "Pastoral",
+    fecha: "2025",
+    imagen: "/images/2026-01/parroquial/misa-de-gracias/1.jpeg",
+    link: "misadeaccindegracias",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-01/parroquial/misa-de-gracias/1.jpeg",
+        },
+      ],
+      text: "El 23 de diciembre, el personal de la CESC se reunió en el templo parroquial para celebrar la Eucaristía. Dimos gracias por todos los logros de este año que va finalizando. Además elevamos confiadas oraciones por quienes están pasando momentos difíciles. En esa oportunidad también se distinguió al personal que cumplió 25 años de trabajo en la institución y se homenajeó a quienes este año se jubilaron. Se vivieron momentos de emoción y gratitud. Deseamos que todas las familias pasen una Santa Navidad y comiencen el 2026 con mucha paz, salud y amor.",
+    },
+  },
+
+  {
     titulo: 'PROYECTO "REVALORIZANDO NUESTRAS TRADICIONES"',
     descripcion:
       '"Con este proyecto, a lo largo de todo el año, se trabajó para revalorizar nuestras tradiciones argentinas, explorando costumbres, músicas, danzas y relatos que nos conectan con nuestra identidad cultural. Como cierre de este proyecto, a través del juego y mediante, diferentes experiencias lúdicas, los niños, niñas y sus familias descubrieron, vivenciaron y celebraron aquello que nos une como comunidad."',

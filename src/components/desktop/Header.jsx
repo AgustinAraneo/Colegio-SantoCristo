@@ -56,6 +56,14 @@ const Header = () => {
               <li>
                 <a
                   className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white"
+                  href="/Multiciclo"
+                >
+                  SALA MULTICICLO
+                </a>
+              </li>
+              <li>
+                <a
+                  className="block p-2 text-center transition duration-500 rounded hover:bg-gray-400 hover:text-white"
                   href="/Primario"
                 >
                   NIVEL PRIMARIO

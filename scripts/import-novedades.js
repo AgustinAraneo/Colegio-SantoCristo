@@ -17,6 +17,7 @@ const categoriaMap = {
   secundario: "Secundario",
   ingles: "Ingles",
   parroquial: "Pastoral",
+  multiciclo: "Multiciclo",
 };
 
 // Función para leer y parsear texto.txt
@@ -85,6 +86,7 @@ function importNovedades(carpetaNombre) {
     "secundario",
     "ingles",
     "parroquial",
+    "multiciclo",
   ];
 
   for (let categoria of categorias) {

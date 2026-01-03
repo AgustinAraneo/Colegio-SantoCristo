@@ -55,6 +55,20 @@ const Niveles = () => {
         />
       </div>
       <div>
+        <div className="bg-green-500 h-[15rem] mb-[1rem] transition duration-500 hover:scale-105">
+          <p className="pt-2 ml-4 text-4xl font-bold text-white font-Montserrat">
+            Sala Multiciclo <br />
+            Jardín Virgen Niña
+            <br /> Niños de 2 y 3 años
+          </p>
+        </div>
+        <img
+          className="w-[25rem] h-[20rem] transition duration-500 hover:scale-105"
+          src="/images/inicial/1.jpg"
+          alt=""
+        />
+      </div>
+      <div>
         <img
           className="w-[25rem] h-[20rem] mb-[1rem] transition duration-500 hover:scale-105"
           src="/images/5.jpeg"
