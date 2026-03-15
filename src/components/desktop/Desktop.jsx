@@ -3,7 +3,7 @@ import Header from "./Header";
 import Carousel from "./Carousel";
 import Home from "./Home";
 import Footer from "./Footer";
-import Lottie from "react-lottie";
+import Lottie from "../LottieClient";
 import animation from "../../education.json";
 import ResumenNovedades from "../ResumenNovedades";
 import BecasButton from "../BecasButton";

@@ -1,5 +1,5 @@
 import React from 'react'
-import Lottie from 'react-lottie'
+import Lottie from '../LottieClient'
 import animation from "../../education.json"
 
 const educationCv = {
