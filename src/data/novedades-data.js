@@ -1,5 +1,61 @@
 export const novedadesData = [
   {
+    titulo: "Nuestros sextos año del Nivel Primario",
+    descripcion: "Les deseamos a nuestros alumnos de 6 to año un excelente ciclo lectivo y que sigan sumando amistades y conocimientos en este último año de la Escuela Primaria",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images/2026-02/primario/comienzo-año/1.jpeg",
+    link: "nuestrossextosaodeln",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-02/primario/comienzo-año/1.jpeg",
+        },
+      ],
+      text: "Les deseamos a nuestros alumnos de 6 to año un excelente ciclo lectivo y que sigan sumando amistades y conocimientos en este último año de la Escuela Primaria",
+    },
+  },
+  {
+    titulo: "ASÍ ARRANCÓ 1° AÑO",
+    descripcion: "Recibimos a los nuevos alumnos de 1° años. Compartimos la apertura con los directivos, capellan y profesores. También nos acompaño la Sra Claudia Domínguez, inspectora.",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/2026-02/secundario/primer-dia/1.jpeg",
+    link: "asarranc1ao",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-02/secundario/primer-dia/1.jpeg",
+        },
+      ],
+      text: "Recibimos a los nuevos alumnos de 1° años. Compartimos la apertura con los directivos, capellan y profesores. También nos acompaño la Sra Claudia Domínguez, inspectora.",
+    },
+  },
+  {
+    titulo: "PRIMER DÍA DE 6° AÑOS",
+    descripcion: "Llegó la promoción 2026. En la tarde compartimos una bienvenida y merienda con los alumnos en su UPD... ¡Bienvenida promo!",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/2026-02/secundario/upd/1.jpeg",
+    link: "primerdade6aos",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-02/secundario/upd/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-02/secundario/upd/2.jpeg",
+        },
+      ],
+      text: "Llegó la promoción 2026. En la tarde compartimos una bienvenida y merienda con los alumnos en su UPD... ¡Bienvenida promo!",
+    },
+  },
+
+  {
     titulo: "NOVEDADES IMPORTANTES!!!!!!",
     descripcion:
       "El Jardín Virgen Niña, buscando dar respuesta a las necesidades de muchas familias abrirá en 2026 una Sala Multiciclo (2 y 3 años) en Turno Mañana!!!! Si abre sus puertas a niños y niñas de 2 años. Para inscripciones dirigirse telefónicamente al 42403925 o por mail a: inscripcionjardin1969@gmail.com. Excelente noticia que muchos estaban esperando. Esperamos sus consultas.",
