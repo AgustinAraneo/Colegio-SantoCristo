@@ -15,7 +15,7 @@ const Animacion = () => {
   return (
     <div>
         <h1 className=" font-Montserrat font-bold text-xl text-green-900 uppercase text-center">Más de 60 años brindando educación de primera...</h1>
-      <div style={{ width: '70%', margin: '0 auto', marginTop: '' }}>
+      <div style={{ width: '70%', margin: '0 auto' }}>
         <Lottie options={educationCv} isClickToPauseDisabled ariaRole="img" />
         </div>
     </div>

@@ -6,7 +6,8 @@ const Lottie = dynamic(() => import("react-lottie"), {
 });
 
 const LottieClient = (props) => {
-  return <Lottie {...props} />;
+  const { eventListeners = [], ...rest } = props;
+  return <Lottie eventListeners={eventListeners} {...rest} />;
 };
 
 export default LottieClient;
