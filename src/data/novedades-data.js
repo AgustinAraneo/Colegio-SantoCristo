@@ -1,5 +1,126 @@
 export const novedadesData = [
   {
+    titulo: "Inicio del Ciclo Lectivo 2026",
+    descripcion: "El período de inicio en el Jardín Virgen Niña fue un tiempo muy especial: lleno de emociones, descubrimientos y nuevos aprendizajes.",
+    categoria: "Inicial",
+    fecha: "2025",
+    imagen: "/images/2026-04/inicial/inicio-ciclo-lectivo/1.jpeg",
+    link: "iniciodelciclolectiv",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/3.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/4.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/5.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/6.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/7.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/8.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/9.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/inicial/inicio-ciclo-lectivo/10.jpeg",
+        },
+      ],
+      text: "El período de inicio en el Jardín Virgen Niña fue un tiempo muy especial: lleno de emociones, descubrimientos y nuevos aprendizajes.",
+    },
+  },
+  {
+    titulo: "PRIMER SALIDA DE 5TO GRADO",
+    descripcion: "Durante Abril los alumnos de 5 to grado  aprendieron en Abremate. Participar activamente fue el desafío",
+    categoria: "Primario",
+    fecha: "2025",
+    imagen: "/images/2026-04/primario/primer-salida-5to/1.jpeg",
+    link: "primersalidade5togra",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-04/primario/primer-salida-5to/1.jpeg",
+        },
+      ],
+      text: "Durante Abril los alumnos de 5 to grado  aprendieron en Abremate. Participar activamente fue el desafío",
+    },
+  },
+  {
+    titulo: "FIESTA VIOLETA",
+    descripcion: "Como parte de la tradición de nuestro colegio, se llevó a cabo la fiesta violeta, en la cual los alumnos de 1ro son designados a formar parte de los bandos a lo largo de toda su trayectoria secundaria.",
+    categoria: "Secundario",
+    fecha: "2025",
+    imagen: "/images/2026-04/secundario/fiesta-violeta/1.jpeg",
+    link: "fiestavioleta",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-04/secundario/fiesta-violeta/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/secundario/fiesta-violeta/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/secundario/fiesta-violeta/3.jpeg",
+        },
+      ],
+      text: "Como parte de la tradición de nuestro colegio, se llevó a cabo la fiesta violeta, en la cual los alumnos de 1ro son designados a formar parte de los bandos a lo largo de toda su trayectoria secundaria.",
+    },
+  },
+  {
+    titulo: "SEMANA SANTA Y PASCUA",
+    descripcion: "La semana más importante para los cristianos la vivimos con mucha alegría. Recordamos la entrada de Jesús el domingo de ramos, y celebramos juntos la eucaristía en acción de gracias por la resurrección de Jesús. Nuestro corazón celebra el pasó de la muerte a la vida.",
+    categoria: "Pastoral",
+    fecha: "2025",
+    imagen: "/images/2026-04/parroquial/semana-santa-y-pascua/1.jpeg",
+    link: "semanasantaypascua",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-04/parroquial/semana-santa-y-pascua/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/parroquial/semana-santa-y-pascua/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-04/parroquial/semana-santa-y-pascua/3.jpeg",
+        },
+      ],
+      text: "La semana más importante para los cristianos la vivimos con mucha alegría. Recordamos la entrada de Jesús el domingo de ramos, y celebramos juntos la eucaristía en acción de gracias por la resurrección de Jesús. Nuestro corazón celebra el pasó de la muerte a la vida.",
+    },
+  },
+
+  {
     titulo: "Nuestros sextos año del Nivel Primario",
     descripcion: "Les deseamos a nuestros alumnos de 6 to año un excelente ciclo lectivo y que sigan sumando amistades y conocimientos en este último año de la Escuela Primaria",
     categoria: "Primario",
