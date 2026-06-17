@@ -126,13 +126,27 @@ const Secundario = () => {
             Normativa:
           </h1>
         </div>
-        <div className="flex justify-center">
+        <div className="flex flex-col gap-4 items-center">
           <a
-            href="/pdfs/normativa-2025-secundaria.pdf"
-            download
-            className="px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-bold text-lg rounded-lg shadow-md active:scale-95 transition-transform duration-150"
+            href="/pdfs/AIC%20Inst.%20Santo%20Cristo%202026.pdf"
+            download="AIC Inst. Santo Cristo 2026.pdf"
+            className="w-full max-w-[28rem] px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-bold text-lg rounded-lg shadow-md active:scale-95 transition-transform duration-150 text-center"
           >
-            Descargar normativa 2025
+            Acuerdo institucional de convivencia
+          </a>
+          <a
+            href="/pdfs/PI%202026%20Instituto%20Santo%20Cristo.pdf"
+            download="PI 2026 Instituto Santo Cristo.pdf"
+            className="w-full max-w-[28rem] px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-bold text-lg rounded-lg shadow-md active:scale-95 transition-transform duration-150 text-center"
+          >
+            Proyecto institucional
+          </a>
+          <a
+            href="/pdfs/Reglamento%20Interno%20Secudaria%202026.pdf"
+            download="Reglamento Interno Secudaria 2026.pdf"
+            className="w-full max-w-[28rem] px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-bold text-lg rounded-lg shadow-md active:scale-95 transition-transform duration-150 text-center"
+          >
+            Reglamento interno
           </a>
         </div>
       </div>
