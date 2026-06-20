@@ -1,7 +1,197 @@
 export const novedadesData = [
   {
+    titulo: "RESUMEN DE ACTIVIDADES DEL MES DE MAYO",
+    descripcion:
+      "Lo compartido es sólo una muestra de lo trabajado en mayo. Esperamos lo disfruten tanto como nosotros.",
+    categoria: "Inicial",
+    fecha: "2026",
+    imagen: "/images/2026-05/inicial/resumen-actividades/1.jpeg",
+    link: "resumendeactividades",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/inicial/resumen-actividades/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/inicial/resumen-actividades/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/inicial/resumen-actividades/3.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/inicial/resumen-actividades/4.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/inicial/resumen-actividades/5.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/inicial/resumen-actividades/6.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/inicial/resumen-actividades/7.jpeg",
+        },
+      ],
+      text: "Lo compartido es sólo una muestra de lo trabajado en mayo. Esperamos lo disfruten tanto como nosotros.",
+    },
+  },
+  {
+    titulo: "PRIMER SALIDA DE 5TO GRADO",
+    descripcion:
+      "Durante Abril los alumnos de 5 to grado  aprendieron en Abremate. Participar activamente fue el desafío",
+    categoria: "Primario",
+    fecha: "2026",
+    imagen: "/images/2026-05/primario/primer-salida-5to/1.jpeg",
+    link: "primersalidade5togra",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/primario/primer-salida-5to/1.jpeg",
+        },
+      ],
+      text: "Durante Abril los alumnos de 5 to grado  aprendieron en Abremate. Participar activamente fue el desafío",
+    },
+  },
+  {
+    titulo: "Acto del 25 de Mayo 🇦🇷",
+    descripcion:
+      "Nuestra comunidad educativa conmemoró esta fecha patria con representaciones, bailes tradicionales y la participación de los estudiantes, celebrando juntos nuestras raíces y nuestra historia.",
+    categoria: "Secundario",
+    fecha: "2026",
+    imagen: "/images/2026-05/secundario/25-de-mayo/1.jpeg",
+    link: "actodel25demayo",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/secundario/25-de-mayo/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/secundario/25-de-mayo/2.jpeg",
+        },
+      ],
+      text: "Nuestra comunidad educativa conmemoró esta fecha patria con representaciones, bailes tradicionales y la participación de los estudiantes, celebrando juntos nuestras raíces y nuestra historia.",
+    },
+  },
+  {
+    titulo: "Certamen de dibujo — Bandos Rojo y Azul 🎨",
+    descripcion:
+      "Los estudiantes del nivel secundario participaron de un certamen de dibujo representando a los bandos Rojo y Azul, demostrando creatividad, compromiso y trabajo en equipo. La jornada estuvo llena de entusiasmo y compañerismo, fortaleciendo el sentido de pertenencia y la participación de toda la comunidad educativa.",
+    categoria: "Secundario",
+    fecha: "2026",
+    imagen: "/images/2026-05/secundario/certamen-dibujo/1.jpeg",
+    link: "certamendedibujoband",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/secundario/certamen-dibujo/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/secundario/certamen-dibujo/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/secundario/certamen-dibujo/3.jpeg",
+        },
+      ],
+      text: "Los estudiantes del nivel secundario participaron de un certamen de dibujo representando a los bandos Rojo y Azul, demostrando creatividad, compromiso y trabajo en equipo. La jornada estuvo llena de entusiasmo y compañerismo, fortaleciendo el sentido de pertenencia y la participación de toda la comunidad educativa.",
+    },
+  },
+  {
+    titulo: "VISITA A LA UNLA",
+    descripcion:
+      "Los alumnos de 6.º año participaron de una jornada en la Universidad Nacional de Lanús, donde conocieron las instalaciones y distintas propuestas académicas, viviendo una experiencia enriquecedora de acercamiento al mundo universitario.",
+    categoria: "Secundario",
+    fecha: "2026",
+    imagen: "/images/2026-05/secundario/visita-unla/1.jpeg",
+    link: "visitaalaunla",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/secundario/visita-unla/1.jpeg",
+        },
+      ],
+      text: "Los alumnos de 6.º año participaron de una jornada en la Universidad Nacional de Lanús, donde conocieron las instalaciones y distintas propuestas académicas, viviendo una experiencia enriquecedora de acercamiento al mundo universitario.",
+    },
+  },
+  {
+    titulo: "Our 6th year students",
+    descripcion:
+      "Our 6th year students have used their creativity for a show and tell activity. Beautiful work. Well done!",
+    categoria: "Ingles",
+    fecha: "2026",
+    imagen: "/images/2026-05/ingles/6th-students/1.jpeg",
+    link: "our6thyearstudents",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/ingles/6th-students/1.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/ingles/6th-students/2.jpeg",
+        },
+        {
+          type: "image",
+          src: "/images/2026-05/ingles/6th-students/3.jpeg",
+        },
+      ],
+      text: "Our 6th year students have used their creativity for a show and tell activity. Beautiful work. Well done!",
+    },
+  },
+  {
+    titulo: "INTERNATIONAL DIPLOMAS",
+    descripcion:
+      "Our students have received their international diplomas once more!! Congratulations!",
+    categoria: "Ingles",
+    fecha: "2026",
+    imagen: "/images/2026-05/ingles/diplomas/1.jpeg",
+    link: "internationaldiploma",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/ingles/diplomas/1.jpeg",
+        },
+      ],
+      text: "Our students have received their international diplomas once more!! Congratulations!",
+    },
+  },
+  {
+    titulo: "FIESTA DE PENTECOSTÉS EN NIVEL INICIAL",
+    descripcion:
+      "Con la alegría de los más pequeños y pequeñas de nuestra comunidad celebramos un cumpleaños muy especial, el de la Iglesia",
+    categoria: "Pastoral",
+    fecha: "2026",
+    imagen: "/images/2026-05/parroquial/pentecostes/1.jpeg",
+    link: "fiestadepentecostsen",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-05/parroquial/pentecostes/1.jpeg",
+        },
+      ],
+      text: "Con la alegría de los más pequeños y pequeñas de nuestra comunidad celebramos un cumpleaños muy especial, el de la Iglesia",
+    },
+  },
+
+  {
     titulo: "Inicio del Ciclo Lectivo 2026",
-    descripcion: "El período de inicio en el Jardín Virgen Niña fue un tiempo muy especial: lleno de emociones, descubrimientos y nuevos aprendizajes.",
+    descripcion:
+      "El período de inicio en el Jardín Virgen Niña fue un tiempo muy especial: lleno de emociones, descubrimientos y nuevos aprendizajes.",
     categoria: "Inicial",
     fecha: "2025",
     imagen: "/images/2026-04/inicial/inicio-ciclo-lectivo/1.jpeg",
@@ -54,7 +244,8 @@ export const novedadesData = [
   },
   {
     titulo: "PRIMER SALIDA DE 5TO GRADO",
-    descripcion: "Durante Abril los alumnos de 5 to grado  aprendieron en Abremate. Participar activamente fue el desafío",
+    descripcion:
+      "Durante Abril los alumnos de 5 to grado  aprendieron en Abremate. Participar activamente fue el desafío",
     categoria: "Primario",
     fecha: "2025",
     imagen: "/images/2026-04/primario/primer-salida-5to/1.jpeg",
@@ -71,7 +262,8 @@ export const novedadesData = [
   },
   {
     titulo: "FIESTA VIOLETA",
-    descripcion: "Como parte de la tradición de nuestro colegio, se llevó a cabo la fiesta violeta, en la cual los alumnos de 1ro son designados a formar parte de los bandos a lo largo de toda su trayectoria secundaria.",
+    descripcion:
+      "Como parte de la tradición de nuestro colegio, se llevó a cabo la fiesta violeta, en la cual los alumnos de 1ro son designados a formar parte de los bandos a lo largo de toda su trayectoria secundaria.",
     categoria: "Secundario",
     fecha: "2025",
     imagen: "/images/2026-04/secundario/fiesta-violeta/1.jpeg",
@@ -96,7 +288,8 @@ export const novedadesData = [
   },
   {
     titulo: "SEMANA SANTA Y PASCUA",
-    descripcion: "La semana más importante para los cristianos la vivimos con mucha alegría. Recordamos la entrada de Jesús el domingo de ramos, y celebramos juntos la eucaristía en acción de gracias por la resurrección de Jesús. Nuestro corazón celebra el pasó de la muerte a la vida.",
+    descripcion:
+      "La semana más importante para los cristianos la vivimos con mucha alegría. Recordamos la entrada de Jesús el domingo de ramos, y celebramos juntos la eucaristía en acción de gracias por la resurrección de Jesús. Nuestro corazón celebra el pasó de la muerte a la vida.",
     categoria: "Pastoral",
     fecha: "2025",
     imagen: "/images/2026-04/parroquial/semana-santa-y-pascua/1.jpeg",
@@ -122,7 +315,8 @@ export const novedadesData = [
 
   {
     titulo: "Nuestros sextos año del Nivel Primario",
-    descripcion: "Les deseamos a nuestros alumnos de 6 to año un excelente ciclo lectivo y que sigan sumando amistades y conocimientos en este último año de la Escuela Primaria",
+    descripcion:
+      "Les deseamos a nuestros alumnos de 6 to año un excelente ciclo lectivo y que sigan sumando amistades y conocimientos en este último año de la Escuela Primaria",
     categoria: "Primario",
     fecha: "2025",
     imagen: "/images/2026-02/primario/comienzo-año/1.jpeg",
@@ -139,7 +333,8 @@ export const novedadesData = [
   },
   {
     titulo: "ASÍ ARRANCÓ 1° AÑO",
-    descripcion: "Recibimos a los nuevos alumnos de 1° años. Compartimos la apertura con los directivos, capellan y profesores. También nos acompaño la Sra Claudia Domínguez, inspectora.",
+    descripcion:
+      "Recibimos a los nuevos alumnos de 1° años. Compartimos la apertura con los directivos, capellan y profesores. También nos acompaño la Sra Claudia Domínguez, inspectora.",
     categoria: "Secundario",
     fecha: "2025",
     imagen: "/images/2026-02/secundario/primer-dia/1.jpeg",
@@ -156,7 +351,8 @@ export const novedadesData = [
   },
   {
     titulo: "PRIMER DÍA DE 6° AÑOS",
-    descripcion: "Llegó la promoción 2026. En la tarde compartimos una bienvenida y merienda con los alumnos en su UPD... ¡Bienvenida promo!",
+    descripcion:
+      "Llegó la promoción 2026. En la tarde compartimos una bienvenida y merienda con los alumnos en su UPD... ¡Bienvenida promo!",
     categoria: "Secundario",
     fecha: "2025",
     imagen: "/images/2026-02/secundario/upd/1.jpeg",

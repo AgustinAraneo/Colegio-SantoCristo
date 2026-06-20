@@ -72,6 +72,10 @@ function importNovedades(carpetaNombre) {
   const baseDir = path.join("public", "images", carpetaNombre);
   const novedades = [];
 
+  // Detectar año desde el nombre de la carpeta si tiene formato YYYY or YYYY-MM
+  const yearMatch = carpetaNombre && carpetaNombre.match(/^\d{4}/);
+  const detectedYear = yearMatch ? yearMatch[0] : "2025";
+
   if (!fs.existsSync(baseDir)) {
     console.error(`❌ Error: La carpeta "${baseDir}" no existe.`);
     process.exit(1);
@@ -132,7 +136,7 @@ function importNovedades(carpetaNombre) {
         titulo: titulo,
         descripcion: descripcion,
         categoria: categoriaMap[categoria],
-        fecha: "2025",
+        fecha: detectedYear,
         imagen: primeraImagen,
         link: generateLink(titulo),
         contenido: {
