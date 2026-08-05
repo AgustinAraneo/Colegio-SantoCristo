@@ -179,7 +179,7 @@ const Header = () => {
         className="test2 font-Montserrat m-2 xl:text-base lg:text-xs text-[8px]"
         href="/Admision"
       >
-        INSCRIPCIÓN 2026
+        INSCRIPCIÓN 2027
       </a>
     </header>
   );

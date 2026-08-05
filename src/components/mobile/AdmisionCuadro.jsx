@@ -101,13 +101,13 @@ const AdmisionCuadro = () => {
         onClose={handleModalCloseJardin}
         buttonName={[
           "NUEVOS POSTULANTES JARDIN",
-          "REINSCRIPCIÓN SEGUNDA SECCION 2026",
-          "REINSCRIPCION TERCERA SECCION 2026",
+          "REINSCRIPCIÓN SEGUNDA SECCION 2027",
+          "REINSCRIPCION TERCERA SECCION 2027",
         ]}
         buttonLinks={[
-          "https://forms.gle/RoeLtfwJZ16apjFo6",
-          "https://forms.gle/PVXWjYCB29GqNdWo8",
-          "https://forms.gle/vjUe4BJDbE6DjYbY7",
+          "https://forms.gle/bwjxKHLZ3EzMmZfD6",
+          "https://forms.gle/nP7qaMjVe8zJjkD87",
+          "https://forms.gle/TJ18FPFAcfhv32tu6",
         ]}
       />
       <AdmisionModal
@@ -119,9 +119,9 @@ const AdmisionCuadro = () => {
           "REINSCRIPCION NIVEL PRIMARIO",
         ]}
         buttonLinks={[
-          "https://docs.google.com/forms/d/e/1FAIpQLSc3epEFKSzOEgI4qqgQ4wkPMkb5BtuRht8UQ1NV-xdGsHuMYQ/viewform?usp=header",
-          "https://docs.google.com/forms/d/e/1FAIpQLSfEQOvqcTOr8fgTalqOs0Xti3wzKkRhpzyzgWBEtIHtnWsyzQ/viewform?usp=header",
-          "https://docs.google.com/forms/d/e/1FAIpQLScc-MiRFPH-kQjSeVkLcHh2ihyQFlJggEmA19FWKhZqbjUzuw/viewform?usp=header",
+          "https://forms.gle/yVQedEpkV9LAWSyA6",
+          "https://forms.gle/J66rEE5kdMegVjUT6",
+          "https://forms.gle/orcVLiRV4Te4HQX76",
         ]}
       />
       <AdmisionModal
@@ -133,9 +133,9 @@ const AdmisionCuadro = () => {
           "REMATRICULACION NIVEL SECUNDARIO",
         ]}
         buttonLinks={[
-          "https://docs.google.com/forms/d/e/1FAIpQLSf_TjV4z-RxgdrBvd_EFcYv3G63CheO-mOIpiqBEjUDOq9lUw/viewform",
-          "https://docs.google.com/forms/d/e/1FAIpQLSfAYH6k4BjQ-UmVwnzurzIJqCpe-njcet_VjhXrdVTbemFcMQ/viewform?usp=dialog",
-          "https://docs.google.com/forms/d/e/1FAIpQLSeV7XEDF37PGFA0vlu_68oM1iubKbQ1PAZJ5tUhAnC10SjiWw/viewform?usp=dialog",
+          "https://docs.google.com/forms/d/e/1FAIpQLSdB5llgSxg7pM7iDTLG6uxgRtA-jNbemDcDP6SKq5tHpLPKUQ/viewform?usp=publish-editor",
+          "https://docs.google.com/forms/d/e/1FAIpQLSeAtu_1qqSYPH9suZDoHEOoQgp5d61Px7u_ziTGyuNdw1neWw/viewform?usp=publish-editor",
+          "https://docs.google.com/forms/d/e/1FAIpQLSfkcXZCy917D8lsYhzYcE03dH52rcf6CQ8zs1rGLB8cmsGPxw/viewform?usp=publish-editor",
         ]}
       />
     </div>

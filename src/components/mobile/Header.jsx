@@ -208,7 +208,7 @@ const NavBar = () => {
           </Link>
           <Link href="/mobile/Admision">
             <p className="text-gray-300 bg-red-700 mt-2 hover:text-white block px-3 py-2 rounded-md font-bold text-center text-lg shadow-xl">
-              Inscripción 2026
+              Inscripción 2027
             </p>
           </Link>
         </div>
