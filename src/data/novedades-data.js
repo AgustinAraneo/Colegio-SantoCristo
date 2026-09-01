@@ -1,5 +1,23 @@
 export const novedadesData = [
   {
+    titulo: "Nuestra alianza con la UCA",
+    descripcion:
+      "Nuestro nivel secundario ha firmado una alianza con la UCA para beneficio de nuestros estudiantes, más info en la dirección del nivel.",
+    categoria: "Secundario",
+    fecha: "2026",
+    imagen: "/images/2026-09/uca-becas.jpeg",
+    link: "alianzauca",
+    contenido: {
+      media: [
+        {
+          type: "image",
+          src: "/images/2026-09/uca-becas.jpeg",
+        },
+      ],
+      text: "Nuestro nivel secundario ha firmado una alianza con la UCA para beneficio de nuestros estudiantes, más info en la dirección del nivel.",
+    },
+  },
+  {
     titulo: "RESUMEN DE ACTIVIDADES DEL MES DE MAYO",
     descripcion:
       "Lo compartido es sólo una muestra de lo trabajado en mayo. Esperamos lo disfruten tanto como nosotros.",

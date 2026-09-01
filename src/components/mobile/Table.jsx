@@ -15,21 +15,15 @@ function Table() {
         <p className="px-2 py-2 bg-green-700">
           Tipo de Cuenta: Cuenta Corriente
         </p>
-        <p className="px-2 py-2 bg-green-700">Banco: Banco Galicia</p>
-        <p className="px-2 py-2 bg-green-700">
-          Titular: Diócesis de Avellaneda - Lanús
-        </p>
-        <p className="px-2 py-2 bg-green-700">Alias: Santocristo.Lanuss</p>
-        <p className="px-2 py-2 bg-green-700">CBU: 0070040520000014423224 </p>
-        <p className="px-2 py-2 bg-green-700">CUIT: 30-60971452-9</p>
-        <p className="px-2 py-2 bg-green-700">
-          Nro. de Cuenta: 0014423-2 040-2
-        </p>
+        <p className="px-2 py-2 bg-green-700">Banco: Santander</p>
+        <p className="px-2 py-2 bg-green-700">Cuenta: CC$ 054-019772/4</p>
+        <p className="px-2 py-2 bg-green-700">CBU: 0720054020000001977240</p>
+        <p className="px-2 py-2 bg-green-700">Alias: Comu.santo.cristo</p>
         <button
           className="text-white bg-blue-500 px-3 py-1 hover:bg-blue-600"
           onClick={() =>
             copyToClipboard(
-              "Tipo de cuenta: Cuenta corriente\nBanco: Banco Galicia\nTitular: Diócesis de Avellaneda - Lanús\nAlias: Santocristo.Lanusss\nCBU: 0070040520000014423224\nCUIT: 30-60971452-9\nNro. de Cuenta: 0014423-2 040-2"
+              "Tipo de cuenta: Cuenta corriente\nBanco: Santander\nCuenta: CC$ 054-019772/4\nCBU: 0720054020000001977240\nAlias: Comu.santo.cristo"
             )
           }
         >

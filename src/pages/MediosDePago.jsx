@@ -56,16 +56,6 @@ const MediosDePago = () => {
             </span>
           </p>
         </div>
-        <div className="flex flex-col">
-          <h3 className="ml-[6rem] text-5xl text-green-800 font-bold pb-5 mt-10">
-            Pagá con QR:
-          </h3>
-          <img
-            src="/images/qr-stocristo.png"
-            className="w-auto h-auto flex justify-center mx-auto"
-            alt="qr de pago"
-          />
-        </div>
       </div>
       <div className="">
         <Footer />
